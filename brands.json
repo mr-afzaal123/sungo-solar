@@ -1,0 +1,249 @@
+[
+  {
+    "id": "knox",
+    "name": "Knox",
+    "officialDealer": true,
+    "categories": [
+      "inverters",
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/brands/knox",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "itel",
+    "name": "Itel",
+    "officialDealer": true,
+    "categories": [
+      "inverters",
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/brands/itel",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "photon",
+    "name": "Photon",
+    "officialDealer": true,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/brands/photon",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "maxpower",
+    "name": "MaxPower",
+    "officialDealer": false,
+    "categories": [
+      "inverters"
+    ],
+    "logo": "",
+    "page": "/brands/maxpower",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "solis",
+    "name": "Solis",
+    "officialDealer": false,
+    "categories": [
+      "inverters"
+    ],
+    "logo": "",
+    "page": "/brands/solis",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "goodwe",
+    "name": "GoodWe",
+    "officialDealer": false,
+    "categories": [
+      "inverters"
+    ],
+    "logo": "",
+    "page": "/brands/goodwe",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "fronus",
+    "name": "Fronus",
+    "officialDealer": false,
+    "categories": [
+      "inverters",
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/brands/fronus",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "sofar",
+    "name": "Sofar",
+    "officialDealer": false,
+    "categories": [
+      "inverters",
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/brands/sofar",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "ns",
+    "name": "NS",
+    "officialDealer": false,
+    "categories": [
+      "inverters"
+    ],
+    "logo": "",
+    "page": "/brands/ns",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "pylontech",
+    "name": "Pylontech",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/brands/pylontech",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "volnex",
+    "name": "Volnex",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/brands/volnex",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "pytes",
+    "name": "Pytes",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/brands/pytes",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "royal",
+    "name": "Royal",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/brands/royal",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "hisel",
+    "name": "Hisel",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/brands/hisel",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "longi",
+    "name": "Longi",
+    "officialDealer": false,
+    "categories": [
+      "solar-panels"
+    ],
+    "logo": "",
+    "page": "/brands/longi",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "jinko",
+    "name": "Jinko",
+    "officialDealer": false,
+    "categories": [
+      "solar-panels"
+    ],
+    "logo": "",
+    "page": "/brands/jinko",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "canadian",
+    "name": "Canadian Solar",
+    "officialDealer": false,
+    "categories": [
+      "solar-panels"
+    ],
+    "logo": "",
+    "page": "/brands/canadian",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "aiko",
+    "name": "Aiko",
+    "officialDealer": false,
+    "categories": [
+      "solar-panels"
+    ],
+    "logo": "",
+    "page": "/brands/aiko",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "risen",
+    "name": "Risen",
+    "officialDealer": false,
+    "categories": [
+      "solar-panels"
+    ],
+    "logo": "",
+    "page": "/brands/risen",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "ja",
+    "name": "JA Solar",
+    "officialDealer": false,
+    "categories": [
+      "solar-panels"
+    ],
+    "logo": "",
+    "page": "/brands/ja",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "astronergy",
+    "name": "Astronergy",
+    "officialDealer": false,
+    "categories": [
+      "solar-panels"
+    ],
+    "logo": "",
+    "page": "/brands/astronergy",
+    "description": "DRAFT \u2014 short brand description for client to supply."
+  },
+  {
+    "id": "jesko",
+    "name": "Jesko",
+    "officialDealer": false,
+    "categories": [
+      "solar-panels"
+    ],
+    "logo": "",
+    "page": "/brands/jesko",
+    "description": "DRAFT \u2014 short brand description for client to supply.",
+    "confirmNote": "Confirm brand spelling"
+  }
+]

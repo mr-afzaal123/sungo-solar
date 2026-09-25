@@ -1,0 +1,641 @@
+[
+  {
+    "id": "knox-pv5000-4kw",
+    "name": "Knox PV5000 4kW Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "4kW",
+      "Model": "PV5000"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "knox-pv6500-4-5kw",
+    "name": "Knox PV6500 4.5kW Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "4.5kW",
+      "Model": "PV6500"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "knox-pv9000-6-2kw",
+    "name": "Knox PV9000 6.2kW Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "6.2kW",
+      "Model": "PV9000"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "knox-krypton-pv11008-8kw",
+    "name": "Knox Krypton PV11008 8kW Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "series": "Krypton",
+    "specs": {
+      "Power": "8kW",
+      "Model": "PV11008",
+      "Protection": "IP21"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-zapher-pv16000-9-2kw",
+    "name": "Knox Zapher PV16000 9.2kW Inverter (IP66)",
+    "brand": "knox",
+    "category": "inverters",
+    "series": "Zapher",
+    "specs": {
+      "Power": "9.2kW",
+      "Model": "PV16000",
+      "Protection": "IP66"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-powerwall-3-0-24v",
+    "name": "Knox Powerwall 3.0 (24V)",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Model": "Powerwall 3.0",
+      "Voltage": "24V",
+      "Chemistry": "Lithium-ion"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "knox-powerwall-6-0-51v",
+    "name": "Knox Powerwall 6.0 (51V)",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Model": "Powerwall 6.0",
+      "Voltage": "51V",
+      "Chemistry": "Lithium-ion"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": true,
+    "confirmNote": "Catalog lists this as both 48V and 51V"
+  },
+  {
+    "id": "knox-powerwall-6-11-51v",
+    "name": "Knox Powerwall 6.11 (51V)",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Model": "Powerwall 6.11",
+      "Voltage": "51V",
+      "Chemistry": "Lithium-ion"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "itel-4kw",
+    "name": "Itel 4kW Inverter",
+    "brand": "itel",
+    "category": "inverters",
+    "specs": {
+      "Power": "4kW"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "itel-6kw",
+    "name": "Itel 6kW Inverter",
+    "brand": "itel",
+    "category": "inverters",
+    "specs": {
+      "Power": "6kW"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "itel-sparta-6-6kw",
+    "name": "Itel Sparta 6.6kW Inverter (IP66)",
+    "brand": "itel",
+    "category": "inverters",
+    "series": "Sparta",
+    "specs": {
+      "Power": "6.6kW",
+      "Protection": "IP66"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "itel-12v",
+    "name": "Itel 12V Lithium Battery",
+    "brand": "itel",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "12V",
+      "Chemistry": "Lithium-ion"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "itel-24v",
+    "name": "Itel 24V Lithium Battery",
+    "brand": "itel",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "24V",
+      "Chemistry": "Lithium-ion"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false,
+    "confirmNote": "Catalog lists both 24V and 25V \u2014 same product?"
+  },
+  {
+    "id": "itel-51v",
+    "name": "Itel 51V Lithium Battery",
+    "brand": "itel",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "51V",
+      "Chemistry": "Lithium-ion"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "itel-10kwh",
+    "name": "Itel 10kW Lithium Battery",
+    "brand": "itel",
+    "category": "batteries",
+    "specs": {
+      "Capacity": "10kW",
+      "Chemistry": "Lithium-ion"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false,
+    "confirmNote": "Confirm 10kW is a battery (10kWh) and its voltage"
+  },
+  {
+    "id": "photon-24v",
+    "name": "Photon 24V Lithium Battery",
+    "brand": "photon",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "24V",
+      "Chemistry": "Lithium-ion"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "photon-51v",
+    "name": "Photon 51V Lithium Battery",
+    "brand": "photon",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "51V",
+      "Chemistry": "Lithium-ion"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "maxpower-pvtech-1200",
+    "name": "MaxPower PVTech 1200 Inverter",
+    "brand": "maxpower",
+    "category": "inverters",
+    "specs": {
+      "Model": "PVTech 1200",
+      "System Voltage": "12V"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "maxpower-pvtech-3000-2kw",
+    "name": "MaxPower PVTech 3000 2kW Inverter",
+    "brand": "maxpower",
+    "category": "inverters",
+    "specs": {
+      "Model": "PVTech 3000",
+      "Power": "2kW",
+      "System Voltage": "12V"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "maxpower-pvtech-5000-4kw",
+    "name": "MaxPower PVTech 5000 4kW Inverter",
+    "brand": "maxpower",
+    "category": "inverters",
+    "specs": {
+      "Model": "PVTech 5000",
+      "Power": "4kW",
+      "System Voltage": "24V"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "maxpower-pvtech-6000-5kw",
+    "name": "MaxPower PVTech 6000 5kW Inverter",
+    "brand": "maxpower",
+    "category": "inverters",
+    "specs": {
+      "Model": "PVTech 6000",
+      "Power": "5kW",
+      "System Voltage": "24V"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "solis-6kw",
+    "name": "Solis 6kW Inverter",
+    "brand": "solis",
+    "category": "inverters",
+    "specs": {
+      "Power": "6kW"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "solis-8kw",
+    "name": "Solis 8kW Inverter",
+    "brand": "solis",
+    "category": "inverters",
+    "specs": {
+      "Power": "8kW"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "solis-10kw",
+    "name": "Solis 10kW Inverter",
+    "brand": "solis",
+    "category": "inverters",
+    "specs": {
+      "Power": "10kW"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "goodwe-6kw",
+    "name": "GoodWe 6kW Inverter",
+    "brand": "goodwe",
+    "category": "inverters",
+    "specs": {
+      "Power": "6kW"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "goodwe-8kw",
+    "name": "GoodWe 8kW Inverter",
+    "brand": "goodwe",
+    "category": "inverters",
+    "specs": {
+      "Power": "8kW"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "fronus-pv9000-6kw",
+    "name": "Fronus PV9000 6kW Inverter",
+    "brand": "fronus",
+    "category": "inverters",
+    "specs": {
+      "Power": "6kW",
+      "Model": "PV9000"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "fronus-pv14000-10kw",
+    "name": "Fronus PV14000 10kW Inverter",
+    "brand": "fronus",
+    "category": "inverters",
+    "specs": {
+      "Power": "10kW",
+      "Model": "PV14000"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "fronus-25v",
+    "name": "Fronus 25V Lithium Battery",
+    "brand": "fronus",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "25V",
+      "Chemistry": "Lithium-ion"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "fronus-51v",
+    "name": "Fronus 51V Lithium Battery",
+    "brand": "fronus",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "51V",
+      "Chemistry": "Lithium-ion"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "sofar-5kw",
+    "name": "Sofar 5kW Inverter",
+    "brand": "sofar",
+    "category": "inverters",
+    "specs": {
+      "Power": "5kW"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "sofar-16kw",
+    "name": "Sofar 16kW",
+    "brand": "sofar",
+    "category": "inverters",
+    "specs": {
+      "Power": "16kW"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false,
+    "confirmNote": "Confirm: 16kW inverter, or the 16kW battery from the lithium list?"
+  },
+  {
+    "id": "sofar-51v",
+    "name": "Sofar 51V Lithium Battery",
+    "brand": "sofar",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "51V",
+      "Chemistry": "Lithium-ion"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "ns-pv2000-1-6kw",
+    "name": "NS PV2000 1.6kW Inverter",
+    "brand": "ns",
+    "category": "inverters",
+    "specs": {
+      "Power": "1.6kW",
+      "Model": "PV2000",
+      "System Voltage": "12V"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "pylontech-51v",
+    "name": "Pylontech 51V Lithium Battery",
+    "brand": "pylontech",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "51V",
+      "Chemistry": "Lithium-ion"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "volnex-51v",
+    "name": "Volnex 51V Lithium Battery",
+    "brand": "volnex",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "51V",
+      "Chemistry": "Lithium-ion"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "pytes-51v",
+    "name": "Pytes 51V Lithium Battery",
+    "brand": "pytes",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "51V",
+      "Chemistry": "Lithium-ion"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "royal-51v",
+    "name": "Royal 51V Lithium Battery",
+    "brand": "royal",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "51V",
+      "Chemistry": "Lithium-ion"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "hisel-51v",
+    "name": "Hisel 51V Lithium Battery",
+    "brand": "hisel",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "51V",
+      "Chemistry": "Lithium-ion"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "canadian-585w",
+    "name": "Canadian Solar 585W Panel",
+    "brand": "canadian",
+    "category": "solar-panels",
+    "specs": {
+      "Power": "585W"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "canadian-615w",
+    "name": "Canadian Solar 615W Panel",
+    "brand": "canadian",
+    "category": "solar-panels",
+    "specs": {
+      "Power": "615W"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "canadian-630w-hjt",
+    "name": "Canadian Solar 630W HJT Panel",
+    "brand": "canadian",
+    "category": "solar-panels",
+    "specs": {
+      "Power": "630W",
+      "Technology": "HJT"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "longi-x10-645w-bifacial",
+    "name": "Longi X10 645W Bifacial Panel",
+    "brand": "longi",
+    "category": "solar-panels",
+    "specs": {
+      "Power": "645W",
+      "Series": "X10",
+      "Type": "Bifacial"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "jinko-645w",
+    "name": "Jinko 645W Panel",
+    "brand": "jinko",
+    "category": "solar-panels",
+    "specs": {
+      "Power": "645W"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "ja-625w",
+    "name": "JA Solar 625W Panel",
+    "brand": "ja",
+    "category": "solar-panels",
+    "specs": {
+      "Power": "625W"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "astronergy-590w",
+    "name": "Astronergy 590W Panel",
+    "brand": "astronergy",
+    "category": "solar-panels",
+    "specs": {
+      "Power": "590W"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "jesko-585w",
+    "name": "Jesko 585W Panel",
+    "brand": "jesko",
+    "category": "solar-panels",
+    "specs": {
+      "Power": "585W"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false,
+    "confirmNote": "Confirm brand spelling"
+  },
+  {
+    "id": "risen-740w-hjt",
+    "name": "Risen 740W HJT Panel",
+    "brand": "risen",
+    "category": "solar-panels",
+    "specs": {
+      "Power": "740W",
+      "Technology": "HJT"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "aiko-665w",
+    "name": "Aiko 665W Panel",
+    "brand": "aiko",
+    "category": "solar-panels",
+    "specs": {
+      "Power": "665W"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  }
+]
