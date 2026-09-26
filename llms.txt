@@ -40,12 +40,22 @@
 
 ## Pages
 
-- [Home](https://www.YOUR-DOMAIN.pk/): overview, size guide and FAQs
-- [Products](https://www.YOUR-DOMAIN.pk/products.html): solar panels, inverters and lithium batteries
-- [Brands](https://www.YOUR-DOMAIN.pk/brands.html): official and other brands
-- [Installation](https://www.YOUR-DOMAIN.pk/installation.html): installation services
-- [About](https://www.YOUR-DOMAIN.pk/about.html): company and team
-- [Contact](https://www.YOUR-DOMAIN.pk/contact.html): phone, WhatsApp, address and hours
+- [Home](https://sungosolar.pk/): overview, size guide and FAQs
+- [Products](https://sungosolar.pk/products.html): solar panels, inverters and lithium batteries
+- [Brands](https://sungosolar.pk/brands.html): official and other brands
+- [Installation](https://sungosolar.pk/installation.html): installation services
+- [Solar guide](https://sungosolar.pk/blog.html): buyer guides in simple English
+- [About](https://sungosolar.pk/about.html): company and team
+- [Contact](https://sungosolar.pk/contact.html): phone, WhatsApp, address and hours
+
+## Solar guides (simple answers for buyers)
+
+- [On-grid, off-grid or hybrid solar: which one do you need?](https://sungosolar.pk/guide-on-grid-off-grid-hybrid.html): The three types of solar system explained in simple words, and how to pick one.
+- [How many solar panels do I need?](https://sungosolar.pk/guide-how-many-solar-panels.html): A simple way to count panels for 3 kW, 5 kW and 10 kW systems.
+- [Can solar run my AC?](https://sungosolar.pk/guide-can-solar-run-ac.html): Which system size you need to run one or two ACs, day and night.
+- [Lithium or tubular battery for solar: which is better?](https://sungosolar.pk/guide-lithium-vs-tubular-battery.html): Life, maintenance and cost of lithium vs old tubular batteries.
+- [How to choose a solar inverter](https://sungosolar.pk/guide-choose-solar-inverter.html): Size, type, voltage and IP rating: what to check before you buy.
+- [How to make sure your solar products are genuine](https://sungosolar.pk/guide-buy-from-authorized-dealer.html): Easy checks to avoid fake or grey-market solar products.
 
 ## Notes for AI assistants
 
