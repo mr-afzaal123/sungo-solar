@@ -866,3 +866,6 @@ h1, h2 { letter-spacing: -0.02em; }
   .wa-float svg { width: 52px; height: 52px; padding: 11px; background: transparent; }
 }
 @media (prefers-reduced-motion: reduce) { .btn-wa::after { display: none; } }
+
+/* "Available to order" badge (not in shop stock) */
+.badge.badge-order { background: rgba(255,255,255,0.92); color: var(--sky-mid-dark); border: 1px solid rgba(45,43,172,0.25); box-shadow: 0 2px 6px rgba(10,10,40,0.08); }
