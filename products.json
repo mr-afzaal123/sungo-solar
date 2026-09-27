@@ -1,12 +1,13 @@
 [
   {
     "id": "knox-pv5000-4kw",
-    "name": "Knox PV5000 4kW Inverter",
+    "name": "Knox Krypton Eco 5000 4.2kW Inverter",
     "brand": "knox",
     "category": "inverters",
     "specs": {
-      "Power": "4kW",
-      "Model": "PV5000"
+      "Power": "4.2kW",
+      "PV input": "5000W",
+      "Battery": "24V"
     },
     "stock": "ready",
     "image": "",
@@ -14,12 +15,13 @@
   },
   {
     "id": "knox-pv6500-4-5kw",
-    "name": "Knox PV6500 4.5kW Inverter",
+    "name": "Knox Krypton 6500 4.5kW Inverter",
     "brand": "knox",
     "category": "inverters",
     "specs": {
       "Power": "4.5kW",
-      "Model": "PV6500"
+      "PV input": "6500W",
+      "Battery": "24V"
     },
     "stock": "ready",
     "image": "",
@@ -27,12 +29,12 @@
   },
   {
     "id": "knox-pv9000-6-2kw",
-    "name": "Knox PV9000 6.2kW Inverter",
+    "name": "Knox Krypton 9000 6.2kW Inverter",
     "brand": "knox",
     "category": "inverters",
     "specs": {
       "Power": "6.2kW",
-      "Model": "PV9000"
+      "PV input": "9000W"
     },
     "stock": "ready",
     "image": "",
@@ -40,13 +42,13 @@
   },
   {
     "id": "knox-krypton-pv11008-8kw",
-    "name": "Knox Krypton PV11008 8kW Inverter",
+    "name": "Knox Krypton 11000 8kW Inverter",
     "brand": "knox",
     "category": "inverters",
-    "series": "Krypton",
     "specs": {
       "Power": "8kW",
-      "Model": "PV11008",
+      "PV input": "11000W",
+      "Battery": "48V",
       "Protection": "IP21"
     },
     "stock": "ready",
@@ -55,13 +57,12 @@
   },
   {
     "id": "knox-zapher-pv16000-9-2kw",
-    "name": "Knox Zapher PV16000 9.2kW Inverter (IP66)",
+    "name": "Knox Zapher 9.2kW Inverter (IP66)",
     "brand": "knox",
     "category": "inverters",
-    "series": "Zapher",
     "specs": {
       "Power": "9.2kW",
-      "Model": "PV16000",
+      "PV input": "16000W",
       "Protection": "IP66"
     },
     "stock": "ready",
@@ -70,13 +71,13 @@
   },
   {
     "id": "knox-powerwall-3-0-24v",
-    "name": "Knox Powerwall 3.0 (24V)",
+    "name": "Knox Powerwall 3.0 (25.6V)",
     "brand": "knox",
     "category": "batteries",
     "specs": {
-      "Model": "Powerwall 3.0",
-      "Voltage": "24V",
-      "Chemistry": "Lithium-ion"
+      "Voltage": "25.6V",
+      "Capacity": "2.56kWh",
+      "Chemistry": "LiFePO4"
     },
     "stock": "ready",
     "image": "",
@@ -84,28 +85,27 @@
   },
   {
     "id": "knox-powerwall-6-0-51v",
-    "name": "Knox Powerwall 6.0 (51V)",
+    "name": "Knox Powerwall 6.0 (51.2V)",
     "brand": "knox",
     "category": "batteries",
     "specs": {
-      "Model": "Powerwall 6.0",
-      "Voltage": "51V",
-      "Chemistry": "Lithium-ion"
+      "Voltage": "51.2V",
+      "Capacity": "5.12kWh",
+      "Chemistry": "LiFePO4"
     },
     "stock": "ready",
     "image": "",
-    "featured": true,
-    "confirmNote": "Catalog lists this as both 48V and 51V"
+    "featured": true
   },
   {
     "id": "knox-powerwall-6-11-51v",
-    "name": "Knox Powerwall 6.11 (51V)",
+    "name": "Knox Powerwall 6.11 (51.2V)",
     "brand": "knox",
     "category": "batteries",
     "specs": {
-      "Model": "Powerwall 6.11",
-      "Voltage": "51V",
-      "Chemistry": "Lithium-ion"
+      "Voltage": "51.2V",
+      "Capacity": "5.12kWh",
+      "Chemistry": "LiFePO4"
     },
     "stock": "ready",
     "image": "",
@@ -174,7 +174,7 @@
     "stock": "ready",
     "image": "",
     "featured": false,
-    "confirmNote": "Catalog lists both 24V and 25V \u2014 same product?"
+    "confirmNote": "Catalog lists both 24V and 25V — same product?"
   },
   {
     "id": "itel-51v",
@@ -635,6 +635,324 @@
       "Power": "665W"
     },
     "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-powerbase-16kwh",
+    "name": "Knox Powerbase 16 (51.2V, 16kWh)",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "51.2V",
+      "Capacity": "16kWh",
+      "Chemistry": "LiFePO4"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-krypton-eco-4000",
+    "name": "Knox Krypton Eco 4000 3kW Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "3kW",
+      "PV input": "4000W",
+      "Battery": "24V",
+      "Type": "Hybrid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-krypton-eco-6600",
+    "name": "Knox Krypton Eco 6600 6.2kW Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "6.2kW",
+      "PV input": "6600W",
+      "Type": "Hybrid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-krypton-6000",
+    "name": "Knox Krypton 6000 4kW Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "4kW",
+      "PV input": "6000W",
+      "Battery": "24V",
+      "Type": "Hybrid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-krypton-9055",
+    "name": "Knox Krypton 9055 6.5kW Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "6.5kW",
+      "Battery": "48V",
+      "MPPT": "Dual",
+      "Type": "Hybrid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-krypton-12002",
+    "name": "Knox Krypton 12002 8.5kW Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "8.5kW",
+      "MPPT": "Dual",
+      "Type": "Hybrid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-krypton-13002",
+    "name": "Knox Krypton 13002 10kW Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "10kW",
+      "MPPT": "Dual",
+      "Type": "Hybrid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-krypton-15002",
+    "name": "Knox Krypton 15002 11.5kW Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "11.5kW",
+      "MPPT": "Dual",
+      "Type": "Hybrid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-xenon-12066",
+    "name": "Knox Xenon 12066 6.6kW Inverter (IP66)",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "6.6kW",
+      "MPPT": "Dual",
+      "Protection": "IP66",
+      "Type": "Hybrid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-xenon-18000",
+    "name": "Knox Xenon 18000 12kW Inverter (IP66)",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "12kW",
+      "MPPT": "Dual",
+      "Protection": "IP66",
+      "Type": "Hybrid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-xenon-22500",
+    "name": "Knox Xenon 22500 15kW Inverter (IP66)",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "15kW",
+      "MPPT": "Dual",
+      "Protection": "IP66",
+      "Type": "Hybrid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-zynex-8kw",
+    "name": "Knox Zynex 8kW Inverter (IP66, 3 MPPT)",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "8kW",
+      "MPPT": "3",
+      "Protection": "IP66",
+      "Type": "Hybrid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-zynex-10kw",
+    "name": "Knox Zynex 10kW Inverter (IP66, 3 MPPT)",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "10kW",
+      "MPPT": "3",
+      "Protection": "IP66",
+      "Type": "Hybrid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-xerox-g4-10kw",
+    "name": "Knox Xerox G4 10kW Three-Phase Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "10kW",
+      "Phase": "3-phase",
+      "Protection": "IP66",
+      "Type": "On-grid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-xerox-g4-pro-5-25kw",
+    "name": "Knox Xerox G4 Pro 5–25kW Three-Phase Inverters",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "5–25kW",
+      "Phase": "3-phase",
+      "Type": "On-grid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-xerox-g4-pro-30kw",
+    "name": "Knox Xerox G4 Pro 30kW Three-Phase Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "30kW",
+      "Phase": "3-phase",
+      "Protection": "IP66",
+      "Type": "On-grid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-xerox-g4-pro-40kw",
+    "name": "Knox Xerox G4 Pro 40kW Three-Phase Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "40kW",
+      "Phase": "3-phase",
+      "Type": "On-grid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-xerox-g4-pro-50kw",
+    "name": "Knox Xerox G4 Pro 50kW Three-Phase Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "50kW",
+      "Phase": "3-phase",
+      "Type": "On-grid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-xerox-g4-pro-60kw",
+    "name": "Knox Xerox G4 Pro 60kW Three-Phase Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "60kW",
+      "Phase": "3-phase",
+      "Type": "On-grid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-xerox-g4-pro-100kw",
+    "name": "Knox Xerox G4 Pro 100kW Three-Phase Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "100kW",
+      "Phase": "3-phase",
+      "Type": "On-grid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-xerox-g4-pro-110kw",
+    "name": "Knox Xerox G4 Pro 110kW Three-Phase Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "110kW",
+      "Phase": "3-phase",
+      "Type": "On-grid"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "knox-xerox-g4-pro-125kw",
+    "name": "Knox Xerox G4 Pro 125kW Three-Phase Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "125kW",
+      "Phase": "3-phase",
+      "Type": "On-grid"
+    },
+    "stock": "order",
     "image": "",
     "featured": false
   }
