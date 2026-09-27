@@ -831,56 +831,48 @@
   <script src="home.js" defer></script>
   <!-- Home page only: round WhatsApp button + back-to-top button -->
   <button class="to-top" id="to-top" type="button" aria-label="Back to top">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5.5 11.5L12 5l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M7 10l5-5 5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </button>
   <style>
+    /* Round WhatsApp button (home page) */
     body.home .wa-float {
-      width: 62px; height: 62px; padding: 0; border: 0; border-radius: 50%;
+      width: 58px; height: 58px; padding: 0; border: 0; border-radius: 50%;
       justify-content: center; gap: 0;
-      background: #25D366;
-      box-shadow: 0 8px 22px rgba(37, 211, 102, 0.45), 0 2px 6px rgba(0, 0, 0, 0.15);
-      right: calc(22px + env(safe-area-inset-right, 0px));
-      bottom: calc(22px + env(safe-area-inset-bottom, 0px));
+      background: #25D366; color: #FFFFFF; text-shadow: none;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.22);
+      right: calc(24px + env(safe-area-inset-right, 0px));
+      bottom: calc(24px + env(safe-area-inset-bottom, 0px));
     }
     body.home .wa-float span { display: none; }
-    body.home .wa-float svg { width: 34px; height: 34px; padding: 0; background: none; filter: none; }
+    body.home .wa-float svg { width: 28px; height: 28px; padding: 0; background: none; filter: none; }
     body.home .wa-float::before { display: none; }
-    body.home .wa-float:hover { transform: scale(1.07); background: #22C35E; box-shadow: 0 10px 28px rgba(37, 211, 102, 0.55), 0 2px 6px rgba(0, 0, 0, 0.15); }
+    body.home .wa-float:hover { transform: scale(1.06); background: #22C55E; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.26); }
+
+    /* Back-to-top button: thin gold ring above WhatsApp */
     .to-top {
       position: fixed; z-index: 70;
       right: calc(29px + env(safe-area-inset-right, 0px));
-      bottom: calc(100px + env(safe-area-inset-bottom, 0px));
+      bottom: calc(96px + env(safe-area-inset-bottom, 0px));
       width: 48px; height: 48px; border-radius: 50%;
-      display: grid; place-items: center; cursor: pointer;
-      background: rgba(10, 10, 40, 0.82); color: #FF751F;
-      border: 2px solid #FF751F;
-      -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
-      box-shadow: 0 6px 18px rgba(10, 10, 40, 0.25);
-      opacity: 0; visibility: hidden; transform: translateY(10px);
-      transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s, background-color 0.2s;
+      display: grid; place-items: center; cursor: pointer; padding: 0;
+      background: transparent; color: #B8911F;
+      border: 2px solid #B8911F;
+      transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
     }
-    .to-top svg { width: 22px; height: 22px; }
-    .to-top.show { opacity: 1; visibility: visible; transform: none; }
-    .to-top:hover { background: #FF751F; color: #0A0A28; }
+    .to-top svg { width: 24px; height: 24px; }
+    .to-top:hover { background: rgba(201, 164, 58, 0.15); transform: translateY(-2px); }
     @media (max-width: 520px) {
-      body.home .wa-float { width: 56px; height: 56px; padding: 0; }
-      body.home .wa-float svg { width: 30px; height: 30px; padding: 0; }
-      .to-top { width: 44px; height: 44px; right: calc(28px + env(safe-area-inset-right, 0px)); bottom: calc(92px + env(safe-area-inset-bottom, 0px)); }
+      body.home .wa-float { width: 56px; height: 56px; padding: 0; right: calc(20px + env(safe-area-inset-right, 0px)); bottom: calc(20px + env(safe-area-inset-bottom, 0px)); }
+      body.home .wa-float svg { width: 28px; height: 28px; padding: 0; }
+      .to-top { width: 46px; height: 46px; right: calc(25px + env(safe-area-inset-right, 0px)); bottom: calc(90px + env(safe-area-inset-bottom, 0px)); }
     }
-    @media (prefers-reduced-motion: reduce) { .to-top { transition: none; } }
   </style>
   <script>
-    (function () {
-      var btn = document.getElementById("to-top");
-      if (!btn) return;
-      function toggle() { btn.classList.toggle("show", window.scrollY > 400); }
-      window.addEventListener("scroll", toggle, { passive: true });
-      toggle();
-      btn.addEventListener("click", function () {
-        var smooth = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-        window.scrollTo({ top: 0, behavior: smooth ? "smooth" : "auto" });
-      });
-    })();
+    // Back-to-top: smooth scroll to the top of the page
+    document.getElementById("to-top").addEventListener("click", function () {
+      var smooth = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      window.scrollTo({ top: 0, behavior: smooth ? "smooth" : "auto" });
+    });
   </script>
 </body>
 </html>
