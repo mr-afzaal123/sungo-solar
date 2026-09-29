@@ -34,7 +34,13 @@ function productCard(p, brand) {
   const waMsg = p.price
     ? `Hi SunGo Solar, I want to order the ${p.name} (${rs(p.price)}). Please confirm availability and today's price.`
     : `Hi SunGo Solar, I want the price of ${p.name}. Please share details.`;
-  const priceHtml = p.price ? `<p class="price"><strong>${rs(p.price)}</strong><span>Price may change. Confirm on WhatsApp.</span></p>` : "";
+  let priceHtml = "";
+  if (p.price) {
+    const was = p.retailPrice;
+    priceHtml = (was && was > p.price)
+      ? `<p class="price"><span class="price-row"><strong>${rs(p.price)}</strong><del aria-label="Was ${rs(was)}">${rs(was)}</del></span><span class="save">Save ${rs(was - p.price)}<span class="save-pct"> (${Math.round((was - p.price) / was * 100)}% off)</span></span><span>Price may change. Confirm on WhatsApp.</span></p>`
+      : `<p class="price"><strong>${rs(p.price)}</strong><span>Price may change. Confirm on WhatsApp.</span></p>`;
+  }
 
   return `
     <article class="product-card">

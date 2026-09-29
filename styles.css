@@ -1046,3 +1046,10 @@ button { font: inherit; }
 .panel-brand-row p { color: var(--muted); margin: 0 0 0.8rem; }
 .brand-groups-2 { grid-template-columns: repeat(2, 1fr); }
 @media (max-width: 760px) { .brand-groups-2 { grid-template-columns: 1fr; } }
+
+/* Discounted price: new price, crossed-out old price, saving badge */
+.price-row { display: flex; align-items: baseline; flex-wrap: wrap; gap: 0.2rem 0.55rem; }
+.price del { font-size: 0.9rem; color: var(--muted); text-decoration-thickness: 1.5px; }
+.price .save { justify-self: start; font-size: 0.8rem; font-weight: 700; color: #0B6B3A; background: rgba(37, 211, 102, 0.16); border-radius: 999px; padding: 0.12rem 0.55rem; margin: 0.15rem 0 0.1rem; }
+@media (max-width: 560px) { .price del { font-size: 0.8rem; } .price .save { font-size: 0.75rem; } }
+@media (max-width: 560px) { .save-pct { display: none; } }
