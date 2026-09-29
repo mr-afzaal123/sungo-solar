@@ -1033,3 +1033,16 @@ button { font: inherit; }
   a { color: #000; text-decoration: underline; }
 }
 @media (max-width: 560px) { .spec-chips li:nth-child(n+4) { display: none; } }
+
+/* ---------- Solar panel brands kept separate ---------- */
+.mega-note { margin: 0.5rem 0 0; font-size: 0.85rem; color: var(--muted); line-height: 1.5; }
+.mega-brands .panel-brands { margin-top: 1.1rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+.mega-brands .panel-brands h3 { margin-bottom: 0.35rem; }
+.mega-brands .panel-brands p { margin: 0 0 0.5rem; font-size: 0.9rem; color: var(--muted); }
+.mega-brands .panel-brands a { display: inline-block; padding: 0; font-weight: 700; color: var(--sky-mid); border-radius: 0; }
+.mega-brands .panel-brands a:hover { background: none; text-decoration: underline; }
+@media (max-width: 1024px) { .mega-brands .panel-brands a { width: auto; border-bottom: 0; } }
+.panel-brand-row { margin-top: 1.6rem; }
+.panel-brand-row p { color: var(--muted); margin: 0 0 0.8rem; }
+.brand-groups-2 { grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 760px) { .brand-groups-2 { grid-template-columns: 1fr; } }
