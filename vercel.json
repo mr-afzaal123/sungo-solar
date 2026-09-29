@@ -1,4 +1,46 @@
 {
   "cleanUrls": false,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/brand-aiko.html",
+      "destination": "/solar-panels.html",
+      "permanent": true
+    },
+    {
+      "source": "/brand-astronergy.html",
+      "destination": "/solar-panels.html",
+      "permanent": true
+    },
+    {
+      "source": "/brand-canadian.html",
+      "destination": "/solar-panels.html",
+      "permanent": true
+    },
+    {
+      "source": "/brand-ja.html",
+      "destination": "/solar-panels.html",
+      "permanent": true
+    },
+    {
+      "source": "/brand-jesko.html",
+      "destination": "/solar-panels.html",
+      "permanent": true
+    },
+    {
+      "source": "/brand-jinko.html",
+      "destination": "/solar-panels.html",
+      "permanent": true
+    },
+    {
+      "source": "/brand-longi.html",
+      "destination": "/solar-panels.html",
+      "permanent": true
+    },
+    {
+      "source": "/brand-risen.html",
+      "destination": "/solar-panels.html",
+      "permanent": true
+    }
+  ]
 }

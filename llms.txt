@@ -42,6 +42,7 @@
 
 - [Home](https://sungosolar.pk/): overview, size guide and FAQs
 - [Products](https://sungosolar.pk/products.html): solar panels, inverters and lithium batteries
+- [Solar panels](https://sungosolar.pk/solar-panels.html): all solar panels (Aiko, Astronergy, Canadian Solar, JA Solar, Jesko, Jinko, Longi, Risen) on one page
 - [Brands](https://sungosolar.pk/brands.html): official and other brands
 - [Installation](https://sungosolar.pk/installation.html): installation services
 - [Solar guide](https://sungosolar.pk/blog.html): buyer guides in simple English
