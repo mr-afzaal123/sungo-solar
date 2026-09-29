@@ -92,32 +92,6 @@
     "confirmNote": "Confirm 10kW is a battery (10kWh) and its voltage"
   },
   {
-    "id": "photon-24v",
-    "name": "Photon 24V Lithium Battery",
-    "brand": "photon",
-    "category": "batteries",
-    "specs": {
-      "Voltage": "24V",
-      "Chemistry": "Lithium-ion"
-    },
-    "stock": "ready",
-    "image": "",
-    "featured": true
-  },
-  {
-    "id": "photon-51v",
-    "name": "Photon 51V Lithium Battery",
-    "brand": "photon",
-    "category": "batteries",
-    "specs": {
-      "Voltage": "51V",
-      "Chemistry": "Lithium-ion"
-    },
-    "stock": "ready",
-    "image": "",
-    "featured": true
-  },
-  {
     "id": "maxpower-pvtech-1200",
     "name": "MaxPower PVTech 1200 Inverter",
     "brand": "maxpower",
@@ -1236,5 +1210,395 @@
     "price": 1295000,
     "retailPrice": 1350000,
     "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "photon-wallx-1-25kwh",
+    "name": "Photon Wall X 1.25kWh (12V 100Ah)",
+    "brand": "photon",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "12V",
+      "Capacity": "1.25kWh",
+      "Warranty": "5 yr replacement"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false,
+    "price": 58000,
+    "retailPrice": 65000,
+    "priceSource": "Photon wholesale price list 1 Oct 2026"
+  },
+  {
+    "id": "photon-wallx-2-5kwh",
+    "name": "Photon Wall X 2.5kWh (12V 200Ah)",
+    "brand": "photon",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "12V",
+      "Capacity": "2.5kWh",
+      "Warranty": "5 yr replacement"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false,
+    "price": 98000,
+    "retailPrice": 105000,
+    "priceSource": "Photon wholesale price list 1 Oct 2026"
+  },
+  {
+    "id": "photon-wallx-2-6kwh",
+    "name": "Photon Wall X 2.6kWh (24V 100Ah)",
+    "brand": "photon",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "24V",
+      "Capacity": "2.6kWh",
+      "Warranty": "5 yr replacement"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": true,
+    "price": 120000,
+    "retailPrice": 135000,
+    "priceSource": "Photon wholesale price list 1 Oct 2026"
+  },
+  {
+    "id": "photon-wallx-5-2kwh-24v",
+    "name": "Photon Wall X 5.2kWh (24V 200Ah)",
+    "brand": "photon",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "24V",
+      "Capacity": "5.2kWh",
+      "Warranty": "5 yr replacement"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false,
+    "price": 225000,
+    "retailPrice": 245000,
+    "priceSource": "Photon wholesale price list 1 Oct 2026"
+  },
+  {
+    "id": "photon-wallx-5-2kwh-51v",
+    "name": "Photon Wall X 5.2kWh (51V 100Ah)",
+    "brand": "photon",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "51V",
+      "Capacity": "5.2kWh",
+      "Warranty": "5 yr replacement"
+    },
+    "stock": "ready",
+    "image": "",
+    "featured": true,
+    "price": 215000,
+    "retailPrice": 240000,
+    "priceSource": "Photon wholesale price list 1 Oct 2026"
+  },
+  {
+    "id": "photon-wallx-5-12kwh-pro",
+    "name": "Photon Wall X 5.12kWh Pro (51.2V 100Ah)",
+    "brand": "photon",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "51.2V",
+      "Capacity": "5.12kWh",
+      "Warranty": "5 yr replacement"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false,
+    "price": 225000,
+    "retailPrice": 250000,
+    "priceSource": "Photon wholesale price list 1 Oct 2026"
+  },
+  {
+    "id": "photon-wallx-10-4kwh",
+    "name": "Photon Wall X 10.4kWh (51V 200Ah)",
+    "brand": "photon",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "51V",
+      "Capacity": "10.4kWh",
+      "Warranty": "5 yr replacement"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false,
+    "price": 435000,
+    "retailPrice": 460000,
+    "priceSource": "Photon wholesale price list 1 Oct 2026"
+  },
+  {
+    "id": "photon-wallx-16kwh-pro",
+    "name": "Photon Wall X 16kWh Pro (51V 314Ah)",
+    "brand": "photon",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "51V",
+      "Capacity": "16kWh",
+      "Warranty": "5 yr replacement"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false,
+    "price": 580000,
+    "retailPrice": 610000,
+    "priceSource": "Photon wholesale price list 1 Oct 2026"
+  },
+  {
+    "id": "photon-aero-5kw",
+    "name": "Photon Aero 5kW Hybrid Inverter (IP54)",
+    "brand": "photon",
+    "category": "inverters",
+    "specs": {
+      "Power": "5kW",
+      "PV input": "9000W",
+      "Protection": "IP54",
+      "Warranty": "3 yr replacement"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false,
+    "price": 105000,
+    "retailPrice": 120000,
+    "priceSource": "Photon wholesale price list 1 Oct 2026"
+  },
+  {
+    "id": "photon-aero-6-5kw",
+    "name": "Photon Aero 6.5kW Hybrid Inverter (IP54)",
+    "brand": "photon",
+    "category": "inverters",
+    "specs": {
+      "Power": "6.5kW",
+      "PV input": "9000W",
+      "Protection": "IP54",
+      "Warranty": "3 yr replacement"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false,
+    "price": 130000,
+    "retailPrice": 145000,
+    "priceSource": "Photon wholesale price list 1 Oct 2026"
+  },
+  {
+    "id": "photon-aero-8kw",
+    "name": "Photon Aero 8kW Hybrid Inverter (IP54)",
+    "brand": "photon",
+    "category": "inverters",
+    "specs": {
+      "Power": "8kW",
+      "PV input": "15000W",
+      "Protection": "IP54",
+      "Warranty": "3 yr replacement"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false,
+    "price": 225000,
+    "retailPrice": 250000,
+    "priceSource": "Photon wholesale price list 1 Oct 2026"
+  },
+  {
+    "id": "photon-aero-10kw",
+    "name": "Photon Aero 10kW Hybrid Inverter (IP54)",
+    "brand": "photon",
+    "category": "inverters",
+    "specs": {
+      "Power": "10kW",
+      "PV input": "15000W",
+      "Protection": "IP54",
+      "Warranty": "3 yr replacement"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false,
+    "price": 230000,
+    "retailPrice": 260000,
+    "priceSource": "Photon wholesale price list 1 Oct 2026"
+  },
+  {
+    "id": "photon-aero-12kw",
+    "name": "Photon Aero 12kW Hybrid Inverter (IP54)",
+    "brand": "photon",
+    "category": "inverters",
+    "specs": {
+      "Power": "12kW",
+      "PV input": "15000W",
+      "Protection": "IP54",
+      "Warranty": "3 yr replacement"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false,
+    "price": 240000,
+    "retailPrice": 270000,
+    "priceSource": "Photon wholesale price list 1 Oct 2026"
+  },
+  {
+    "id": "photon-pi-eco-1-5kw",
+    "name": "Photon Pi Eco 1.5kW Hybrid Inverter (IP21)",
+    "brand": "photon",
+    "category": "inverters",
+    "specs": {
+      "Power": "1.5kW",
+      "PV input": "2500W",
+      "Protection": "IP21",
+      "Warranty": "2 yr replacement"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false,
+    "price": 50000,
+    "retailPrice": 60000,
+    "priceSource": "Photon wholesale price list 1 Oct 2026"
+  },
+  {
+    "id": "photon-pi-eco-3-5kw",
+    "name": "Photon Pi Eco 3.5kW Hybrid Inverter (IP21)",
+    "brand": "photon",
+    "category": "inverters",
+    "specs": {
+      "Power": "3.5kW",
+      "PV input": "5500W",
+      "Protection": "IP21",
+      "Warranty": "2 yr replacement"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false,
+    "price": 65000,
+    "retailPrice": 75000,
+    "priceSource": "Photon wholesale price list 1 Oct 2026"
+  },
+  {
+    "id": "photon-pi-eco-4-2kw",
+    "name": "Photon Pi Eco 4.2kW Hybrid Inverter (IP21)",
+    "brand": "photon",
+    "category": "inverters",
+    "specs": {
+      "Power": "4.2kW",
+      "PV input": "6500W",
+      "Protection": "IP21",
+      "Warranty": "2 yr replacement"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false,
+    "price": 78000,
+    "retailPrice": 85000,
+    "priceSource": "Photon wholesale price list 1 Oct 2026"
+  },
+  {
+    "id": "photon-pi-eco-6-2kw",
+    "name": "Photon Pi Eco 6.2kW Hybrid Inverter (IP21)",
+    "brand": "photon",
+    "category": "inverters",
+    "specs": {
+      "Power": "6.2kW",
+      "PV input": "8500W",
+      "Protection": "IP21",
+      "Warranty": "2 yr replacement"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false,
+    "price": 92000,
+    "retailPrice": 105000,
+    "priceSource": "Photon wholesale price list 1 Oct 2026"
+  },
+  {
+    "id": "photon-hpt-6kw-sp",
+    "name": "Photon HPT 6kW Hybrid Inverter (IP65, single phase)",
+    "brand": "photon",
+    "category": "inverters",
+    "specs": {
+      "Power": "6kW",
+      "PV input": "12000W",
+      "Protection": "IP65",
+      "Warranty": "5 yr replacement"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false,
+    "price": 175000,
+    "retailPrice": 190000,
+    "priceSource": "Photon wholesale price list 1 Oct 2026"
+  },
+  {
+    "id": "photon-sth-8kw-sp",
+    "name": "Photon STH 8kW Hybrid Inverter (IP65, single phase)",
+    "brand": "photon",
+    "category": "inverters",
+    "specs": {
+      "Power": "8kW",
+      "PV input": "16000W",
+      "Protection": "IP65",
+      "Warranty": "5 yr replacement"
+    },
+    "stock": "order",
+    "image": "",
+    "featured": false,
+    "price": 295000,
+    "retailPrice": 320000,
+    "priceSource": "Photon wholesale price list 1 Oct 2026"
+  },
+  {
+    "id": "photon-sth-10kw-sp",
+    "name": "Photon STH 10kW Hybrid Inverter (IP65, single phase)",
+    "brand": "photon",
+    "category": "inverters",
+    "specs": {
+      "Power": "10kW",
+      "Phase": "1-phase",
+      "Protection": "IP65"
+    },
+    "stock": "soon",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "photon-sth-12kw-sp",
+    "name": "Photon STH 12kW Hybrid Inverter (IP65, single phase)",
+    "brand": "photon",
+    "category": "inverters",
+    "specs": {
+      "Power": "12kW",
+      "Phase": "1-phase",
+      "Protection": "IP65"
+    },
+    "stock": "soon",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "photon-sth-15kw-tp",
+    "name": "Photon STH 15kW Hybrid Inverter (IP65, three phase)",
+    "brand": "photon",
+    "category": "inverters",
+    "specs": {
+      "Power": "15kW",
+      "Phase": "3-phase",
+      "Protection": "IP65"
+    },
+    "stock": "soon",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "photon-sth-20kw-tp",
+    "name": "Photon STH 20kW Hybrid Inverter (IP65, three phase)",
+    "brand": "photon",
+    "category": "inverters",
+    "specs": {
+      "Power": "20kW",
+      "Phase": "3-phase",
+      "Protection": "IP65"
+    },
+    "stock": "soon",
+    "image": "",
+    "featured": false
   }
 ]

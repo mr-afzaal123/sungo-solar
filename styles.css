@@ -1053,3 +1053,4 @@ button { font: inherit; }
 .price .save { justify-self: start; font-size: 0.8rem; font-weight: 700; color: #0B6B3A; background: rgba(37, 211, 102, 0.16); border-radius: 999px; padding: 0.12rem 0.55rem; margin: 0.15rem 0 0.1rem; }
 @media (max-width: 560px) { .price del { font-size: 0.8rem; } .price .save { font-size: 0.75rem; } }
 @media (max-width: 560px) { .save-pct { display: none; } }
+.badge.badge-soon { background: var(--navy); color: #FFFFFF; box-shadow: none; }

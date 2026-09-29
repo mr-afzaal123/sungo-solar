@@ -45,7 +45,7 @@ function productCard(p, brand) {
   return `
     <article class="product-card">
       <div class="product-media">
-        ${p.stock === "ready" ? '<span class="badge">Ready stock</span>' : ""}
+        ${p.stock === "ready" ? '<span class="badge">Ready stock</span>' : (p.stock === "soon" ? '<span class="badge badge-soon">Coming soon</span>' : "")}
         ${brand && brand.officialDealer ? '<span class="badge badge-official">Official dealer</span>' : ""}
         ${media}
       </div>

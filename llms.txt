@@ -22,7 +22,7 @@
 
 - Knox: hybrid inverters from 4.2 kW to 50 kW (Krypton, Krypton Eco, Xenon, Zynex and Zapher series), complete Zapher + HV battery systems, and Powerwall, Powerbase and PowerStack HV lithium batteries (2.56 kWh to 61.44 kWh). Knox prices on the website follow Knox's price list of 20 August 2026.
 - Itel: inverters (including Sparta 6.6 kW IP66) and lithium batteries
-- Photon: lithium batteries (24V and 51V)
+- Photon: Wall X lithium batteries (1.25 kWh to 16 kWh) and Aero (IP54), Pi Eco (IP21), HPT and STH (IP65) hybrid inverters. Photon prices follow Photon's wholesale price list of 1 October 2026.
 
 ## Other brands sold
 
