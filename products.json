@@ -537,7 +537,7 @@
       "Warranty": "5 years"
     },
     "stock": "ready",
-    "image": "images/product-knox-powerwall-3-0-24v.jpg",
+    "image": "images/product-knox-powerwall-3-0-24v.webp",
     "featured": true,
     "price": 127000,
     "retailPrice": 135000,
@@ -555,7 +555,7 @@
       "Warranty": "5 years"
     },
     "stock": "ready",
-    "image": "images/product-knox-powerwall-6-0-51v.jpg",
+    "image": "images/product-knox-powerwall-6-0-51v.webp",
     "featured": true,
     "price": 223000,
     "retailPrice": 235000,
@@ -573,7 +573,7 @@
       "Warranty": "5 years"
     },
     "stock": "order",
-    "image": "images/product-knox-powerwall-4-15.jpg",
+    "image": "images/product-knox-powerwall-4-15.webp",
     "featured": false,
     "price": 130000,
     "retailPrice": 140000,
@@ -591,7 +591,7 @@
       "Warranty": "5 years"
     },
     "stock": "ready",
-    "image": "images/product-knox-powerwall-6-11-51v.jpg",
+    "image": "images/product-knox-powerwall-6-11-51v.webp",
     "featured": false,
     "price": 228000,
     "retailPrice": 240000,
@@ -609,7 +609,7 @@
       "Warranty": "5 years"
     },
     "stock": "order",
-    "image": "images/product-knox-powerbase-10.jpg",
+    "image": "images/product-knox-powerbase-10.webp",
     "featured": false,
     "price": 435000,
     "retailPrice": 455000,
@@ -626,7 +626,7 @@
       "Warranty": "5 years"
     },
     "stock": "ready",
-    "image": "images/product-knox-powerbase-16kwh.jpg",
+    "image": "images/product-knox-powerbase-16kwh.webp",
     "featured": false,
     "price": 575000,
     "retailPrice": 595000,
@@ -643,7 +643,7 @@
       "Warranty": "5 years"
     },
     "stock": "order",
-    "image": "images/product-knox-powerbase-32.jpg",
+    "image": "images/product-knox-powerbase-32.webp",
     "featured": false,
     "price": 1100000,
     "retailPrice": 1140000,
@@ -659,7 +659,7 @@
       "Type": "HV control box"
     },
     "stock": "order",
-    "image": "images/product-knox-hv-box-52ah.jpg",
+    "image": "images/product-knox-hv-box-52ah.webp",
     "featured": false,
     "price": 218400,
     "retailPrice": 231000,
@@ -675,7 +675,7 @@
       "Type": "HV control box"
     },
     "stock": "order",
-    "image": "images/product-knox-hv-box-100ah.jpg",
+    "image": "images/product-knox-hv-box-100ah.webp",
     "featured": false,
     "price": 260000,
     "retailPrice": 275000,
@@ -692,7 +692,7 @@
       "Rate": "1C"
     },
     "stock": "order",
-    "image": "images/product-knox-powerstack-5-hv.jpg",
+    "image": "images/product-knox-powerstack-5-hv.webp",
     "featured": false,
     "price": 306800,
     "retailPrice": 324500,
@@ -709,7 +709,7 @@
       "Rate": "1C"
     },
     "stock": "order",
-    "image": "images/product-knox-powerstack-10-hv.jpg",
+    "image": "images/product-knox-powerstack-10-hv.webp",
     "featured": false,
     "price": 579280,
     "retailPrice": 612700,
@@ -724,7 +724,7 @@
       "Type": "Stacking base"
     },
     "stock": "order",
-    "image": "images/product-knox-hv-base-52ah.jpg",
+    "image": "images/product-knox-hv-base-52ah.webp",
     "featured": false,
     "price": 47840,
     "retailPrice": 50600,
@@ -739,7 +739,7 @@
       "Type": "Stacking base"
     },
     "stock": "order",
-    "image": "images/product-knox-hv-base-100ah.jpg",
+    "image": "images/product-knox-hv-base-100ah.webp",
     "featured": false,
     "price": 57200,
     "retailPrice": 60500,
@@ -756,7 +756,7 @@
       "Includes": "HV Box + base"
     },
     "stock": "order",
-    "image": "images/product-knox-hv-pack-21kwh.jpg",
+    "image": "images/product-knox-hv-pack-21kwh.webp",
     "featured": false,
     "price": 1493440,
     "retailPrice": 1579600,
@@ -773,7 +773,7 @@
       "Includes": "HV Box + base"
     },
     "stock": "order",
-    "image": "images/product-knox-hv-pack-32kwh.jpg",
+    "image": "images/product-knox-hv-pack-32kwh.webp",
     "featured": false,
     "price": 2107040,
     "retailPrice": 2228600,
@@ -790,7 +790,7 @@
       "Includes": "HV Box + base"
     },
     "stock": "order",
-    "image": "images/product-knox-hv-pack-51kwh.jpg",
+    "image": "images/product-knox-hv-pack-51kwh.webp",
     "featured": false,
     "price": 3213600,
     "retailPrice": 3399000,
@@ -807,7 +807,7 @@
       "Includes": "HV Box + base"
     },
     "stock": "order",
-    "image": "images/product-knox-hv-pack-61kwh.jpg",
+    "image": "images/product-knox-hv-pack-61kwh.webp",
     "featured": false,
     "price": 3792880,
     "retailPrice": 4011700,
@@ -824,7 +824,7 @@
       "Type": "Complete system"
     },
     "stock": "order",
-    "image": "images/product-knox-system-zapher-30kw-20kwh.jpg",
+    "image": "images/product-knox-system-zapher-30kw-20kwh.webp",
     "featured": false,
     "price": 2481440,
     "retailPrice": 2624600,
@@ -841,7 +841,7 @@
       "Type": "Complete system"
     },
     "stock": "order",
-    "image": "images/product-knox-system-zapher-30kw-30kwh.jpg",
+    "image": "images/product-knox-system-zapher-30kw-30kwh.webp",
     "featured": false,
     "price": 3095040,
     "retailPrice": 3273600,
@@ -858,7 +858,7 @@
       "Type": "Complete system"
     },
     "stock": "order",
-    "image": "images/product-knox-system-zapher-50kw-50kwh.jpg",
+    "image": "images/product-knox-system-zapher-50kw-50kwh.webp",
     "featured": false,
     "price": 4539600,
     "retailPrice": 4801500,
@@ -875,7 +875,7 @@
       "Type": "Complete system"
     },
     "stock": "order",
-    "image": "images/product-knox-system-zapher-50kw-60kwh.jpg",
+    "image": "images/product-knox-system-zapher-50kw-60kwh.webp",
     "featured": false,
     "price": 5118880,
     "retailPrice": 5414200,
@@ -893,7 +893,7 @@
       "WiFi": "WiFi"
     },
     "stock": "ready",
-    "image": "images/product-knox-pv5000-4kw.jpg",
+    "image": "images/product-knox-pv5000-4kw.webp",
     "featured": true,
     "price": 95000,
     "retailPrice": 100000,
@@ -911,7 +911,7 @@
       "Batteryless": "Batteryless"
     },
     "stock": "order",
-    "image": "images/product-knox-krypton-eco-6600.jpg",
+    "image": "images/product-knox-krypton-eco-6600.webp",
     "featured": false,
     "price": 102000,
     "retailPrice": 115000,
@@ -928,7 +928,7 @@
       "Battery": "24V"
     },
     "stock": "ready",
-    "image": "images/product-knox-pv6500-4-5kw.jpg",
+    "image": "images/product-knox-pv6500-4-5kw.webp",
     "featured": true,
     "price": 115000,
     "retailPrice": 125000,
@@ -945,7 +945,7 @@
       "Light": "RGB"
     },
     "stock": "ready",
-    "image": "images/product-knox-pv9000-6-2kw.jpg",
+    "image": "images/product-knox-pv9000-6-2kw.webp",
     "featured": true,
     "price": 135000,
     "retailPrice": 145000,
@@ -963,7 +963,7 @@
       "MPPT": "Dual"
     },
     "stock": "order",
-    "image": "images/product-knox-krypton-9055.jpg",
+    "image": "images/product-knox-krypton-9055.webp",
     "featured": false,
     "price": 157000,
     "retailPrice": 175000,
@@ -981,7 +981,7 @@
       "MPPT": "Dual"
     },
     "stock": "ready",
-    "image": "images/product-knox-krypton-pv11008-8kw.jpg",
+    "image": "images/product-knox-krypton-pv11008-8kw.webp",
     "featured": false,
     "price": 172000,
     "retailPrice": 185000,
@@ -999,7 +999,7 @@
       "Warranty": "3 years"
     },
     "stock": "order",
-    "image": "images/product-knox-krypton-12002.jpg",
+    "image": "images/product-knox-krypton-12002.webp",
     "featured": false,
     "price": 247000,
     "retailPrice": 270000,
@@ -1017,7 +1017,7 @@
       "Warranty": "3 years"
     },
     "stock": "order",
-    "image": "images/product-knox-krypton-13002.jpg",
+    "image": "images/product-knox-krypton-13002.webp",
     "featured": false,
     "price": 257000,
     "retailPrice": 280000,
@@ -1035,7 +1035,7 @@
       "Warranty": "3 years"
     },
     "stock": "order",
-    "image": "images/product-knox-krypton-15002.jpg",
+    "image": "images/product-knox-krypton-15002.webp",
     "featured": false,
     "price": 267000,
     "retailPrice": 290000,
@@ -1053,7 +1053,7 @@
       "Output": "Dual"
     },
     "stock": "order",
-    "image": "images/product-knox-xenon-12066.jpg",
+    "image": "images/product-knox-xenon-12066.webp",
     "featured": false,
     "price": 202000,
     "retailPrice": 225000,
@@ -1071,7 +1071,7 @@
       "MPPT": "3"
     },
     "stock": "order",
-    "image": "images/product-knox-zynex-8kw.jpg",
+    "image": "images/product-knox-zynex-8kw.webp",
     "featured": false,
     "price": 320000,
     "retailPrice": 345000,
@@ -1089,7 +1089,7 @@
       "MPPT": "3"
     },
     "stock": "order",
-    "image": "images/product-knox-zynex-10kw.jpg",
+    "image": "images/product-knox-zynex-10kw.webp",
     "featured": false,
     "price": 355000,
     "retailPrice": 375000,
@@ -1106,7 +1106,7 @@
       "Warranty": "5 years"
     },
     "stock": "order",
-    "image": "images/product-knox-zapher-6-6kw.jpg",
+    "image": "images/product-knox-zapher-6-6kw.webp",
     "featured": false,
     "price": 195000,
     "retailPrice": 215000,
@@ -1124,7 +1124,7 @@
       "Warranty": "5 years"
     },
     "stock": "ready",
-    "image": "images/product-knox-zapher-pv16000-9-2kw.jpg",
+    "image": "images/product-knox-zapher-pv16000-9-2kw.webp",
     "featured": false,
     "price": 297000,
     "retailPrice": 320000,
@@ -1141,7 +1141,7 @@
       "Warranty": "5 years"
     },
     "stock": "order",
-    "image": "images/product-knox-zapher-11-2kw.jpg",
+    "image": "images/product-knox-zapher-11-2kw.webp",
     "featured": false,
     "price": 355000,
     "retailPrice": 375000,
@@ -1159,7 +1159,7 @@
       "Warranty": "5 years"
     },
     "stock": "order",
-    "image": "images/product-knox-zapher-12kw-3p.jpg",
+    "image": "images/product-knox-zapher-12kw-3p.webp",
     "featured": false,
     "price": 485000,
     "retailPrice": 520000,
@@ -1177,7 +1177,7 @@
       "Warranty": "5 years"
     },
     "stock": "order",
-    "image": "images/product-knox-zapher-15kw-3p.jpg",
+    "image": "images/product-knox-zapher-15kw-3p.webp",
     "featured": false,
     "price": 585000,
     "retailPrice": 620000,
@@ -1195,7 +1195,7 @@
       "Warranty": "5 years"
     },
     "stock": "order",
-    "image": "images/product-knox-zapher-20kw-3p.jpg",
+    "image": "images/product-knox-zapher-20kw-3p.webp",
     "featured": false,
     "price": 750000,
     "retailPrice": 790000,
@@ -1213,7 +1213,7 @@
       "Warranty": "5 years"
     },
     "stock": "order",
-    "image": "images/product-knox-zapher-30kw-3p.jpg",
+    "image": "images/product-knox-zapher-30kw-3p.webp",
     "featured": false,
     "price": 965000,
     "retailPrice": 1020000,
@@ -1231,7 +1231,7 @@
       "Warranty": "5 years"
     },
     "stock": "order",
-    "image": "images/product-knox-zapher-50kw-3p.jpg",
+    "image": "images/product-knox-zapher-50kw-3p.webp",
     "featured": false,
     "price": 1295000,
     "retailPrice": 1350000,

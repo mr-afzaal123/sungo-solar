@@ -875,3 +875,161 @@ h1, h2 { letter-spacing: -0.02em; }
 .price strong { font-size: 1.2rem; color: var(--navy); font-weight: 800; letter-spacing: -0.01em; }
 .price span { font-size: 0.76rem; color: var(--muted); }
 @media (max-width: 560px) { .price strong { font-size: 1.02rem; } .price span { font-size: 0.75rem; } }
+
+/* =========================================================
+   V4 LAYER — layout, responsiveness, reliability, floating products
+   ========================================================= */
+
+/* ---------- Fluid tokens ---------- */
+:root {
+  --wrap: 1240px;
+  --gutter: clamp(1rem, 3.5vw, 2rem);
+  --space-section: clamp(3rem, 7vw, 6rem);
+  --radius: 18px;
+  --radius-lg: 26px;
+}
+.wrap { width: min(100% - (var(--gutter) * 2) - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px), var(--wrap)); }
+.section { padding-block: var(--space-section); }
+@media (max-width: 720px) { .section { padding-block: clamp(2.6rem, 9vw, 3.4rem); } }
+
+/* ---------- Reliability basics ---------- */
+html { overflow-x: hidden; }
+body { overflow-x: clip; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+img { height: auto; }
+h1, h2, h3 { text-wrap: balance; overflow-wrap: break-word; }
+p, li, dd { text-wrap: pretty; overflow-wrap: break-word; }
+.hero-grid > *, .summary > *, .faq-layout > *, .visit > *, .quote-layout > *, .footer-grid > *, .official-grid > *, .flow > *, .services > * { min-width: 0; }
+button { font: inherit; }
+[hidden] { display: none !important; }
+
+/* Frosted glass only where the browser supports it; solid fallback otherwise */
+@supports not ((backdrop-filter: blur(4px)) or (-webkit-backdrop-filter: blur(4px))) {
+  .site-header { background: #E6EEF2; }
+  .filters { background-color: #E9F0F4; }
+  .official-card, .product-card, .guide, .faq-list details, .summary dl, .services li, .facts, .team-card, .contact-card, .guide-card, .brand-group, .article-side, .flow li { background: #EEF3F6; }
+}
+
+/* ---------- Header: tighter on scroll-heavy phones ---------- */
+@media (max-width: 1024px) { .header-inner { min-height: 72px; } .logo img { height: 50px; } }
+@media (max-width: 520px) { .header-inner { min-height: 64px; } .logo img { height: 42px; } .main-nav { max-height: calc(100dvh - 64px); } }
+
+/* ---------- Product grid: fluid columns everywhere ---------- */
+.product-grid {
+  grid-template-columns: repeat(auto-fill, minmax(clamp(165px, 21vw, 255px), 1fr));
+  gap: clamp(0.7rem, 1.6vw, 1.4rem);
+}
+@media (min-width: 1500px) { .product-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
+@media (max-width: 380px) { .product-grid { gap: 0.55rem; } }
+
+/* Long product lists render faster: off-screen cards are skipped until needed */
+.product-card { content-visibility: auto; contain-intrinsic-size: auto 420px; }
+
+/* ---------- Floating products ---------- */
+.product-card { position: relative; overflow: visible; isolation: isolate; }
+.product-card .product-media {
+  border-radius: var(--radius) var(--radius) 0 0;
+  overflow: visible;
+  background:
+    radial-gradient(60% 55% at 50% 42%, #FFFFFF 0%, rgba(255,255,255,0.85) 45%, rgba(234,241,245,0.6) 100%);
+}
+.product-card .product-media::after {            /* soft ground shadow under the product */
+  content: ""; position: absolute; left: 22%; right: 22%; bottom: 9%; height: 12px; z-index: 0;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgba(10,10,40,0.28), rgba(10,10,40,0));
+  transition: transform 0.45s var(--ease), opacity 0.45s var(--ease);
+}
+.product-card .product-media img {
+  position: relative; z-index: 1;
+  padding: 10% 12% 16%;
+  filter: drop-shadow(0 12px 14px rgba(10,10,40,0.16));  /* transparent photos: shadow follows the product shape */
+  transition: transform 0.45s var(--ease), filter 0.45s var(--ease);
+  will-change: transform;
+}
+.product-card .product-placeholder { position: relative; z-index: 1; transition: transform 0.45s var(--ease); }
+.product-card:hover .product-media img,
+.product-card:focus-within .product-media img { transform: translateY(-10px) scale(1.03); filter: drop-shadow(0 20px 18px rgba(10,10,40,0.2)); }
+.product-card:hover .product-placeholder { transform: translateY(-8px); }
+.product-card:hover .product-media::after,
+.product-card:focus-within .product-media::after { transform: scaleX(0.8); opacity: 0.6; }
+.product-card:hover { transform: translateY(-6px); }
+.product-media .badge { z-index: 2; }
+
+/* Home page "Ready stock" cards float gently on their own */
+@media (prefers-reduced-motion: no-preference) and (hover: hover) {
+  #featured-products .product-card .product-media img { animation: float 5.5s ease-in-out infinite; }
+  #featured-products .product-card:nth-child(2n) .product-media img { animation-delay: -1.4s; }
+  #featured-products .product-card:nth-child(3n) .product-media img { animation-delay: -2.8s; }
+  #featured-products .product-card:nth-child(4n) .product-media img { animation-delay: -4.1s; }
+  #featured-products .product-card:hover .product-media img { animation-play-state: paused; }
+  @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+}
+
+/* Card body: consistent heights so rows line up */
+.product-body { gap: 0; }
+.product-body h3, .product-body h4 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.6em; }
+.spec-chips { min-height: 1.6rem; }
+.price { margin-top: auto; }
+.product-actions { margin-top: 0; }
+.product-body .price + .product-actions { margin-top: 0; }
+.product-body > .spec-chips + .product-actions { margin-top: auto; }
+
+@media (max-width: 560px) {
+  .product-card .product-media img { padding: 12% 12% 18%; }
+  .product-card:hover { transform: none; }
+  .product-body h3, .product-body h4 { -webkit-line-clamp: 3; min-height: 3.6em; }
+}
+
+/* ---------- Section layouts ---------- */
+.section-head { margin-bottom: clamp(1.6rem, 3.5vw, 2.8rem); }
+.section-head h2 { margin-bottom: 0.35em; }
+.official-grid, .team-grid, .contact-cards { gap: clamp(0.8rem, 2vw, 1.4rem); }
+.flow { gap: clamp(0.8rem, 2vw, 1.4rem); }
+.services { grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); }
+.guide-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
+.brand-groups { gap: clamp(0.8rem, 2vw, 1.4rem); }
+
+/* Tablet: two-column layouts instead of cramped three */
+@media (min-width: 640px) and (max-width: 980px) {
+  .official-grid, .team-grid, .contact-cards, .flow { grid-template-columns: repeat(2, 1fr); }
+  .official-grid > :last-child:nth-child(odd), .team-grid > :last-child:nth-child(odd),
+  .contact-cards > :last-child:nth-child(odd), .flow > :last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .brand-groups { grid-template-columns: repeat(2, 1fr); }
+  .steps { grid-template-columns: repeat(2, 1fr); gap: 1.6rem; }
+  .steps li { padding: 3.4rem 0 0; }
+  .steps li::after { display: none; }
+  .footer-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Hero spacing on large screens */
+@media (min-width: 1200px) { .hero-grid { gap: 4rem; } .hero h1 { font-size: clamp(3.2rem, 4.6vw, 4.6rem); } }
+
+/* Filters bar: horizontal scroll for chips on small phones instead of wrapping into many rows */
+@media (max-width: 560px) {
+  .filters { padding: 0.8rem; gap: 0.7rem; }
+  .filter-chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; margin-inline: -0.2rem; padding: 0.2rem; scroll-snap-type: x proximity; }
+  .filter-chips::-webkit-scrollbar { display: none; }
+  .filter-chip { flex: none; scroll-snap-align: start; }
+  .filter-select { width: 100%; }
+  .filter-select select { flex: 1; }
+}
+
+/* FAQ + CTA on phones */
+@media (max-width: 560px) {
+  .faq-list summary { font-size: 1rem; padding: 1rem 2.8rem 1rem 1rem; }
+  .faq-answer { padding: 0 1rem 1.1rem; }
+  .cta-band { padding: 1.4rem; }
+  .cta-actions, .cta-actions .btn, .hero-actions .btn { width: 100%; }
+  .visit-actions .btn { flex: 1 1 auto; }
+}
+
+/* Very large screens: keep text readable */
+@media (min-width: 1600px) { body { font-size: 1.1rem; } }
+
+/* ---------- Print: clean, ink-friendly ---------- */
+@media print {
+  .topbar, .site-header, .wa-float, .to-top, .filters, .product-actions, .hero-art, .map-frame, .cta-band, .site-footer::before { display: none !important; }
+  body { background: #FFFFFF !important; color: #000; }
+  .product-card, .official-card, .faq-list details { box-shadow: none !important; border: 1px solid #CCC !important; break-inside: avoid; }
+  a { color: #000; text-decoration: underline; }
+}
+@media (max-width: 560px) { .spec-chips li:nth-child(n+4) { display: none; } }
