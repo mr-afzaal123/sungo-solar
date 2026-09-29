@@ -1,117 +1,5 @@
 [
   {
-    "id": "knox-pv5000-4kw",
-    "name": "Knox Krypton Eco 5000 4.2kW Inverter",
-    "brand": "knox",
-    "category": "inverters",
-    "specs": {
-      "Power": "4.2kW",
-      "PV input": "5000W",
-      "Battery": "24V"
-    },
-    "stock": "ready",
-    "image": "",
-    "featured": true
-  },
-  {
-    "id": "knox-pv6500-4-5kw",
-    "name": "Knox Krypton 6500 4.5kW Inverter",
-    "brand": "knox",
-    "category": "inverters",
-    "specs": {
-      "Power": "4.5kW",
-      "PV input": "6500W",
-      "Battery": "24V"
-    },
-    "stock": "ready",
-    "image": "",
-    "featured": true
-  },
-  {
-    "id": "knox-pv9000-6-2kw",
-    "name": "Knox Krypton 9000 6.2kW Inverter",
-    "brand": "knox",
-    "category": "inverters",
-    "specs": {
-      "Power": "6.2kW",
-      "PV input": "9000W"
-    },
-    "stock": "ready",
-    "image": "",
-    "featured": true
-  },
-  {
-    "id": "knox-krypton-pv11008-8kw",
-    "name": "Knox Krypton 11000 8kW Inverter",
-    "brand": "knox",
-    "category": "inverters",
-    "specs": {
-      "Power": "8kW",
-      "PV input": "11000W",
-      "Battery": "48V",
-      "Protection": "IP21"
-    },
-    "stock": "ready",
-    "image": "",
-    "featured": false
-  },
-  {
-    "id": "knox-zapher-pv16000-9-2kw",
-    "name": "Knox Zapher 9.2kW Inverter (IP66)",
-    "brand": "knox",
-    "category": "inverters",
-    "specs": {
-      "Power": "9.2kW",
-      "PV input": "16000W",
-      "Protection": "IP66"
-    },
-    "stock": "ready",
-    "image": "",
-    "featured": false
-  },
-  {
-    "id": "knox-powerwall-3-0-24v",
-    "name": "Knox Powerwall 3.0 (25.6V)",
-    "brand": "knox",
-    "category": "batteries",
-    "specs": {
-      "Voltage": "25.6V",
-      "Capacity": "2.56kWh",
-      "Chemistry": "LiFePO4"
-    },
-    "stock": "ready",
-    "image": "",
-    "featured": true
-  },
-  {
-    "id": "knox-powerwall-6-0-51v",
-    "name": "Knox Powerwall 6.0 (51.2V)",
-    "brand": "knox",
-    "category": "batteries",
-    "specs": {
-      "Voltage": "51.2V",
-      "Capacity": "5.12kWh",
-      "Chemistry": "LiFePO4"
-    },
-    "stock": "ready",
-    "image": "",
-    "featured": true
-  },
-  {
-    "id": "knox-powerwall-6-11-51v",
-    "name": "Knox Powerwall 6.11 (51.2V)",
-    "brand": "knox",
-    "category": "batteries",
-    "specs": {
-      "Voltage": "51.2V",
-      "Capacity": "5.12kWh",
-      "Chemistry": "LiFePO4"
-    },
-    "stock": "ready",
-    "image": "",
-    "featured": false
-  },
-  {
     "id": "itel-4kw",
     "name": "Itel 4kW Inverter",
     "brand": "itel",
@@ -639,33 +527,377 @@
     "featured": false
   },
   {
+    "id": "knox-powerwall-3-0-24v",
+    "name": "Knox Powerwall 3.0 (25.6V 100Ah)",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "25.6V",
+      "Capacity": "2.56kWh",
+      "Warranty": "5 years"
+    },
+    "stock": "ready",
+    "image": "images/product-knox-powerwall-3-0-24v.jpg",
+    "featured": true,
+    "price": 127000,
+    "retailPrice": 135000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-powerwall-6-0-51v",
+    "name": "Knox Powerwall 6.0 (51.2V 100Ah)",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "51.2V",
+      "Capacity": "5.12kWh",
+      "Rate": "1C",
+      "Warranty": "5 years"
+    },
+    "stock": "ready",
+    "image": "images/product-knox-powerwall-6-0-51v.jpg",
+    "featured": true,
+    "price": 223000,
+    "retailPrice": 235000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-powerwall-4-15",
+    "name": "Knox Powerwall 4.15 (25.6V 100Ah)",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "25.6V",
+      "Capacity": "2.56kWh",
+      "Rate": "1.5C",
+      "Warranty": "5 years"
+    },
+    "stock": "order",
+    "image": "images/product-knox-powerwall-4-15.jpg",
+    "featured": false,
+    "price": 130000,
+    "retailPrice": 140000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-powerwall-6-11-51v",
+    "name": "Knox Powerwall 6.11 (51.2V 100Ah)",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "51.2V",
+      "Capacity": "5.12kWh",
+      "Rate": "1.5C",
+      "Warranty": "5 years"
+    },
+    "stock": "ready",
+    "image": "images/product-knox-powerwall-6-11-51v.jpg",
+    "featured": false,
+    "price": 228000,
+    "retailPrice": 240000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-powerbase-10",
+    "name": "Knox Powerbase 10 (51.2V 200Ah)",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "51.2V",
+      "Capacity": "10.24kWh",
+      "Display": "Touch LCD",
+      "Warranty": "5 years"
+    },
+    "stock": "order",
+    "image": "images/product-knox-powerbase-10.jpg",
+    "featured": false,
+    "price": 435000,
+    "retailPrice": 455000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
     "id": "knox-powerbase-16kwh",
-    "name": "Knox Powerbase 16 (51.2V, 16kWh)",
+    "name": "Knox Powerbase 16 (51.2V 314Ah)",
     "brand": "knox",
     "category": "batteries",
     "specs": {
       "Voltage": "51.2V",
       "Capacity": "16kWh",
-      "Chemistry": "LiFePO4"
+      "Warranty": "5 years"
     },
     "stock": "ready",
-    "image": "",
-    "featured": false
+    "image": "images/product-knox-powerbase-16kwh.jpg",
+    "featured": false,
+    "price": 575000,
+    "retailPrice": 595000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
   },
   {
-    "id": "knox-krypton-eco-4000",
-    "name": "Knox Krypton Eco 4000 3kW Inverter",
+    "id": "knox-powerbase-32",
+    "name": "Knox Powerbase 32 (51.2V 628Ah)",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "51.2V",
+      "Capacity": "32kWh",
+      "Warranty": "5 years"
+    },
+    "stock": "order",
+    "image": "images/product-knox-powerbase-32.jpg",
+    "featured": false,
+    "price": 1100000,
+    "retailPrice": 1140000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-hv-box-52ah",
+    "name": "Knox PowerStack HV Box 52Ah",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "102–800V",
+      "Type": "HV control box"
+    },
+    "stock": "order",
+    "image": "images/product-knox-hv-box-52ah.jpg",
+    "featured": false,
+    "price": 218400,
+    "retailPrice": 231000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-hv-box-100ah",
+    "name": "Knox PowerStack HV Box 100Ah",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "102–800V",
+      "Type": "HV control box"
+    },
+    "stock": "order",
+    "image": "images/product-knox-hv-box-100ah.jpg",
+    "featured": false,
+    "price": 260000,
+    "retailPrice": 275000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-powerstack-5-hv",
+    "name": "Knox PowerStack 5-HV Battery (5.32kWh)",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "102V",
+      "Capacity": "5.32kWh",
+      "Rate": "1C"
+    },
+    "stock": "order",
+    "image": "images/product-knox-powerstack-5-hv.jpg",
+    "featured": false,
+    "price": 306800,
+    "retailPrice": 324500,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-powerstack-10-hv",
+    "name": "Knox PowerStack 10-HV Battery (10.24kWh)",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Voltage": "102V",
+      "Capacity": "10.24kWh",
+      "Rate": "1C"
+    },
+    "stock": "order",
+    "image": "images/product-knox-powerstack-10-hv.jpg",
+    "featured": false,
+    "price": 579280,
+    "retailPrice": 612700,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-hv-base-52ah",
+    "name": "Knox PowerStack Base Wheel 52Ah",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Type": "Stacking base"
+    },
+    "stock": "order",
+    "image": "images/product-knox-hv-base-52ah.jpg",
+    "featured": false,
+    "price": 47840,
+    "retailPrice": 50600,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-hv-base-100ah",
+    "name": "Knox PowerStack Base Wheel 100Ah",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Type": "Stacking base"
+    },
+    "stock": "order",
+    "image": "images/product-knox-hv-base-100ah.jpg",
+    "featured": false,
+    "price": 57200,
+    "retailPrice": 60500,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-hv-pack-21kwh",
+    "name": "Knox HV Battery Pack 21.28kWh",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Capacity": "21.28kWh",
+      "Modules": "5-HV × 4",
+      "Includes": "HV Box + base"
+    },
+    "stock": "order",
+    "image": "images/product-knox-hv-pack-21kwh.jpg",
+    "featured": false,
+    "price": 1493440,
+    "retailPrice": 1579600,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-hv-pack-32kwh",
+    "name": "Knox HV Battery Pack 31.92kWh",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Capacity": "31.92kWh",
+      "Modules": "5-HV × 6",
+      "Includes": "HV Box + base"
+    },
+    "stock": "order",
+    "image": "images/product-knox-hv-pack-32kwh.jpg",
+    "featured": false,
+    "price": 2107040,
+    "retailPrice": 2228600,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-hv-pack-51kwh",
+    "name": "Knox HV Battery Pack 51.2kWh",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Capacity": "51.2kWh",
+      "Modules": "10-HV × 5",
+      "Includes": "HV Box + base"
+    },
+    "stock": "order",
+    "image": "images/product-knox-hv-pack-51kwh.jpg",
+    "featured": false,
+    "price": 3213600,
+    "retailPrice": 3399000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-hv-pack-61kwh",
+    "name": "Knox HV Battery Pack 61.44kWh",
+    "brand": "knox",
+    "category": "batteries",
+    "specs": {
+      "Capacity": "61.44kWh",
+      "Modules": "10-HV × 6",
+      "Includes": "HV Box + base"
+    },
+    "stock": "order",
+    "image": "images/product-knox-hv-pack-61kwh.jpg",
+    "featured": false,
+    "price": 3792880,
+    "retailPrice": 4011700,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-system-zapher-30kw-20kwh",
+    "name": "Knox Zapher 30kW + 20kWh HV Battery System",
     "brand": "knox",
     "category": "inverters",
     "specs": {
-      "Power": "3kW",
-      "PV input": "4000W",
-      "Battery": "24V",
-      "Type": "Hybrid"
+      "Power": "30kW",
+      "Battery": "20kWh",
+      "Type": "Complete system"
     },
     "stock": "order",
-    "image": "",
-    "featured": false
+    "image": "images/product-knox-system-zapher-30kw-20kwh.jpg",
+    "featured": false,
+    "price": 2481440,
+    "retailPrice": 2624600,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-system-zapher-30kw-30kwh",
+    "name": "Knox Zapher 30kW + 30kWh HV Battery System",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "30kW",
+      "Battery": "30kWh",
+      "Type": "Complete system"
+    },
+    "stock": "order",
+    "image": "images/product-knox-system-zapher-30kw-30kwh.jpg",
+    "featured": false,
+    "price": 3095040,
+    "retailPrice": 3273600,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-system-zapher-50kw-50kwh",
+    "name": "Knox Zapher 50kW + 50kWh HV Battery System",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "50kW",
+      "Battery": "50kWh",
+      "Type": "Complete system"
+    },
+    "stock": "order",
+    "image": "images/product-knox-system-zapher-50kw-50kwh.jpg",
+    "featured": false,
+    "price": 4539600,
+    "retailPrice": 4801500,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-system-zapher-50kw-60kwh",
+    "name": "Knox Zapher 50kW + 60kWh HV Battery System",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "50kW",
+      "Battery": "60kWh",
+      "Type": "Complete system"
+    },
+    "stock": "order",
+    "image": "images/product-knox-system-zapher-50kw-60kwh.jpg",
+    "featured": false,
+    "price": 5118880,
+    "retailPrice": 5414200,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-pv5000-4kw",
+    "name": "Knox Krypton Eco 5000 4.2kW Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "4.2kW",
+      "PV input": "5000W",
+      "Battery": "24V",
+      "WiFi": "WiFi"
+    },
+    "stock": "ready",
+    "image": "images/product-knox-pv5000-4kw.jpg",
+    "featured": true,
+    "price": 95000,
+    "retailPrice": 100000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
   },
   {
     "id": "knox-krypton-eco-6600",
@@ -675,26 +907,49 @@
     "specs": {
       "Power": "6.2kW",
       "PV input": "6600W",
-      "Type": "Hybrid"
+      "Battery": "48V",
+      "Batteryless": "Batteryless"
     },
     "stock": "order",
-    "image": "",
-    "featured": false
+    "image": "images/product-knox-krypton-eco-6600.jpg",
+    "featured": false,
+    "price": 102000,
+    "retailPrice": 115000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
   },
   {
-    "id": "knox-krypton-6000",
-    "name": "Knox Krypton 6000 4kW Inverter",
+    "id": "knox-pv6500-4-5kw",
+    "name": "Knox Krypton 6500 4.5kW Inverter",
     "brand": "knox",
     "category": "inverters",
     "specs": {
-      "Power": "4kW",
-      "PV input": "6000W",
-      "Battery": "24V",
-      "Type": "Hybrid"
+      "Power": "4.5kW",
+      "PV input": "6500W",
+      "Battery": "24V"
     },
-    "stock": "order",
-    "image": "",
-    "featured": false
+    "stock": "ready",
+    "image": "images/product-knox-pv6500-4-5kw.jpg",
+    "featured": true,
+    "price": 115000,
+    "retailPrice": 125000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-pv9000-6-2kw",
+    "name": "Knox Krypton 9000 6.2kW Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "6.2kW",
+      "PV input": "9000W",
+      "Light": "RGB"
+    },
+    "stock": "ready",
+    "image": "images/product-knox-pv9000-6-2kw.jpg",
+    "featured": true,
+    "price": 135000,
+    "retailPrice": 145000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
   },
   {
     "id": "knox-krypton-9055",
@@ -703,13 +958,34 @@
     "category": "inverters",
     "specs": {
       "Power": "6.5kW",
+      "PV input": "9000W",
       "Battery": "48V",
-      "MPPT": "Dual",
-      "Type": "Hybrid"
+      "MPPT": "Dual"
     },
     "stock": "order",
-    "image": "",
-    "featured": false
+    "image": "images/product-knox-krypton-9055.jpg",
+    "featured": false,
+    "price": 157000,
+    "retailPrice": 175000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-krypton-pv11008-8kw",
+    "name": "Knox Krypton 11008 8kW Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "8kW",
+      "PV input": "12000W",
+      "Battery": "48V",
+      "MPPT": "Dual"
+    },
+    "stock": "ready",
+    "image": "images/product-knox-krypton-pv11008-8kw.jpg",
+    "featured": false,
+    "price": 172000,
+    "retailPrice": 185000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
   },
   {
     "id": "knox-krypton-12002",
@@ -718,12 +994,16 @@
     "category": "inverters",
     "specs": {
       "Power": "8.5kW",
-      "MPPT": "Dual",
-      "Type": "Hybrid"
+      "PV input": "12000W",
+      "Screen": "7\" HMI",
+      "Warranty": "3 years"
     },
     "stock": "order",
-    "image": "",
-    "featured": false
+    "image": "images/product-knox-krypton-12002.jpg",
+    "featured": false,
+    "price": 247000,
+    "retailPrice": 270000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
   },
   {
     "id": "knox-krypton-13002",
@@ -732,12 +1012,16 @@
     "category": "inverters",
     "specs": {
       "Power": "10kW",
-      "MPPT": "Dual",
-      "Type": "Hybrid"
+      "PV input": "13000W",
+      "Screen": "7\" HMI",
+      "Warranty": "3 years"
     },
     "stock": "order",
-    "image": "",
-    "featured": false
+    "image": "images/product-knox-krypton-13002.jpg",
+    "featured": false,
+    "price": 257000,
+    "retailPrice": 280000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
   },
   {
     "id": "knox-krypton-15002",
@@ -746,57 +1030,34 @@
     "category": "inverters",
     "specs": {
       "Power": "11.5kW",
-      "MPPT": "Dual",
-      "Type": "Hybrid"
+      "PV input": "15000W",
+      "Screen": "7\" HMI",
+      "Warranty": "3 years"
     },
     "stock": "order",
-    "image": "",
-    "featured": false
+    "image": "images/product-knox-krypton-15002.jpg",
+    "featured": false,
+    "price": 267000,
+    "retailPrice": 290000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
   },
   {
     "id": "knox-xenon-12066",
-    "name": "Knox Xenon 12066 6.6kW Inverter (IP66)",
+    "name": "Knox Xenon 12066 6kW Inverter (IP66)",
     "brand": "knox",
     "category": "inverters",
     "specs": {
-      "Power": "6.6kW",
-      "MPPT": "Dual",
+      "Power": "6kW",
+      "PV input": "12000W",
       "Protection": "IP66",
-      "Type": "Hybrid"
+      "Output": "Dual"
     },
     "stock": "order",
-    "image": "",
-    "featured": false
-  },
-  {
-    "id": "knox-xenon-18000",
-    "name": "Knox Xenon 18000 12kW Inverter (IP66)",
-    "brand": "knox",
-    "category": "inverters",
-    "specs": {
-      "Power": "12kW",
-      "MPPT": "Dual",
-      "Protection": "IP66",
-      "Type": "Hybrid"
-    },
-    "stock": "order",
-    "image": "",
-    "featured": false
-  },
-  {
-    "id": "knox-xenon-22500",
-    "name": "Knox Xenon 22500 15kW Inverter (IP66)",
-    "brand": "knox",
-    "category": "inverters",
-    "specs": {
-      "Power": "15kW",
-      "MPPT": "Dual",
-      "Protection": "IP66",
-      "Type": "Hybrid"
-    },
-    "stock": "order",
-    "image": "",
-    "featured": false
+    "image": "images/product-knox-xenon-12066.jpg",
+    "featured": false,
+    "price": 202000,
+    "retailPrice": 225000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
   },
   {
     "id": "knox-zynex-8kw",
@@ -805,13 +1066,16 @@
     "category": "inverters",
     "specs": {
       "Power": "8kW",
-      "MPPT": "3",
+      "PV input": "16000W",
       "Protection": "IP66",
-      "Type": "Hybrid"
+      "MPPT": "3"
     },
     "stock": "order",
-    "image": "",
-    "featured": false
+    "image": "images/product-knox-zynex-8kw.jpg",
+    "featured": false,
+    "price": 320000,
+    "retailPrice": 345000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
   },
   {
     "id": "knox-zynex-10kw",
@@ -820,140 +1084,157 @@
     "category": "inverters",
     "specs": {
       "Power": "10kW",
-      "MPPT": "3",
+      "PV input": "18000W",
       "Protection": "IP66",
-      "Type": "Hybrid"
+      "MPPT": "3"
     },
     "stock": "order",
-    "image": "",
-    "featured": false
+    "image": "images/product-knox-zynex-10kw.jpg",
+    "featured": false,
+    "price": 355000,
+    "retailPrice": 375000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
   },
   {
-    "id": "knox-xerox-g4-10kw",
-    "name": "Knox Xerox G4 10kW Three-Phase Inverter",
+    "id": "knox-zapher-6-6kw",
+    "name": "Knox Zapher 6.6kW Inverter",
     "brand": "knox",
     "category": "inverters",
     "specs": {
-      "Power": "10kW",
-      "Phase": "3-phase",
-      "Protection": "IP66",
-      "Type": "On-grid"
+      "Power": "6.6kW",
+      "PV input": "12000W",
+      "Warranty": "5 years"
     },
     "stock": "order",
-    "image": "",
-    "featured": false
+    "image": "images/product-knox-zapher-6-6kw.jpg",
+    "featured": false,
+    "price": 195000,
+    "retailPrice": 215000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
   },
   {
-    "id": "knox-xerox-g4-pro-5-25kw",
-    "name": "Knox Xerox G4 Pro 5–25kW Three-Phase Inverters",
+    "id": "knox-zapher-pv16000-9-2kw",
+    "name": "Knox Zapher 9.2kW Inverter (IP66)",
     "brand": "knox",
     "category": "inverters",
     "specs": {
-      "Power": "5–25kW",
-      "Phase": "3-phase",
-      "Type": "On-grid"
+      "Power": "9.2kW",
+      "PV input": "16000W",
+      "Protection": "IP66",
+      "Warranty": "5 years"
     },
-    "stock": "order",
-    "image": "",
-    "featured": false
+    "stock": "ready",
+    "image": "images/product-knox-zapher-pv16000-9-2kw.jpg",
+    "featured": false,
+    "price": 297000,
+    "retailPrice": 320000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
   },
   {
-    "id": "knox-xerox-g4-pro-30kw",
-    "name": "Knox Xerox G4 Pro 30kW Three-Phase Inverter",
+    "id": "knox-zapher-11-2kw",
+    "name": "Knox Zapher 11.2kW Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "11.2kW",
+      "PV input": "18000W",
+      "Warranty": "5 years"
+    },
+    "stock": "order",
+    "image": "images/product-knox-zapher-11-2kw.jpg",
+    "featured": false,
+    "price": 355000,
+    "retailPrice": 375000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-zapher-12kw-3p",
+    "name": "Knox Zapher 12kW Three-Phase Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "12kW",
+      "PV input": "18000W",
+      "Phase": "3-phase",
+      "Warranty": "5 years"
+    },
+    "stock": "order",
+    "image": "images/product-knox-zapher-12kw-3p.jpg",
+    "featured": false,
+    "price": 485000,
+    "retailPrice": 520000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-zapher-15kw-3p",
+    "name": "Knox Zapher 15kW Three-Phase Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "15kW",
+      "PV input": "24000W",
+      "Phase": "3-phase",
+      "Warranty": "5 years"
+    },
+    "stock": "order",
+    "image": "images/product-knox-zapher-15kw-3p.jpg",
+    "featured": false,
+    "price": 585000,
+    "retailPrice": 620000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-zapher-20kw-3p",
+    "name": "Knox Zapher 20kW Three-Phase Inverter",
+    "brand": "knox",
+    "category": "inverters",
+    "specs": {
+      "Power": "20kW",
+      "PV input": "30000W",
+      "Phase": "3-phase",
+      "Warranty": "5 years"
+    },
+    "stock": "order",
+    "image": "images/product-knox-zapher-20kw-3p.jpg",
+    "featured": false,
+    "price": 750000,
+    "retailPrice": 790000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+  },
+  {
+    "id": "knox-zapher-30kw-3p",
+    "name": "Knox Zapher 30kW Three-Phase HV Inverter",
     "brand": "knox",
     "category": "inverters",
     "specs": {
       "Power": "30kW",
+      "PV input": "48000W",
       "Phase": "3-phase",
-      "Protection": "IP66",
-      "Type": "On-grid"
+      "Warranty": "5 years"
     },
     "stock": "order",
-    "image": "",
-    "featured": false
+    "image": "images/product-knox-zapher-30kw-3p.jpg",
+    "featured": false,
+    "price": 965000,
+    "retailPrice": 1020000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
   },
   {
-    "id": "knox-xerox-g4-pro-40kw",
-    "name": "Knox Xerox G4 Pro 40kW Three-Phase Inverter",
-    "brand": "knox",
-    "category": "inverters",
-    "specs": {
-      "Power": "40kW",
-      "Phase": "3-phase",
-      "Type": "On-grid"
-    },
-    "stock": "order",
-    "image": "",
-    "featured": false
-  },
-  {
-    "id": "knox-xerox-g4-pro-50kw",
-    "name": "Knox Xerox G4 Pro 50kW Three-Phase Inverter",
+    "id": "knox-zapher-50kw-3p",
+    "name": "Knox Zapher 50kW Three-Phase HV Inverter",
     "brand": "knox",
     "category": "inverters",
     "specs": {
       "Power": "50kW",
+      "PV input": "65000W",
       "Phase": "3-phase",
-      "Type": "On-grid"
+      "Warranty": "5 years"
     },
     "stock": "order",
-    "image": "",
-    "featured": false
-  },
-  {
-    "id": "knox-xerox-g4-pro-60kw",
-    "name": "Knox Xerox G4 Pro 60kW Three-Phase Inverter",
-    "brand": "knox",
-    "category": "inverters",
-    "specs": {
-      "Power": "60kW",
-      "Phase": "3-phase",
-      "Type": "On-grid"
-    },
-    "stock": "order",
-    "image": "",
-    "featured": false
-  },
-  {
-    "id": "knox-xerox-g4-pro-100kw",
-    "name": "Knox Xerox G4 Pro 100kW Three-Phase Inverter",
-    "brand": "knox",
-    "category": "inverters",
-    "specs": {
-      "Power": "100kW",
-      "Phase": "3-phase",
-      "Type": "On-grid"
-    },
-    "stock": "order",
-    "image": "",
-    "featured": false
-  },
-  {
-    "id": "knox-xerox-g4-pro-110kw",
-    "name": "Knox Xerox G4 Pro 110kW Three-Phase Inverter",
-    "brand": "knox",
-    "category": "inverters",
-    "specs": {
-      "Power": "110kW",
-      "Phase": "3-phase",
-      "Type": "On-grid"
-    },
-    "stock": "order",
-    "image": "",
-    "featured": false
-  },
-  {
-    "id": "knox-xerox-g4-pro-125kw",
-    "name": "Knox Xerox G4 Pro 125kW Three-Phase Inverter",
-    "brand": "knox",
-    "category": "inverters",
-    "specs": {
-      "Power": "125kW",
-      "Phase": "3-phase",
-      "Type": "On-grid"
-    },
-    "stock": "order",
-    "image": "",
-    "featured": false
+    "image": "images/product-knox-zapher-50kw-3p.jpg",
+    "featured": false,
+    "price": 1295000,
+    "retailPrice": 1350000,
+    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
   }
 ]

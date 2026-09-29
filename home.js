@@ -30,7 +30,11 @@ function productCard(p, brand) {
   const chips = Object.values(p.specs || {})
     .map((v) => `<li>${escapeHTML(v)}</li>`)
     .join("");
-  const waMsg = `Hi SunGo Solar, I want the price of ${p.name}. Please share details.`;
+  const rs = (n) => "Rs " + Number(n).toLocaleString("en-US");
+  const waMsg = p.price
+    ? `Hi SunGo Solar, I want to order the ${p.name} (${rs(p.price)}). Please confirm availability and today's price.`
+    : `Hi SunGo Solar, I want the price of ${p.name}. Please share details.`;
+  const priceHtml = p.price ? `<p class="price"><strong>${rs(p.price)}</strong><span>Price may change. Confirm on WhatsApp.</span></p>` : "";
 
   return `
     <article class="product-card">
@@ -43,8 +47,9 @@ function productCard(p, brand) {
         <p class="product-brand">${brandName} ${(CATEGORY_LABEL[p.category] || "").toLowerCase()}</p>
         <h3>${name}</h3>
         <ul class="spec-chips">${chips}</ul>
+        ${priceHtml}
         <div class="product-actions">
-          <a class="btn btn-wa btn-sm" href="${SUNGO.waLink(waMsg)}" target="_blank" rel="noopener">${WA_ICON} Ask price</a>
+          <a class="btn btn-wa btn-sm" href="${SUNGO.waLink(waMsg)}" target="_blank" rel="noopener">${WA_ICON} ${p.price ? "Order" : "Ask price"}</a>
           <a class="btn btn-outline btn-sm" href="tel:+923006474333" aria-label="Call about ${name}">${PHONE_ICON}</a>
         </div>
       </div>
