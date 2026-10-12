@@ -1222,7 +1222,7 @@
       "Warranty": "5 yr replacement"
     },
     "stock": "order",
-    "image": "",
+    "image": "images/product-photon-pbox-12v.webp",
     "featured": false,
     "price": 58000,
     "retailPrice": 65000,
@@ -1256,7 +1256,7 @@
       "Warranty": "5 yr replacement"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-photon-wall-x.webp",
     "featured": true,
     "price": 120000,
     "retailPrice": 135000,
@@ -1307,7 +1307,7 @@
       "Warranty": "5 yr replacement"
     },
     "stock": "order",
-    "image": "",
+    "image": "images/product-photon-wall-x-pro.webp",
     "featured": false,
     "price": 225000,
     "retailPrice": 250000,
@@ -1341,7 +1341,7 @@
       "Warranty": "5 yr replacement"
     },
     "stock": "order",
-    "image": "",
+    "image": "images/product-photon-wall-x-pro.webp",
     "featured": false,
     "price": 580000,
     "retailPrice": 610000,
@@ -1359,7 +1359,7 @@
       "Warranty": "3 yr replacement"
     },
     "stock": "order",
-    "image": "",
+    "image": "images/product-photon-aero.webp",
     "featured": false,
     "price": 105000,
     "retailPrice": 120000,
@@ -1377,7 +1377,7 @@
       "Warranty": "3 yr replacement"
     },
     "stock": "order",
-    "image": "",
+    "image": "images/product-photon-aero.webp",
     "featured": false,
     "price": 130000,
     "retailPrice": 145000,
@@ -1395,7 +1395,7 @@
       "Warranty": "3 yr replacement"
     },
     "stock": "order",
-    "image": "",
+    "image": "images/product-photon-aero.webp",
     "featured": false,
     "price": 225000,
     "retailPrice": 250000,
@@ -1413,7 +1413,7 @@
       "Warranty": "3 yr replacement"
     },
     "stock": "order",
-    "image": "",
+    "image": "images/product-photon-aero.webp",
     "featured": false,
     "price": 230000,
     "retailPrice": 260000,
@@ -1431,7 +1431,7 @@
       "Warranty": "3 yr replacement"
     },
     "stock": "order",
-    "image": "",
+    "image": "images/product-photon-aero.webp",
     "featured": false,
     "price": 240000,
     "retailPrice": 270000,
@@ -1511,17 +1511,17 @@
   },
   {
     "id": "photon-hpt-6kw-sp",
-    "name": "Photon HPT 6kW Hybrid Inverter (IP65, single phase)",
+    "name": "Photon HPT 6kW Hybrid Inverter (IP66, single phase)",
     "brand": "photon",
     "category": "inverters",
     "specs": {
       "Power": "6kW",
       "PV input": "12000W",
-      "Protection": "IP65",
+      "Protection": "IP66",
       "Warranty": "5 yr replacement"
     },
     "stock": "order",
-    "image": "",
+    "image": "images/product-photon-hpt-6kw.webp",
     "featured": false,
     "price": 175000,
     "retailPrice": 190000,
@@ -1529,13 +1529,13 @@
   },
   {
     "id": "photon-sth-8kw-sp",
-    "name": "Photon STH 8kW Hybrid Inverter (IP65, single phase)",
+    "name": "Photon STH 8kW Hybrid Inverter (IP66, single phase)",
     "brand": "photon",
     "category": "inverters",
     "specs": {
       "Power": "8kW",
       "PV input": "16000W",
-      "Protection": "IP65",
+      "Protection": "IP66",
       "Warranty": "5 yr replacement"
     },
     "stock": "order",
@@ -1547,13 +1547,13 @@
   },
   {
     "id": "photon-sth-10kw-sp",
-    "name": "Photon STH 10kW Hybrid Inverter (IP65, single phase)",
+    "name": "Photon STH 10kW Hybrid Inverter (IP66, single phase)",
     "brand": "photon",
     "category": "inverters",
     "specs": {
       "Power": "10kW",
       "Phase": "1-phase",
-      "Protection": "IP65"
+      "Protection": "IP66"
     },
     "stock": "soon",
     "image": "",
@@ -1561,13 +1561,13 @@
   },
   {
     "id": "photon-sth-12kw-sp",
-    "name": "Photon STH 12kW Hybrid Inverter (IP65, single phase)",
+    "name": "Photon STH 12kW Hybrid Inverter (IP66, single phase)",
     "brand": "photon",
     "category": "inverters",
     "specs": {
       "Power": "12kW",
       "Phase": "1-phase",
-      "Protection": "IP65"
+      "Protection": "IP66"
     },
     "stock": "soon",
     "image": "",
@@ -1575,13 +1575,13 @@
   },
   {
     "id": "photon-sth-15kw-tp",
-    "name": "Photon STH 15kW Hybrid Inverter (IP65, three phase)",
+    "name": "Photon STH 15kW Hybrid Inverter (IP66, three phase)",
     "brand": "photon",
     "category": "inverters",
     "specs": {
       "Power": "15kW",
       "Phase": "3-phase",
-      "Protection": "IP65"
+      "Protection": "IP66"
     },
     "stock": "soon",
     "image": "",
@@ -1589,13 +1589,13 @@
   },
   {
     "id": "photon-sth-20kw-tp",
-    "name": "Photon STH 20kW Hybrid Inverter (IP65, three phase)",
+    "name": "Photon STH 20kW Hybrid Inverter (IP66, three phase)",
     "brand": "photon",
     "category": "inverters",
     "specs": {
       "Power": "20kW",
       "Phase": "3-phase",
-      "Protection": "IP65"
+      "Protection": "IP66"
     },
     "stock": "soon",
     "image": "",
