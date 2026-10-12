@@ -1449,7 +1449,7 @@
       "Warranty": "2 yr replacement"
     },
     "stock": "order",
-    "image": "",
+    "image": "images/product-photon-pi-eco-1-5kw.png",
     "featured": false,
     "price": 50000,
     "retailPrice": 60000,
@@ -1467,7 +1467,7 @@
       "Warranty": "2 yr replacement"
     },
     "stock": "order",
-    "image": "",
+    "image": "images/product-photon-pi-eco-3-5kw.png",
     "featured": false,
     "price": 65000,
     "retailPrice": 75000,
@@ -1485,7 +1485,7 @@
       "Warranty": "2 yr replacement"
     },
     "stock": "order",
-    "image": "",
+    "image": "images/product-photon-pi-eco-4-2kw.png",
     "featured": false,
     "price": 78000,
     "retailPrice": 85000,
@@ -1503,7 +1503,7 @@
       "Warranty": "2 yr replacement"
     },
     "stock": "order",
-    "image": "",
+    "image": "images/product-photon-pi-eco-6-2kw.png",
     "featured": false,
     "price": 92000,
     "retailPrice": 105000,
