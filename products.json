@@ -1222,7 +1222,7 @@
       "Warranty": "5 yr replacement"
     },
     "stock": "order",
-    "image": "images/product-photon-pbox-12v.webp",
+    "image": "images/product-photon-wallx-1-25kwh.png",
     "featured": false,
     "price": 58000,
     "retailPrice": 65000,
@@ -1239,7 +1239,7 @@
       "Warranty": "5 yr replacement"
     },
     "stock": "order",
-    "image": "",
+    "image": "images/product-photon-wallx-2-5kwh.png",
     "featured": false,
     "price": 98000,
     "retailPrice": 105000,
@@ -1256,7 +1256,7 @@
       "Warranty": "5 yr replacement"
     },
     "stock": "ready",
-    "image": "images/product-photon-wall-x.webp",
+    "image": "images/product-photon-wallx-2-6kwh.png",
     "featured": true,
     "price": 120000,
     "retailPrice": 135000,
@@ -1273,7 +1273,7 @@
       "Warranty": "5 yr replacement"
     },
     "stock": "order",
-    "image": "",
+    "image": "images/product-photon-wallx-5-2kwh-24v.png",
     "featured": false,
     "price": 225000,
     "retailPrice": 245000,
@@ -1290,7 +1290,7 @@
       "Warranty": "5 yr replacement"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-photon-wallx-5-2kwh-51v.png",
     "featured": true,
     "price": 215000,
     "retailPrice": 240000,
@@ -1307,7 +1307,7 @@
       "Warranty": "5 yr replacement"
     },
     "stock": "order",
-    "image": "images/product-photon-wall-x-pro.webp",
+    "image": "images/product-photon-wallx-5-12kwh-pro.png",
     "featured": false,
     "price": 225000,
     "retailPrice": 250000,
@@ -1324,7 +1324,7 @@
       "Warranty": "5 yr replacement"
     },
     "stock": "order",
-    "image": "",
+    "image": "images/product-photon-wallx-10-4kwh.png",
     "featured": false,
     "price": 435000,
     "retailPrice": 460000,
@@ -1341,7 +1341,7 @@
       "Warranty": "5 yr replacement"
     },
     "stock": "order",
-    "image": "images/product-photon-wall-x-pro.webp",
+    "image": "images/product-photon-wallx-16kwh-pro.png",
     "featured": false,
     "price": 580000,
     "retailPrice": 610000,
@@ -1359,7 +1359,7 @@
       "Warranty": "3 yr replacement"
     },
     "stock": "order",
-    "image": "images/product-photon-aero.webp",
+    "image": "images/product-photon-aero-5kw.png",
     "featured": false,
     "price": 105000,
     "retailPrice": 120000,
@@ -1377,7 +1377,7 @@
       "Warranty": "3 yr replacement"
     },
     "stock": "order",
-    "image": "images/product-photon-aero.webp",
+    "image": "images/product-photon-aero-6-5kw.png",
     "featured": false,
     "price": 130000,
     "retailPrice": 145000,
@@ -1395,7 +1395,7 @@
       "Warranty": "3 yr replacement"
     },
     "stock": "order",
-    "image": "images/product-photon-aero.webp",
+    "image": "images/product-photon-aero-8kw.png",
     "featured": false,
     "price": 225000,
     "retailPrice": 250000,
@@ -1413,7 +1413,7 @@
       "Warranty": "3 yr replacement"
     },
     "stock": "order",
-    "image": "images/product-photon-aero.webp",
+    "image": "images/product-photon-aero-10kw.png",
     "featured": false,
     "price": 230000,
     "retailPrice": 260000,
@@ -1431,7 +1431,7 @@
       "Warranty": "3 yr replacement"
     },
     "stock": "order",
-    "image": "images/product-photon-aero.webp",
+    "image": "images/product-photon-aero-12kw.png",
     "featured": false,
     "price": 240000,
     "retailPrice": 270000,
@@ -1521,7 +1521,7 @@
       "Warranty": "5 yr replacement"
     },
     "stock": "order",
-    "image": "images/product-photon-hpt-6kw.webp",
+    "image": "images/product-photon-hpt-6kw.png",
     "featured": false,
     "price": 175000,
     "retailPrice": 190000,
@@ -1539,7 +1539,7 @@
       "Warranty": "5 yr replacement"
     },
     "stock": "order",
-    "image": "",
+    "image": "images/product-photon-sth-8kw-sp.png",
     "featured": false,
     "price": 295000,
     "retailPrice": 320000,
@@ -1556,7 +1556,7 @@
       "Protection": "IP66"
     },
     "stock": "soon",
-    "image": "",
+    "image": "images/product-photon-sth-10kw-sp.png",
     "featured": false
   },
   {
@@ -1570,7 +1570,7 @@
       "Protection": "IP66"
     },
     "stock": "soon",
-    "image": "",
+    "image": "images/product-photon-sth-12kw-sp.png",
     "featured": false
   },
   {
@@ -1584,7 +1584,7 @@
       "Protection": "IP66"
     },
     "stock": "soon",
-    "image": "",
+    "image": "images/product-photon-sth-15kw-tp.png",
     "featured": false
   },
   {
@@ -1598,7 +1598,7 @@
       "Protection": "IP66"
     },
     "stock": "soon",
-    "image": "",
+    "image": "images/product-photon-sth-20kw-tp.png",
     "featured": false
   }
 ]
