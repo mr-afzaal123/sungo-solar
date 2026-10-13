@@ -10,7 +10,7 @@
       "Type": "Hybrid"
     },
     "stock": "order",
-    "image": "images/product-itel-1-6kw-ip54.png",
+    "image": "images/product-itel-1-6kw-ip54.webp",
     "featured": false
   },
   {
@@ -38,7 +38,7 @@
       "Type": "Pro"
     },
     "stock": "ready",
-    "image": "images/product-itel-4kw-pro-ip54.png",
+    "image": "images/product-itel-4kw-pro-ip54.webp",
     "featured": true
   },
   {
@@ -52,7 +52,7 @@
       "Type": "Pro"
     },
     "stock": "ready",
-    "image": "images/product-itel-6kw-pro-ip54.png",
+    "image": "images/product-itel-6kw-pro-ip54.webp",
     "featured": true
   },
   {
@@ -66,7 +66,7 @@
       "Type": "1-phase"
     },
     "stock": "order",
-    "image": "images/product-itel-6kw-ip66.png",
+    "image": "images/product-itel-6kw-ip66.webp",
     "featured": false
   },
   {
@@ -80,7 +80,7 @@
       "Type": "Sparta"
     },
     "stock": "ready",
-    "image": "images/product-itel-sparta-6-6kw.png",
+    "image": "images/product-itel-sparta-6-6kw.webp",
     "featured": false
   },
   {
@@ -94,7 +94,7 @@
       "Type": "1-phase"
     },
     "stock": "order",
-    "image": "images/product-itel-8kw-ip54.png",
+    "image": "images/product-itel-8kw-ip54.webp",
     "featured": false
   },
   {
@@ -108,7 +108,7 @@
       "Type": "3-phase"
     },
     "stock": "order",
-    "image": "images/product-itel-8kw-ip66-3p.png",
+    "image": "images/product-itel-8kw-ip66-3p.webp",
     "featured": false
   },
   {
@@ -122,7 +122,7 @@
       "Type": "1-phase"
     },
     "stock": "order",
-    "image": "images/product-itel-12kw-ip54.png",
+    "image": "images/product-itel-12kw-ip54.webp",
     "featured": false
   },
   {
@@ -136,7 +136,7 @@
       "Type": "3-phase"
     },
     "stock": "order",
-    "image": "images/product-itel-12kw-ip66-3p.png",
+    "image": "images/product-itel-12kw-ip66-3p.webp",
     "featured": false
   },
   {
