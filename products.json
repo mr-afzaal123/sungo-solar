@@ -150,7 +150,7 @@
       "Amp-hours": "100Ah"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-itel-12v-100ah.webp",
     "featured": true
   },
   {
@@ -164,7 +164,7 @@
       "Amp-hours": "100Ah"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-itel-2-56kwh.webp",
     "featured": false
   },
   {
@@ -192,7 +192,7 @@
       "Amp-hours": "100Ah"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-itel-5-12kwh-51v.webp",
     "featured": true
   },
   {
@@ -206,7 +206,7 @@
       "Amp-hours": "200Ah"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-itel-10-24kwh.webp",
     "featured": false
   },
   {
@@ -220,7 +220,7 @@
       "Amp-hours": "280Ah"
     },
     "stock": "order",
-    "image": "",
+    "image": "images/product-itel-14kwh.webp",
     "featured": false
   },
   {
@@ -234,7 +234,7 @@
       "Amp-hours": "314Ah"
     },
     "stock": "order",
-    "image": "",
+    "image": "images/product-itel-16kwh.webp",
     "featured": false
   },
   {
