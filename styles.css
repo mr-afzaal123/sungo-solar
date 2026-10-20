@@ -243,7 +243,7 @@ button { font: inherit; }
 .product-media img { width: 100%; height: 100%; object-fit: contain; padding: 12% 12% 14%; filter: drop-shadow(0 12px 14px rgba(16,24,40,.15)); transition: transform .4s var(--ease); }
 .product-card:hover .product-media img { transform: scale(1.06); }
 /* Photos with a white background (.png from suppliers): blend the white into the card so no box shows */
-.product-media img[src$=".png"], .product-media img[src*="product-itel-"] { mix-blend-mode: multiply; filter: none; }
+.product-media img[src$=".png"], .product-media img[src*="product-itel-"], .product-media img[src*="product-panel-"] { mix-blend-mode: multiply; filter: none; }
 .product-media::after { display: none; }
 .product-media .badge { position: absolute; top: .6rem; left: .6rem; z-index: 2; }
 .product-media .badge-official { left: auto; right: .6rem; }
