@@ -187,8 +187,7 @@
     "name": "Canadian Solar",
     "officialDealer": false,
     "categories": [
-      "solar-panels",
-      "batteries"
+      "solar-panels"
     ],
     "logo": "",
     "page": "/brands/canadian",
@@ -251,28 +250,6 @@
     "confirmNote": "Confirm brand spelling"
   },
   {
-    "id": "auxsol",
-    "name": "Auxsol",
-    "officialDealer": false,
-    "categories": [
-      "batteries"
-    ],
-    "logo": "",
-    "page": "/lithium-batteries.html#b-auxsol",
-    "description": ""
-  },
-  {
-    "id": "balanty",
-    "name": "Balanty",
-    "officialDealer": false,
-    "categories": [
-      "batteries"
-    ],
-    "logo": "",
-    "page": "/lithium-batteries.html#b-balanty",
-    "description": ""
-  },
-  {
     "id": "crown",
     "name": "Crown",
     "officialDealer": false,
@@ -295,61 +272,6 @@
     "description": ""
   },
   {
-    "id": "eel-power",
-    "name": "EEL Power",
-    "officialDealer": false,
-    "categories": [
-      "batteries"
-    ],
-    "logo": "",
-    "page": "/lithium-batteries.html#b-eel-power",
-    "description": ""
-  },
-  {
-    "id": "eve",
-    "name": "EVE",
-    "officialDealer": false,
-    "categories": [
-      "batteries"
-    ],
-    "logo": "",
-    "page": "/lithium-batteries.html#b-eve",
-    "description": ""
-  },
-  {
-    "id": "felicity",
-    "name": "Felicity Solar",
-    "officialDealer": false,
-    "categories": [
-      "batteries"
-    ],
-    "logo": "",
-    "page": "/lithium-batteries.html#b-felicity",
-    "description": ""
-  },
-  {
-    "id": "growatt",
-    "name": "Growatt",
-    "officialDealer": false,
-    "categories": [
-      "batteries"
-    ],
-    "logo": "",
-    "page": "/lithium-batteries.html#b-growatt",
-    "description": ""
-  },
-  {
-    "id": "hithium",
-    "name": "Hithium",
-    "officialDealer": false,
-    "categories": [
-      "batteries"
-    ],
-    "logo": "",
-    "page": "/lithium-batteries.html#b-hithium",
-    "description": ""
-  },
-  {
     "id": "inverex",
     "name": "Inverex",
     "officialDealer": false,
@@ -361,105 +283,6 @@
     "description": ""
   },
   {
-    "id": "lithium-valley",
-    "name": "Lithium Valley",
-    "officialDealer": false,
-    "categories": [
-      "batteries"
-    ],
-    "logo": "",
-    "page": "/lithium-batteries.html#b-lithium-valley",
-    "description": ""
-  },
-  {
-    "id": "livoltek",
-    "name": "Livoltek",
-    "officialDealer": false,
-    "categories": [
-      "batteries"
-    ],
-    "logo": "",
-    "page": "/lithium-batteries.html#b-livoltek",
-    "description": ""
-  },
-  {
-    "id": "lvtopsun",
-    "name": "LVTOPSUN",
-    "officialDealer": false,
-    "categories": [
-      "batteries"
-    ],
-    "logo": "",
-    "page": "/lithium-batteries.html#b-lvtopsun",
-    "description": ""
-  },
-  {
-    "id": "narada",
-    "name": "Narada",
-    "officialDealer": false,
-    "categories": [
-      "batteries"
-    ],
-    "logo": "",
-    "page": "/lithium-batteries.html#b-narada",
-    "description": ""
-  },
-  {
-    "id": "nimbess",
-    "name": "Nimbess",
-    "officialDealer": false,
-    "categories": [
-      "batteries"
-    ],
-    "logo": "",
-    "page": "/lithium-batteries.html#b-nimbess",
-    "description": ""
-  },
-  {
-    "id": "nova",
-    "name": "Nova",
-    "officialDealer": false,
-    "categories": [
-      "batteries"
-    ],
-    "logo": "",
-    "page": "/lithium-batteries.html#b-nova",
-    "description": ""
-  },
-  {
-    "id": "sacredsun",
-    "name": "SacredSun",
-    "officialDealer": false,
-    "categories": [
-      "batteries"
-    ],
-    "logo": "",
-    "page": "/lithium-batteries.html#b-sacredsun",
-    "description": ""
-  },
-  {
-    "id": "saj",
-    "name": "SAJ",
-    "officialDealer": false,
-    "categories": [
-      "batteries"
-    ],
-    "logo": "",
-    "page": "/lithium-batteries.html#b-saj",
-    "description": ""
-  },
-  {
-    "id": "ses-power",
-    "name": "SES Power",
-    "officialDealer": false,
-    "categories": [
-      "batteries"
-    ],
-    "logo": "",
-    "page": "/lithium-batteries.html#b-ses-power",
-    "description": ""
-  },
-  {
     "id": "soluna",
     "name": "Soluna",
     "officialDealer": false,
@@ -468,28 +291,6 @@
     ],
     "logo": "",
     "page": "/lithium-batteries.html#b-soluna",
-    "description": ""
-  },
-  {
-    "id": "sunflx",
-    "name": "Sunflx",
-    "officialDealer": false,
-    "categories": [
-      "batteries"
-    ],
-    "logo": "",
-    "page": "/lithium-batteries.html#b-sunflx",
-    "description": ""
-  },
-  {
-    "id": "tigfox",
-    "name": "Tigfox",
-    "officialDealer": false,
-    "categories": [
-      "batteries"
-    ],
-    "logo": "",
-    "page": "/lithium-batteries.html#b-tigfox",
     "description": ""
   }
 ]
