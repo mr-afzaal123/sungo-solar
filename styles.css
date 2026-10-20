@@ -480,6 +480,19 @@ button { font: inherit; }
 @media (max-width: 520px) { .wa-float { padding: .45rem; } .wa-float span { display: none; } .wa-float svg { width: 48px; height: 48px; padding: 11px; background: none; } }
 
 /* ---------- Print ---------- */
+/* ---------- Lithium batteries page ---------- */
+.bat-jump-title { font-size: 1rem; margin: 0 0 .7rem; color: var(--muted); font-family: var(--font-body); font-weight: 600; }
+.bat-jump { display: flex; flex-wrap: wrap; gap: .45rem; list-style: none; margin: 0 0 1.5rem; padding: 0; }
+.bat-jump a { display: inline-flex; align-items: center; min-height: 40px; padding: .4rem .9rem; border: 1px solid var(--line-2); border-radius: 999px; background: var(--surface); color: var(--ink-2); font-weight: 600; font-size: .9rem; text-decoration: none; transition: all .2s; }
+.bat-jump a:hover { border-color: var(--ink); color: var(--ink); }
+.bat-jump li:nth-child(-n+3) a { background: var(--ink); border-color: var(--ink); color: #fff; }
+.bat-brand { padding-top: 2.2rem; scroll-margin-top: 90px; }
+.bat-brand-head { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; margin-bottom: 1.1rem; }
+.bat-brand-head h2 { margin: 0; font-size: clamp(1.3rem, 2.4vw, 1.7rem); }
+.bat-brand-head .count { display: inline-grid; place-items: center; min-width: 1.9rem; height: 1.9rem; margin-left: .35rem; padding: 0 .45rem; border-radius: 999px; background: var(--ink); color: #fff; font-size: .85rem; vertical-align: middle; }
+.brand-more { margin-left: auto; font-weight: 600; font-size: .92rem; }
+@media (max-width: 600px) { .brand-more { margin-left: 0; width: 100%; } .bat-jump { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-bottom: .3rem; } .bat-jump::-webkit-scrollbar { display: none; } .bat-jump a { white-space: nowrap; } }
+
 @media print {
   .topbar, .site-header, .wa-float, .to-top, .filters, .product-actions, .hero-visual, .map-frame, .cta-band { display: none !important; }
   body { background: #fff; color: #000; }

@@ -68,6 +68,31 @@ document.addEventListener("DOMContentLoaded", () => {
     el.rel = "noopener";
   });
 
+  // Product photo not uploaded yet? Show the brand icon instead of a broken image
+  const ICONS = {
+    batteries: '<rect x="10" y="18" width="40" height="30" rx="4" fill="none" stroke="currentColor" stroke-width="3"/><path d="M50 27h5v12h-5" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M18 26v14M26 26v14M34 26v14" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>',
+    inverters: '<rect x="14" y="8" width="36" height="48" rx="5" fill="none" stroke="currentColor" stroke-width="3"/><rect x="21" y="16" width="22" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M34 34l-6 9h8l-6 9" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>',
+    "solar-panels": '<path d="M8 14h48l-6 28H14z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M24 14l-3 28M40 14l3 28M11 28h42" stroke="currentColor" stroke-width="2.5"/><path d="M32 42v10M22 52h20" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>'
+  };
+  function photoFallback(img) {
+    const card = img.closest(".product-card");
+    if (!card || !img.closest(".product-media")) return;
+    const brand = card.querySelector(".product-brand a");
+    const box = document.createElement("div");
+    box.className = "product-placeholder";
+    box.innerHTML = '<svg viewBox="0 0 64 64" aria-hidden="true">' + (ICONS[card.dataset.category] || ICONS.batteries) + "</svg>";
+    const label = document.createElement("span");
+    label.textContent = brand ? brand.textContent : "";
+    box.appendChild(label);
+    img.replaceWith(box);
+  }
+  document.addEventListener("error", (e) => {
+    if (e.target && e.target.tagName === "IMG") photoFallback(e.target);
+  }, true);
+  document.querySelectorAll(".product-media img").forEach((img) => {
+    if (img.complete && img.naturalWidth === 0 && img.getAttribute("src")) photoFallback(img);
+  });
+
   // Footer year
   const year = document.getElementById("year");
   if (year) year.textContent = new Date().getFullYear();

@@ -9,7 +9,7 @@
     ],
     "logo": "",
     "page": "/brands/knox",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "itel",
@@ -21,7 +21,7 @@
     ],
     "logo": "",
     "page": "/brands/itel",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "photon",
@@ -33,7 +33,7 @@
     ],
     "logo": "",
     "page": "/brands/photon",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "maxpower",
@@ -44,29 +44,31 @@
     ],
     "logo": "",
     "page": "/brands/maxpower",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "solis",
     "name": "Solis",
     "officialDealer": false,
     "categories": [
-      "inverters"
+      "inverters",
+      "batteries"
     ],
     "logo": "",
     "page": "/brands/solis",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "goodwe",
     "name": "GoodWe",
     "officialDealer": false,
     "categories": [
-      "inverters"
+      "inverters",
+      "batteries"
     ],
     "logo": "",
     "page": "/brands/goodwe",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "fronus",
@@ -78,7 +80,7 @@
     ],
     "logo": "",
     "page": "/brands/fronus",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "sofar",
@@ -90,7 +92,7 @@
     ],
     "logo": "",
     "page": "/brands/sofar",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "ns",
@@ -101,7 +103,7 @@
     ],
     "logo": "",
     "page": "/brands/ns",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "pylontech",
@@ -112,7 +114,7 @@
     ],
     "logo": "",
     "page": "/brands/pylontech",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "volnex",
@@ -123,7 +125,7 @@
     ],
     "logo": "",
     "page": "/brands/volnex",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "pytes",
@@ -134,7 +136,7 @@
     ],
     "logo": "",
     "page": "/brands/pytes",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "royal",
@@ -145,7 +147,7 @@
     ],
     "logo": "",
     "page": "/brands/royal",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "hisel",
@@ -156,7 +158,7 @@
     ],
     "logo": "",
     "page": "/brands/hisel",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "longi",
@@ -167,7 +169,7 @@
     ],
     "logo": "",
     "page": "/brands/longi",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "jinko",
@@ -178,18 +180,19 @@
     ],
     "logo": "",
     "page": "/brands/jinko",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "canadian",
     "name": "Canadian Solar",
     "officialDealer": false,
     "categories": [
-      "solar-panels"
+      "solar-panels",
+      "batteries"
     ],
     "logo": "",
     "page": "/brands/canadian",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "aiko",
@@ -200,7 +203,7 @@
     ],
     "logo": "",
     "page": "/brands/aiko",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "risen",
@@ -211,7 +214,7 @@
     ],
     "logo": "",
     "page": "/brands/risen",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "ja",
@@ -222,7 +225,7 @@
     ],
     "logo": "",
     "page": "/brands/ja",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "astronergy",
@@ -233,7 +236,7 @@
     ],
     "logo": "",
     "page": "/brands/astronergy",
-    "description": "DRAFT \u2014 short brand description for client to supply."
+    "description": "DRAFT — short brand description for client to supply."
   },
   {
     "id": "jesko",
@@ -244,7 +247,249 @@
     ],
     "logo": "",
     "page": "/brands/jesko",
-    "description": "DRAFT \u2014 short brand description for client to supply.",
+    "description": "DRAFT — short brand description for client to supply.",
     "confirmNote": "Confirm brand spelling"
+  },
+  {
+    "id": "auxsol",
+    "name": "Auxsol",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-auxsol",
+    "description": ""
+  },
+  {
+    "id": "balanty",
+    "name": "Balanty",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-balanty",
+    "description": ""
+  },
+  {
+    "id": "crown",
+    "name": "Crown",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-crown",
+    "description": ""
+  },
+  {
+    "id": "dyness",
+    "name": "Dyness",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-dyness",
+    "description": ""
+  },
+  {
+    "id": "eel-power",
+    "name": "EEL Power",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-eel-power",
+    "description": ""
+  },
+  {
+    "id": "eve",
+    "name": "EVE",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-eve",
+    "description": ""
+  },
+  {
+    "id": "felicity",
+    "name": "Felicity Solar",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-felicity",
+    "description": ""
+  },
+  {
+    "id": "growatt",
+    "name": "Growatt",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-growatt",
+    "description": ""
+  },
+  {
+    "id": "hithium",
+    "name": "Hithium",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-hithium",
+    "description": ""
+  },
+  {
+    "id": "inverex",
+    "name": "Inverex",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-inverex",
+    "description": ""
+  },
+  {
+    "id": "lithium-valley",
+    "name": "Lithium Valley",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-lithium-valley",
+    "description": ""
+  },
+  {
+    "id": "livoltek",
+    "name": "Livoltek",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-livoltek",
+    "description": ""
+  },
+  {
+    "id": "lvtopsun",
+    "name": "LVTOPSUN",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-lvtopsun",
+    "description": ""
+  },
+  {
+    "id": "narada",
+    "name": "Narada",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-narada",
+    "description": ""
+  },
+  {
+    "id": "nimbess",
+    "name": "Nimbess",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-nimbess",
+    "description": ""
+  },
+  {
+    "id": "nova",
+    "name": "Nova",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-nova",
+    "description": ""
+  },
+  {
+    "id": "sacredsun",
+    "name": "SacredSun",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-sacredsun",
+    "description": ""
+  },
+  {
+    "id": "saj",
+    "name": "SAJ",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-saj",
+    "description": ""
+  },
+  {
+    "id": "ses-power",
+    "name": "SES Power",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-ses-power",
+    "description": ""
+  },
+  {
+    "id": "soluna",
+    "name": "Soluna",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-soluna",
+    "description": ""
+  },
+  {
+    "id": "sunflx",
+    "name": "Sunflx",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-sunflx",
+    "description": ""
+  },
+  {
+    "id": "tigfox",
+    "name": "Tigfox",
+    "officialDealer": false,
+    "categories": [
+      "batteries"
+    ],
+    "logo": "",
+    "page": "/lithium-batteries.html#b-tigfox",
+    "description": ""
   }
 ]
