@@ -530,7 +530,7 @@
       "Power": "585W"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-panel-canadian-585w.webp",
     "featured": false
   },
   {
@@ -542,7 +542,7 @@
       "Power": "615W"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-panel-canadian-615w.webp",
     "featured": false
   },
   {
@@ -555,7 +555,7 @@
       "Technology": "HJT"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-panel-canadian-630w-hjt.webp",
     "featured": false
   },
   {
@@ -569,7 +569,7 @@
       "Type": "Bifacial"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-panel-longi-x10-645w-bifacial.webp",
     "featured": false
   },
   {
@@ -581,7 +581,7 @@
       "Power": "645W"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-panel-jinko-645w.webp",
     "featured": false
   },
   {
@@ -593,7 +593,7 @@
       "Power": "625W"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-panel-ja-625w.webp",
     "featured": false
   },
   {
@@ -605,7 +605,7 @@
       "Power": "590W"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-panel-astronergy-590w.webp",
     "featured": false
   },
   {
@@ -617,7 +617,7 @@
       "Power": "585W"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-panel-jesko-585w.webp",
     "featured": false,
     "confirmNote": "Confirm brand spelling"
   },
@@ -631,7 +631,7 @@
       "Technology": "HJT"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-panel-risen-740w-hjt.webp",
     "featured": false
   },
   {
@@ -643,7 +643,7 @@
       "Power": "665W"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-panel-aiko-665w.webp",
     "featured": false
   },
   {
