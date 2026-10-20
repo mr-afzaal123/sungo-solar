@@ -247,7 +247,7 @@
       "System Voltage": "12V"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-maxpower-pvtech-1200.webp",
     "featured": false
   },
   {
@@ -261,7 +261,7 @@
       "System Voltage": "12V"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-maxpower-pvtech-3000-2kw.webp",
     "featured": false
   },
   {
@@ -275,7 +275,7 @@
       "System Voltage": "24V"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-maxpower-pvtech-5000-4kw.webp",
     "featured": false
   },
   {
@@ -289,7 +289,7 @@
       "System Voltage": "24V"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-maxpower-pvtech-6000-5kw.webp",
     "featured": false
   },
   {
@@ -301,7 +301,7 @@
       "Power": "6kW"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-solis-6kw.webp",
     "featured": false
   },
   {
@@ -313,7 +313,7 @@
       "Power": "8kW"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-solis-8kw.webp",
     "featured": false
   },
   {
@@ -325,7 +325,7 @@
       "Power": "10kW"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-solis-10kw.webp",
     "featured": false
   },
   {
@@ -337,7 +337,7 @@
       "Power": "6kW"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-goodwe-6kw.webp",
     "featured": false
   },
   {
@@ -349,7 +349,7 @@
       "Power": "8kW"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-goodwe-8kw.webp",
     "featured": false
   },
   {
@@ -362,7 +362,7 @@
       "Model": "PV9000"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-fronus-pv9000-6kw.webp",
     "featured": false
   },
   {
@@ -375,7 +375,7 @@
       "Model": "PV14000"
     },
     "stock": "ready",
-    "image": "",
+    "image": "images/product-fronus-pv14000-10kw.webp",
     "featured": false
   },
   {
