@@ -350,7 +350,8 @@ button { font: inherit; }
 .services { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); gap: 1rem; }
 .services li { padding: 1.4rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); transition: box-shadow .25s, transform .25s var(--ease); }
 .services li:hover { box-shadow: var(--shadow); transform: translateY(-3px); }
-.services li h3::before { content: ""; display: block; width: 36px; height: 4px; border-radius: 4px; background: var(--brand); margin-bottom: .9rem; }
+.services li h2 { font-size: 1.17rem; }
+.services li h2::before, .services li h3::before { content: ""; display: block; width: 36px; height: 4px; border-radius: 4px; background: var(--brand); margin-bottom: .9rem; }
 .services p { color: var(--muted); font-size: .95rem; margin: 0; }
 .steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; counter-reset: step; }
 .steps li { counter-increment: step; position: relative; padding: 1.4rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
@@ -492,6 +493,53 @@ button { font: inherit; }
 .bat-brand-head .count { display: inline-grid; place-items: center; min-width: 1.9rem; height: 1.9rem; margin-left: .35rem; padding: 0 .45rem; border-radius: 999px; background: var(--ink); color: #fff; font-size: .85rem; vertical-align: middle; }
 .brand-more { margin-left: auto; font-weight: 600; font-size: .92rem; }
 @media (max-width: 600px) { .brand-more { margin-left: 0; width: 100%; } .bat-jump { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-bottom: .3rem; } .bat-jump::-webkit-scrollbar { display: none; } .bat-jump a { white-space: nowrap; } }
+
+/* ---------- Smoothness & mobile polish ---------- */
+html { scroll-padding-top: 96px; }
+body { -webkit-tap-highlight-color: transparent; }
+a, button, .btn, summary, label { touch-action: manipulation; }
+.btn:active { transform: translateY(1px) scale(.985); }
+.filter-chip, .guide-tab, .bat-jump a { transition: background-color .2s, border-color .2s, color .2s, box-shadow .2s; }
+
+/* Off-screen cards: size estimate close to the real card, so the page does not jump while scrolling */
+@media (max-width: 600px) { .product-card { contain-intrinsic-size: auto 360px; } }
+@media (min-width: 601px) and (max-width: 1024px) { .product-card { contain-intrinsic-size: auto 410px; } }
+@media (min-width: 1025px) { .product-card { contain-intrinsic-size: auto 485px; } }
+
+/* Floating product images: keep them on the GPU */
+.hv-main, .hv-side { will-change: transform; }
+@media (max-width: 760px) { #featured-products .product-media img { animation: none; } }
+
+/* Touch screens: no sticky hover lift */
+@media (hover: none) {
+  .product-card:hover { transform: none; box-shadow: none; border-color: var(--line); }
+  .product-card:hover .product-media img { transform: none; }
+}
+
+/* Phones and tablets: solid header (blur makes scrolling slow on cheaper phones) */
+@media (max-width: 1024px) {
+  .site-header { -webkit-backdrop-filter: none; backdrop-filter: none; background: #FFFFFF; }
+  .filters { -webkit-backdrop-filter: none; backdrop-filter: none; background: #FFFFFF; }
+  .main-nav { position: fixed; top: var(--nav-top, 66px); left: 0; right: 0; bottom: 0; height: auto; max-height: none; z-index: 60; border-top: 1px solid var(--line); }
+  .main-nav.open { animation: nav-in .22s var(--ease) both; }
+  .main-nav .mobile-cta a { background: var(--brand); color: var(--on-brand); font-weight: 700; box-shadow: 0 6px 16px rgba(255,117,31,.28); }
+  .main-nav .mobile-cta a:hover { background: var(--brand-dark); color: var(--on-brand); }
+  html.nav-open { overflow: hidden; }
+  body.nav-open .wa-float, body.nav-open .to-top { opacity: 0; pointer-events: none; }
+}
+@keyframes nav-in { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: none; } }
+
+/* Keep the bottom of every page clear of the floating WhatsApp button */
+@media (max-width: 760px) { .site-footer { padding-bottom: calc(92px + env(safe-area-inset-bottom, 0px)); } }
+.wa-float, .to-top { transition: opacity .2s, transform .2s, background-color .2s; }
+
+/* Comfortable touch targets */
+.radio-row label { min-height: 44px; display: inline-flex; align-items: center; gap: .5rem; }
+.radio-row input { width: 22px; height: 22px; }
+.brand-more { display: inline-flex; align-items: center; min-height: 44px; }
+
+/* Back-to-top appears only after the visitor scrolls down */
+.to-top:not(.show) { opacity: 0; pointer-events: none; transform: translateY(8px); }
 
 @media print {
   .topbar, .site-header, .wa-float, .to-top, .filters, .product-actions, .hero-visual, .map-frame, .cta-band { display: none !important; }

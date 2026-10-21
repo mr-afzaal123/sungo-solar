@@ -25,7 +25,7 @@ function productCard(p, brand) {
   const name = escapeHTML(p.name);
   const brandName = escapeHTML(brand ? brand.name : p.brand);
   const media = p.image
-    ? `<img src="${escapeHTML(p.image)}" alt="${name}" loading="lazy" width="400" height="300">`
+    ? `<img src="${escapeHTML(p.image)}" alt="${name}" loading="lazy" decoding="async" width="400" height="300">`
     : `<div class="product-placeholder">${CATEGORY_ICON[p.category] || ""}<span>${brandName}</span></div>`;
   const chips = Object.values(p.specs || {})
     .map((v) => `<li>${escapeHTML(v)}</li>`)
@@ -124,3 +124,17 @@ document.addEventListener("DOMContentLoaded", () => {
   renderFeatured();
   setupGuide();
 });
+
+// Back-to-top button: smooth scroll to the top of the page
+(function () {
+  const btn = document.getElementById("to-top");
+  if (!btn) return;
+  let ticking = false;
+  const update = () => { btn.classList.toggle("show", window.scrollY > 700); ticking = false; };
+  window.addEventListener("scroll", () => { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+  update();
+  btn.addEventListener("click", () => {
+    const smooth = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    window.scrollTo({ top: 0, behavior: smooth ? "smooth" : "auto" });
+  });
+})();

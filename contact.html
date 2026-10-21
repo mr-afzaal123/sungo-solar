@@ -20,7 +20,9 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" data-async-css>
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
 {
@@ -167,7 +169,7 @@
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="logo" href="index.html" aria-label="SunGo Solar home">
-        <img src="logo-header.png" alt="SunGo Solar – Energy Solutions" width="877" height="240">
+        <img src="logo-header.png" alt="SunGo Solar – Energy Solutions" width="600" height="165">
       </a>
 
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
@@ -186,17 +188,18 @@
                 <p class="mega-note">Aiko, Astronergy, Canadian Solar, JA Solar, Jesko, Jinko, Longi and Risen</p>
               </div>
               <div>
-                <h3><a href="products.html?category=inverters">Inverters</a></h3>
+                <h3><a href="inverters.html">Inverters</a></h3>
                 <ul>
-                  <li><a href="products.html?category=inverters&amp;brand=itel">Itel</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=knox">Knox</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=photon">Photon</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=fronus">Fronus</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=goodwe">GoodWe</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=maxpower">MaxPower</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=ns">NS</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=sofar">Sofar</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=solis">Solis</a></li>
+                  <li><a href="inverters.html">All inverters on one page</a></li>
+                  <li><a href="inverters.html#b-itel">Itel</a></li>
+                  <li><a href="inverters.html#b-knox">Knox</a></li>
+                  <li><a href="inverters.html#b-photon">Photon</a></li>
+                  <li><a href="inverters.html#b-fronus">Fronus</a></li>
+                  <li><a href="inverters.html#b-goodwe">GoodWe</a></li>
+                  <li><a href="inverters.html#b-maxpower">MaxPower</a></li>
+                  <li><a href="inverters.html#b-ns">NS</a></li>
+                  <li><a href="inverters.html#b-sofar">Sofar</a></li>
+                  <li><a href="inverters.html#b-solis">Solis</a></li>
                 </ul>
               </div>
               <div>
@@ -314,9 +317,9 @@
           <p class="visit-note">This is our only shop. We do not have branches in other cities, but our team travels to install solar across Punjab.</p>
         </div>
         <form class="quote-form" id="quote-form" novalidate>
-          <div class="field"><label for="q-name">Your name</label><input id="q-name" name="name" type="text" autocomplete="name" required></div>
-          <div class="field"><label for="q-phone">Phone number</label><input id="q-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="03xx-xxxxxxx" required></div>
-          <div class="field"><label for="q-city">City</label><input id="q-city" name="city" type="text" placeholder="e.g. Gujranwala" required></div>
+          <div class="field"><label for="q-name">Your name</label><input id="q-name" name="name" type="text" autocomplete="name" maxlength="60" required aria-describedby="q-error"></div>
+          <div class="field"><label for="q-phone">Phone number</label><input id="q-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="03xx-xxxxxxx" maxlength="16" required aria-describedby="q-error"></div>
+          <div class="field"><label for="q-city">City</label><input id="q-city" name="city" type="text" autocomplete="address-level2" placeholder="e.g. Gujranwala" maxlength="40" required aria-describedby="q-error"></div>
           <fieldset class="field">
             <legend>Solar for</legend>
             <div class="radio-row">
@@ -331,7 +334,7 @@
               <option>Complete solar system</option><option>Solar panels only</option><option>Inverter only</option>
               <option>Lithium battery only</option><option>Net metering help</option><option>Service or repair</option>
             </select></div>
-          <div class="field"><label for="q-msg">Message (optional)</label><textarea id="q-msg" name="message" rows="3" placeholder="e.g. I want to run 2 ACs, fans and a fridge"></textarea></div>
+          <div class="field"><label for="q-msg">Message (optional)</label><textarea id="q-msg" name="message" rows="3" maxlength="500" placeholder="e.g. I want to run 2 ACs, fans and a fridge"></textarea></div>
           <p class="form-error" id="q-error" role="alert" hidden>Please fill in your name, phone number and city.</p>
           <button class="btn btn-wa" type="submit"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 00-8.5 15l-1.4 5 5.1-1.3A9.9 9.9 0 1012.04 2zm0 18.1a8.2 8.2 0 01-4.2-1.15l-.3-.18-3 .8.8-2.95-.2-.3a8.2 8.2 0 1117.1-4.3 8.2 8.2 0 01-10.2 8.08zm4.5-6.1c-.25-.12-1.46-.72-1.69-.8-.23-.08-.39-.12-.55.12-.17.25-.64.8-.78.97-.14.16-.29.18-.53.06a6.7 6.7 0 01-3.33-2.9c-.25-.43.25-.4.72-1.34a.45.45 0 000-.43c-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47a.9.9 0 00-.66.31 2.77 2.77 0 00-.86 2.06 4.8 4.8 0 001 2.55 11 11 0 004.22 3.73c1.57.68 2.19.74 2.97.62.48-.07 1.46-.6 1.67-1.17.2-.58.2-1.07.14-1.17-.06-.1-.22-.16-.47-.28z"/></svg> Send on WhatsApp</button>
         </form>
@@ -373,14 +376,14 @@
       <div class="footer-grid">
         <div>
           <h2 class="visually-hidden">SunGo Solar</h2>
-          <img class="footer-logo" src="logo-footer.png" alt="SunGo Solar – Energy Solutions" width="877" height="240">
+          <img class="footer-logo" src="logo-footer.png" alt="SunGo Solar – Energy Solutions" width="600" height="165">
           <p>Solar panels, inverters, lithium batteries and installation in Gujranwala and across Punjab. Official dealer of Knox, Itel and Photon.</p>
         </div>
         <div>
           <h2>Products</h2>
           <ul>
             <li><a href="solar-panels.html">Solar panels</a></li>
-            <li><a href="products.html?category=inverters">Inverters</a></li>
+            <li><a href="inverters.html">Inverters</a></li>
             <li><a href="lithium-batteries.html">Lithium batteries</a></li>
             <li><a href="brands.html">All brands</a></li>
           </ul>

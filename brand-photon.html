@@ -20,7 +20,9 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" data-async-css>
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
 {
@@ -250,7 +252,7 @@
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="logo" href="index.html" aria-label="SunGo Solar home">
-        <img src="logo-header.png" alt="SunGo Solar – Energy Solutions" width="877" height="240">
+        <img src="logo-header.png" alt="SunGo Solar – Energy Solutions" width="600" height="165">
       </a>
 
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
@@ -269,17 +271,18 @@
                 <p class="mega-note">Aiko, Astronergy, Canadian Solar, JA Solar, Jesko, Jinko, Longi and Risen</p>
               </div>
               <div>
-                <h3><a href="products.html?category=inverters">Inverters</a></h3>
+                <h3><a href="inverters.html">Inverters</a></h3>
                 <ul>
-                  <li><a href="products.html?category=inverters&amp;brand=itel">Itel</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=knox">Knox</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=photon">Photon</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=fronus">Fronus</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=goodwe">GoodWe</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=maxpower">MaxPower</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=ns">NS</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=sofar">Sofar</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=solis">Solis</a></li>
+                  <li><a href="inverters.html">All inverters on one page</a></li>
+                  <li><a href="inverters.html#b-itel">Itel</a></li>
+                  <li><a href="inverters.html#b-knox">Knox</a></li>
+                  <li><a href="inverters.html#b-photon">Photon</a></li>
+                  <li><a href="inverters.html#b-fronus">Fronus</a></li>
+                  <li><a href="inverters.html#b-goodwe">GoodWe</a></li>
+                  <li><a href="inverters.html#b-maxpower">MaxPower</a></li>
+                  <li><a href="inverters.html#b-ns">NS</a></li>
+                  <li><a href="inverters.html#b-sofar">Sofar</a></li>
+                  <li><a href="inverters.html#b-solis">Solis</a></li>
                 </ul>
               </div>
               <div>
@@ -366,7 +369,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-pi-eco-1-5kw.png" alt="Photon Pi Eco 1.5kW Hybrid Inverter (IP21)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-pi-eco-1-5kw.png" alt="Photon Pi Eco 1.5kW Hybrid Inverter (IP21)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -383,7 +386,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-pi-eco-3-5kw.png" alt="Photon Pi Eco 3.5kW Hybrid Inverter (IP21)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-pi-eco-3-5kw.png" alt="Photon Pi Eco 3.5kW Hybrid Inverter (IP21)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -400,7 +403,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-pi-eco-4-2kw.png" alt="Photon Pi Eco 4.2kW Hybrid Inverter (IP21)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-pi-eco-4-2kw.png" alt="Photon Pi Eco 4.2kW Hybrid Inverter (IP21)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -417,7 +420,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-aero-5kw.png" alt="Photon Aero 5kW Hybrid Inverter (IP54)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-aero-5kw.png" alt="Photon Aero 5kW Hybrid Inverter (IP54)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -434,7 +437,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-hpt-6kw.png" alt="Photon HPT 6kW Hybrid Inverter (IP66, single phase)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-hpt-6kw.png" alt="Photon HPT 6kW Hybrid Inverter (IP66, single phase)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -451,7 +454,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-pi-eco-6-2kw.png" alt="Photon Pi Eco 6.2kW Hybrid Inverter (IP21)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-pi-eco-6-2kw.png" alt="Photon Pi Eco 6.2kW Hybrid Inverter (IP21)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -468,7 +471,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-aero-6-5kw.png" alt="Photon Aero 6.5kW Hybrid Inverter (IP54)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-aero-6-5kw.png" alt="Photon Aero 6.5kW Hybrid Inverter (IP54)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -485,7 +488,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-aero-8kw.png" alt="Photon Aero 8kW Hybrid Inverter (IP54)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-aero-8kw.png" alt="Photon Aero 8kW Hybrid Inverter (IP54)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -502,7 +505,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-sth-8kw-sp.png" alt="Photon STH 8kW Hybrid Inverter (IP66, single phase)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-sth-8kw-sp.png" alt="Photon STH 8kW Hybrid Inverter (IP66, single phase)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -519,7 +522,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-aero-10kw.png" alt="Photon Aero 10kW Hybrid Inverter (IP54)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-aero-10kw.png" alt="Photon Aero 10kW Hybrid Inverter (IP54)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -536,7 +539,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-aero-12kw.png" alt="Photon Aero 12kW Hybrid Inverter (IP54)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-aero-12kw.png" alt="Photon Aero 12kW Hybrid Inverter (IP54)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -553,7 +556,7 @@
             <div class="product-media">
               <span class="badge badge-soon">Coming soon</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-sth-10kw-sp.png" alt="Photon STH 10kW Hybrid Inverter (IP66, single phase)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-sth-10kw-sp.png" alt="Photon STH 10kW Hybrid Inverter (IP66, single phase)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -570,7 +573,7 @@
             <div class="product-media">
               <span class="badge badge-soon">Coming soon</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-sth-12kw-sp.png" alt="Photon STH 12kW Hybrid Inverter (IP66, single phase)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-sth-12kw-sp.png" alt="Photon STH 12kW Hybrid Inverter (IP66, single phase)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -587,7 +590,7 @@
             <div class="product-media">
               <span class="badge badge-soon">Coming soon</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-sth-15kw-tp.png" alt="Photon STH 15kW Hybrid Inverter (IP66, three phase)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-sth-15kw-tp.png" alt="Photon STH 15kW Hybrid Inverter (IP66, three phase)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -604,7 +607,7 @@
             <div class="product-media">
               <span class="badge badge-soon">Coming soon</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-sth-20kw-tp.png" alt="Photon STH 20kW Hybrid Inverter (IP66, three phase)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-sth-20kw-tp.png" alt="Photon STH 20kW Hybrid Inverter (IP66, three phase)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -624,7 +627,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-wallx-2-6kwh.png" alt="Photon Wall X 2.6kWh (24V 100Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-wallx-2-6kwh.png" alt="Photon Wall X 2.6kWh (24V 100Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> lithium battery</p>
@@ -641,7 +644,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-wallx-5-2kwh-51v.png" alt="Photon Wall X 5.2kWh (51V 100Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-wallx-5-2kwh-51v.png" alt="Photon Wall X 5.2kWh (51V 100Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> lithium battery</p>
@@ -658,7 +661,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-wallx-1-25kwh.png" alt="Photon Wall X 1.25kWh (12V 100Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-wallx-1-25kwh.png" alt="Photon Wall X 1.25kWh (12V 100Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> lithium battery</p>
@@ -675,7 +678,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-wallx-2-5kwh.png" alt="Photon Wall X 2.5kWh (12V 200Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-wallx-2-5kwh.png" alt="Photon Wall X 2.5kWh (12V 200Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> lithium battery</p>
@@ -692,7 +695,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-wallx-5-12kwh-pro.png" alt="Photon Wall X 5.12kWh Pro (51.2V 100Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-wallx-5-12kwh-pro.png" alt="Photon Wall X 5.12kWh Pro (51.2V 100Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> lithium battery</p>
@@ -709,7 +712,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-wallx-5-2kwh-24v.png" alt="Photon Wall X 5.2kWh (24V 200Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-wallx-5-2kwh-24v.png" alt="Photon Wall X 5.2kWh (24V 200Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> lithium battery</p>
@@ -726,7 +729,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-wallx-10-4kwh.png" alt="Photon Wall X 10.4kWh (51V 200Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-wallx-10-4kwh.png" alt="Photon Wall X 10.4kWh (51V 200Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> lithium battery</p>
@@ -743,7 +746,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-wallx-16kwh-pro.png" alt="Photon Wall X 16kWh Pro (51V 314Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-wallx-16kwh-pro.png" alt="Photon Wall X 16kWh Pro (51V 314Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> lithium battery</p>
@@ -813,14 +816,14 @@
       <div class="footer-grid">
         <div>
           <h2 class="visually-hidden">SunGo Solar</h2>
-          <img class="footer-logo" src="logo-footer.png" alt="SunGo Solar – Energy Solutions" width="877" height="240">
+          <img class="footer-logo" src="logo-footer.png" alt="SunGo Solar – Energy Solutions" width="600" height="165">
           <p>Solar panels, inverters, lithium batteries and installation in Gujranwala and across Punjab. Official dealer of Knox, Itel and Photon.</p>
         </div>
         <div>
           <h2>Products</h2>
           <ul>
             <li><a href="solar-panels.html">Solar panels</a></li>
-            <li><a href="products.html?category=inverters">Inverters</a></li>
+            <li><a href="inverters.html">Inverters</a></li>
             <li><a href="lithium-batteries.html">Lithium batteries</a></li>
             <li><a href="brands.html">All brands</a></li>
           </ul>

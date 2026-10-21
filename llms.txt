@@ -42,6 +42,7 @@
 
 - [Home](https://sungosolar.pk/): overview, size guide and FAQs
 - [Products](https://sungosolar.pk/products.html): solar panels, inverters and lithium batteries
+- [Inverters](https://sungosolar.pk/inverters.html): 63 hybrid and on-grid solar inverters from 9 brands on one page, 1.5 kW to 50 kW
 - [Lithium batteries](https://sungosolar.pk/lithium-batteries.html): 61 lithium batteries from 15 brands on one page, 1.25 kWh to 61 kWh
 - [Solar panels](https://sungosolar.pk/solar-panels.html): all solar panels (Aiko, Astronergy, Canadian Solar, JA Solar, Jesko, Jinko, Longi, Risen) on one page
 - [Brands](https://sungosolar.pk/brands.html): official and other brands

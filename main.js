@@ -9,16 +9,30 @@ window.SUNGO = {
   }
 };
 
+// Web fonts load without blocking the page (no inline event handlers, so a strict CSP works)
+document.querySelectorAll("link[data-async-css]").forEach((l) => { l.media = "all"; });
+
 document.addEventListener("DOMContentLoaded", () => {
   // Mobile menu
   const toggle = document.querySelector(".nav-toggle");
   const nav = document.getElementById("main-nav");
   if (toggle && nav) {
-    toggle.addEventListener("click", () => {
-      const open = nav.classList.toggle("open");
+    const setOpen = (open) => {
+      if (open) {
+        const header = document.querySelector(".site-header");
+        if (header) document.documentElement.style.setProperty("--nav-top", Math.max(0, header.getBoundingClientRect().bottom) + "px");
+      }
+      nav.classList.toggle("open", open);
+      document.documentElement.classList.toggle("nav-open", open);
+      document.body.classList.toggle("nav-open", open);
       toggle.setAttribute("aria-expanded", String(open));
       toggle.textContent = open ? "Close" : "Menu";
-    });
+    };
+    toggle.addEventListener("click", () => setOpen(!nav.classList.contains("open")));
+    // Close the menu after tapping a link, or when the screen gets wide
+    nav.addEventListener("click", (e) => { if (e.target.closest("a")) setOpen(false); });
+    window.addEventListener("resize", () => { if (window.innerWidth > 1024 && nav.classList.contains("open")) setOpen(false); }, { passive: true });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape" && nav.classList.contains("open")) { setOpen(false); toggle.focus(); } });
   }
 
   // Dropdown / mega-menus (click + keyboard; hover handled in CSS on desktop)

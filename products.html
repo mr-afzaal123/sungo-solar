@@ -20,7 +20,9 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" data-async-css>
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
 {
@@ -795,7 +797,7 @@
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="logo" href="index.html" aria-label="SunGo Solar home">
-        <img src="logo-header.png" alt="SunGo Solar – Energy Solutions" width="877" height="240">
+        <img src="logo-header.png" alt="SunGo Solar – Energy Solutions" width="600" height="165">
       </a>
 
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
@@ -814,17 +816,18 @@
                 <p class="mega-note">Aiko, Astronergy, Canadian Solar, JA Solar, Jesko, Jinko, Longi and Risen</p>
               </div>
               <div>
-                <h3><a href="products.html?category=inverters">Inverters</a></h3>
+                <h3><a href="inverters.html">Inverters</a></h3>
                 <ul>
-                  <li><a href="products.html?category=inverters&amp;brand=itel">Itel</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=knox">Knox</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=photon">Photon</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=fronus">Fronus</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=goodwe">GoodWe</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=maxpower">MaxPower</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=ns">NS</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=sofar">Sofar</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=solis">Solis</a></li>
+                  <li><a href="inverters.html">All inverters on one page</a></li>
+                  <li><a href="inverters.html#b-itel">Itel</a></li>
+                  <li><a href="inverters.html#b-knox">Knox</a></li>
+                  <li><a href="inverters.html#b-photon">Photon</a></li>
+                  <li><a href="inverters.html#b-fronus">Fronus</a></li>
+                  <li><a href="inverters.html#b-goodwe">GoodWe</a></li>
+                  <li><a href="inverters.html#b-maxpower">MaxPower</a></li>
+                  <li><a href="inverters.html#b-ns">NS</a></li>
+                  <li><a href="inverters.html#b-sofar">Sofar</a></li>
+                  <li><a href="inverters.html#b-solis">Solis</a></li>
                 </ul>
               </div>
               <div>
@@ -911,7 +914,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-panel-aiko-665w.webp" alt="Aiko 665W Panel" loading="lazy" width="400" height="300">
+              <img src="images/product-panel-aiko-665w.webp" alt="Aiko 665W Panel" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="solar-panels.html">Aiko</a> solar panel</p>
@@ -928,7 +931,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-panel-astronergy-590w.webp" alt="Astronergy 590W Panel" loading="lazy" width="400" height="300">
+              <img src="images/product-panel-astronergy-590w.webp" alt="Astronergy 590W Panel" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="solar-panels.html">Astronergy</a> solar panel</p>
@@ -945,7 +948,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-panel-canadian-585w.webp" alt="Canadian Solar 585W Panel" loading="lazy" width="400" height="300">
+              <img src="images/product-panel-canadian-585w.webp" alt="Canadian Solar 585W Panel" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="solar-panels.html">Canadian Solar</a> solar panel</p>
@@ -962,7 +965,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-panel-canadian-615w.webp" alt="Canadian Solar 615W Panel" loading="lazy" width="400" height="300">
+              <img src="images/product-panel-canadian-615w.webp" alt="Canadian Solar 615W Panel" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="solar-panels.html">Canadian Solar</a> solar panel</p>
@@ -979,7 +982,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-panel-canadian-630w-hjt.webp" alt="Canadian Solar 630W HJT Panel" loading="lazy" width="400" height="300">
+              <img src="images/product-panel-canadian-630w-hjt.webp" alt="Canadian Solar 630W HJT Panel" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="solar-panels.html">Canadian Solar</a> solar panel</p>
@@ -996,7 +999,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-panel-ja-625w.webp" alt="JA Solar 625W Panel" loading="lazy" width="400" height="300">
+              <img src="images/product-panel-ja-625w.webp" alt="JA Solar 625W Panel" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="solar-panels.html">JA Solar</a> solar panel</p>
@@ -1013,7 +1016,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-panel-jesko-585w.webp" alt="Jesko 585W Panel" loading="lazy" width="400" height="300">
+              <img src="images/product-panel-jesko-585w.webp" alt="Jesko 585W Panel" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="solar-panels.html">Jesko</a> solar panel</p>
@@ -1030,7 +1033,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-panel-jinko-645w.webp" alt="Jinko 645W Panel" loading="lazy" width="400" height="300">
+              <img src="images/product-panel-jinko-645w.webp" alt="Jinko 645W Panel" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="solar-panels.html">Jinko</a> solar panel</p>
@@ -1047,7 +1050,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-panel-longi-x10-645w-bifacial.webp" alt="Longi X10 645W Bifacial Panel" loading="lazy" width="400" height="300">
+              <img src="images/product-panel-longi-x10-645w-bifacial.webp" alt="Longi X10 645W Bifacial Panel" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="solar-panels.html">Longi</a> solar panel</p>
@@ -1064,7 +1067,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-panel-risen-740w-hjt.webp" alt="Risen 740W HJT Panel" loading="lazy" width="400" height="300">
+              <img src="images/product-panel-risen-740w-hjt.webp" alt="Risen 740W HJT Panel" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="solar-panels.html">Risen</a> solar panel</p>
@@ -1081,7 +1084,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-itel-1-6kw-ip54.webp" alt="Itel 1.6kW IP54 Hybrid Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-itel-1-6kw-ip54.webp" alt="Itel 1.6kW IP54 Hybrid Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-itel.html">Itel</a> inverter</p>
@@ -1098,7 +1101,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-itel-3kw-pro-ip54.webp" alt="Itel 3kW Pro IP54 Hybrid Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-itel-3kw-pro-ip54.webp" alt="Itel 3kW Pro IP54 Hybrid Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-itel.html">Itel</a> inverter</p>
@@ -1115,7 +1118,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-itel-4kw-pro-ip54.webp" alt="Itel 4kW Pro IP54 Hybrid Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-itel-4kw-pro-ip54.webp" alt="Itel 4kW Pro IP54 Hybrid Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-itel.html">Itel</a> inverter</p>
@@ -1132,7 +1135,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-itel-6kw-pro-ip54.webp" alt="Itel 6kW Pro IP54 Hybrid Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-itel-6kw-pro-ip54.webp" alt="Itel 6kW Pro IP54 Hybrid Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-itel.html">Itel</a> inverter</p>
@@ -1149,7 +1152,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-itel-6kw-ip66.webp" alt="Itel 6kW IP66 Hybrid Inverter (Single Phase)" loading="lazy" width="400" height="300">
+              <img src="images/product-itel-6kw-ip66.webp" alt="Itel 6kW IP66 Hybrid Inverter (Single Phase)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-itel.html">Itel</a> inverter</p>
@@ -1166,7 +1169,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-itel-sparta-6-6kw.webp" alt="Itel Sparta 6.6kW IP66 Hybrid Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-itel-sparta-6-6kw.webp" alt="Itel Sparta 6.6kW IP66 Hybrid Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-itel.html">Itel</a> inverter</p>
@@ -1183,7 +1186,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-itel-8kw-ip54.webp" alt="Itel 8kW IP54 Hybrid Inverter (Single Phase)" loading="lazy" width="400" height="300">
+              <img src="images/product-itel-8kw-ip54.webp" alt="Itel 8kW IP54 Hybrid Inverter (Single Phase)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-itel.html">Itel</a> inverter</p>
@@ -1200,7 +1203,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-itel-8kw-ip66-3p.webp" alt="Itel 8kW IP66 Hybrid Inverter (Three Phase)" loading="lazy" width="400" height="300">
+              <img src="images/product-itel-8kw-ip66-3p.webp" alt="Itel 8kW IP66 Hybrid Inverter (Three Phase)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-itel.html">Itel</a> inverter</p>
@@ -1217,7 +1220,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-itel-12kw-ip54.webp" alt="Itel 12kW IP54 Hybrid Inverter (Single Phase)" loading="lazy" width="400" height="300">
+              <img src="images/product-itel-12kw-ip54.webp" alt="Itel 12kW IP54 Hybrid Inverter (Single Phase)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-itel.html">Itel</a> inverter</p>
@@ -1234,7 +1237,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-itel-12kw-ip66-3p.webp" alt="Itel 12kW IP66 Hybrid Inverter (Three Phase)" loading="lazy" width="400" height="300">
+              <img src="images/product-itel-12kw-ip66-3p.webp" alt="Itel 12kW IP66 Hybrid Inverter (Three Phase)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-itel.html">Itel</a> inverter</p>
@@ -1251,7 +1254,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-pv5000-4kw.webp" alt="Knox Krypton Eco 5000 4.2kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-pv5000-4kw.webp" alt="Knox Krypton Eco 5000 4.2kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1268,7 +1271,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-pv6500-4-5kw.webp" alt="Knox Krypton 6500 4.5kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-pv6500-4-5kw.webp" alt="Knox Krypton 6500 4.5kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1285,7 +1288,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-pv9000-6-2kw.webp" alt="Knox Krypton 9000 6.2kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-pv9000-6-2kw.webp" alt="Knox Krypton 9000 6.2kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1302,7 +1305,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-krypton-pv11008-8kw.webp" alt="Knox Krypton 11008 8kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-krypton-pv11008-8kw.webp" alt="Knox Krypton 11008 8kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1319,7 +1322,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-zapher-pv16000-9-2kw.webp" alt="Knox Zapher 9.2kW Inverter (IP66)" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-zapher-pv16000-9-2kw.webp" alt="Knox Zapher 9.2kW Inverter (IP66)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1336,7 +1339,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-xenon-12066.webp" alt="Knox Xenon 12066 6kW Inverter (IP66)" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-xenon-12066.webp" alt="Knox Xenon 12066 6kW Inverter (IP66)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1353,7 +1356,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-krypton-eco-6600.webp" alt="Knox Krypton Eco 6600 6.2kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-krypton-eco-6600.webp" alt="Knox Krypton Eco 6600 6.2kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1370,7 +1373,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-krypton-9055.webp" alt="Knox Krypton 9055 6.5kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-krypton-9055.webp" alt="Knox Krypton 9055 6.5kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1387,7 +1390,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-zapher-6-6kw.webp" alt="Knox Zapher 6.6kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-zapher-6-6kw.webp" alt="Knox Zapher 6.6kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1404,7 +1407,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-zynex-8kw.webp" alt="Knox Zynex 8kW Inverter (IP66, 3 MPPT)" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-zynex-8kw.webp" alt="Knox Zynex 8kW Inverter (IP66, 3 MPPT)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1421,7 +1424,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-krypton-12002.webp" alt="Knox Krypton 12002 8.5kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-krypton-12002.webp" alt="Knox Krypton 12002 8.5kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1438,7 +1441,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-krypton-13002.webp" alt="Knox Krypton 13002 10kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-krypton-13002.webp" alt="Knox Krypton 13002 10kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1455,7 +1458,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-zynex-10kw.webp" alt="Knox Zynex 10kW Inverter (IP66, 3 MPPT)" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-zynex-10kw.webp" alt="Knox Zynex 10kW Inverter (IP66, 3 MPPT)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1472,7 +1475,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-zapher-11-2kw.webp" alt="Knox Zapher 11.2kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-zapher-11-2kw.webp" alt="Knox Zapher 11.2kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1489,7 +1492,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-krypton-15002.webp" alt="Knox Krypton 15002 11.5kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-krypton-15002.webp" alt="Knox Krypton 15002 11.5kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1506,7 +1509,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-zapher-12kw-3p.webp" alt="Knox Zapher 12kW Three-Phase Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-zapher-12kw-3p.webp" alt="Knox Zapher 12kW Three-Phase Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1523,7 +1526,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-zapher-15kw-3p.webp" alt="Knox Zapher 15kW Three-Phase Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-zapher-15kw-3p.webp" alt="Knox Zapher 15kW Three-Phase Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1540,7 +1543,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-zapher-20kw-3p.webp" alt="Knox Zapher 20kW Three-Phase Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-zapher-20kw-3p.webp" alt="Knox Zapher 20kW Three-Phase Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1557,7 +1560,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-system-zapher-30kw-20kwh.webp" alt="Knox Zapher 30kW + 20kWh HV Battery System" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-system-zapher-30kw-20kwh.webp" alt="Knox Zapher 30kW + 20kWh HV Battery System" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1574,7 +1577,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-system-zapher-30kw-30kwh.webp" alt="Knox Zapher 30kW + 30kWh HV Battery System" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-system-zapher-30kw-30kwh.webp" alt="Knox Zapher 30kW + 30kWh HV Battery System" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1591,7 +1594,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-zapher-30kw-3p.webp" alt="Knox Zapher 30kW Three-Phase HV Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-zapher-30kw-3p.webp" alt="Knox Zapher 30kW Three-Phase HV Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1608,7 +1611,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-system-zapher-50kw-50kwh.webp" alt="Knox Zapher 50kW + 50kWh HV Battery System" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-system-zapher-50kw-50kwh.webp" alt="Knox Zapher 50kW + 50kWh HV Battery System" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1625,7 +1628,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-system-zapher-50kw-60kwh.webp" alt="Knox Zapher 50kW + 60kWh HV Battery System" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-system-zapher-50kw-60kwh.webp" alt="Knox Zapher 50kW + 60kWh HV Battery System" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1642,7 +1645,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-zapher-50kw-3p.webp" alt="Knox Zapher 50kW Three-Phase HV Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-zapher-50kw-3p.webp" alt="Knox Zapher 50kW Three-Phase HV Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> inverter</p>
@@ -1659,7 +1662,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-pi-eco-1-5kw.png" alt="Photon Pi Eco 1.5kW Hybrid Inverter (IP21)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-pi-eco-1-5kw.png" alt="Photon Pi Eco 1.5kW Hybrid Inverter (IP21)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -1676,7 +1679,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-pi-eco-3-5kw.png" alt="Photon Pi Eco 3.5kW Hybrid Inverter (IP21)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-pi-eco-3-5kw.png" alt="Photon Pi Eco 3.5kW Hybrid Inverter (IP21)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -1693,7 +1696,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-pi-eco-4-2kw.png" alt="Photon Pi Eco 4.2kW Hybrid Inverter (IP21)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-pi-eco-4-2kw.png" alt="Photon Pi Eco 4.2kW Hybrid Inverter (IP21)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -1710,7 +1713,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-aero-5kw.png" alt="Photon Aero 5kW Hybrid Inverter (IP54)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-aero-5kw.png" alt="Photon Aero 5kW Hybrid Inverter (IP54)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -1727,7 +1730,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-hpt-6kw.png" alt="Photon HPT 6kW Hybrid Inverter (IP66, single phase)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-hpt-6kw.png" alt="Photon HPT 6kW Hybrid Inverter (IP66, single phase)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -1744,7 +1747,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-pi-eco-6-2kw.png" alt="Photon Pi Eco 6.2kW Hybrid Inverter (IP21)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-pi-eco-6-2kw.png" alt="Photon Pi Eco 6.2kW Hybrid Inverter (IP21)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -1761,7 +1764,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-aero-6-5kw.png" alt="Photon Aero 6.5kW Hybrid Inverter (IP54)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-aero-6-5kw.png" alt="Photon Aero 6.5kW Hybrid Inverter (IP54)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -1778,7 +1781,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-aero-8kw.png" alt="Photon Aero 8kW Hybrid Inverter (IP54)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-aero-8kw.png" alt="Photon Aero 8kW Hybrid Inverter (IP54)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -1795,7 +1798,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-sth-8kw-sp.png" alt="Photon STH 8kW Hybrid Inverter (IP66, single phase)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-sth-8kw-sp.png" alt="Photon STH 8kW Hybrid Inverter (IP66, single phase)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -1812,7 +1815,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-aero-10kw.png" alt="Photon Aero 10kW Hybrid Inverter (IP54)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-aero-10kw.png" alt="Photon Aero 10kW Hybrid Inverter (IP54)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -1829,7 +1832,7 @@
             <div class="product-media">
               <span class="badge badge-soon">Coming soon</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-sth-10kw-sp.png" alt="Photon STH 10kW Hybrid Inverter (IP66, single phase)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-sth-10kw-sp.png" alt="Photon STH 10kW Hybrid Inverter (IP66, single phase)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -1846,7 +1849,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-aero-12kw.png" alt="Photon Aero 12kW Hybrid Inverter (IP54)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-aero-12kw.png" alt="Photon Aero 12kW Hybrid Inverter (IP54)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -1863,7 +1866,7 @@
             <div class="product-media">
               <span class="badge badge-soon">Coming soon</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-sth-12kw-sp.png" alt="Photon STH 12kW Hybrid Inverter (IP66, single phase)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-sth-12kw-sp.png" alt="Photon STH 12kW Hybrid Inverter (IP66, single phase)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -1880,7 +1883,7 @@
             <div class="product-media">
               <span class="badge badge-soon">Coming soon</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-sth-15kw-tp.png" alt="Photon STH 15kW Hybrid Inverter (IP66, three phase)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-sth-15kw-tp.png" alt="Photon STH 15kW Hybrid Inverter (IP66, three phase)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -1897,7 +1900,7 @@
             <div class="product-media">
               <span class="badge badge-soon">Coming soon</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-sth-20kw-tp.png" alt="Photon STH 20kW Hybrid Inverter (IP66, three phase)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-sth-20kw-tp.png" alt="Photon STH 20kW Hybrid Inverter (IP66, three phase)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> inverter</p>
@@ -1914,7 +1917,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-fronus-pv9000-6kw.webp" alt="Fronus PV9000 6kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-fronus-pv9000-6kw.webp" alt="Fronus PV9000 6kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-fronus.html">Fronus</a> inverter</p>
@@ -1931,7 +1934,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-fronus-pv14000-10kw.webp" alt="Fronus PV14000 10kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-fronus-pv14000-10kw.webp" alt="Fronus PV14000 10kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-fronus.html">Fronus</a> inverter</p>
@@ -1948,7 +1951,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-goodwe-6kw.webp" alt="GoodWe 6kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-goodwe-6kw.webp" alt="GoodWe 6kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-goodwe.html">GoodWe</a> inverter</p>
@@ -1965,7 +1968,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-goodwe-8kw.webp" alt="GoodWe 8kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-goodwe-8kw.webp" alt="GoodWe 8kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-goodwe.html">GoodWe</a> inverter</p>
@@ -1982,7 +1985,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-maxpower-pvtech-1200.webp" alt="MaxPower PVTech 1200 Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-maxpower-pvtech-1200.webp" alt="MaxPower PVTech 1200 Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-maxpower.html">MaxPower</a> inverter</p>
@@ -1999,7 +2002,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-maxpower-pvtech-3000-2kw.webp" alt="MaxPower PVTech 3000 2kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-maxpower-pvtech-3000-2kw.webp" alt="MaxPower PVTech 3000 2kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-maxpower.html">MaxPower</a> inverter</p>
@@ -2016,7 +2019,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-maxpower-pvtech-5000-4kw.webp" alt="MaxPower PVTech 5000 4kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-maxpower-pvtech-5000-4kw.webp" alt="MaxPower PVTech 5000 4kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-maxpower.html">MaxPower</a> inverter</p>
@@ -2033,7 +2036,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-maxpower-pvtech-6000-5kw.webp" alt="MaxPower PVTech 6000 5kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-maxpower-pvtech-6000-5kw.webp" alt="MaxPower PVTech 6000 5kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-maxpower.html">MaxPower</a> inverter</p>
@@ -2084,7 +2087,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-sofar-16kw.webp" alt="Sofar 16kW" loading="lazy" width="400" height="300">
+              <img src="images/product-sofar-16kw.webp" alt="Sofar 16kW" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-sofar.html">Sofar</a> inverter</p>
@@ -2101,7 +2104,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-solis-6kw.webp" alt="Solis 6kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-solis-6kw.webp" alt="Solis 6kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-solis.html">Solis</a> inverter</p>
@@ -2118,7 +2121,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-solis-8kw.webp" alt="Solis 8kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-solis-8kw.webp" alt="Solis 8kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-solis.html">Solis</a> inverter</p>
@@ -2135,7 +2138,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-solis-10kw.webp" alt="Solis 10kW Inverter" loading="lazy" width="400" height="300">
+              <img src="images/product-solis-10kw.webp" alt="Solis 10kW Inverter" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-solis.html">Solis</a> inverter</p>
@@ -2152,7 +2155,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-itel-12v-100ah.webp" alt="Itel 12V 100Ah Lithium Battery (1.28kWh)" loading="lazy" width="400" height="300">
+              <img src="images/product-itel-12v-100ah.webp" alt="Itel 12V 100Ah Lithium Battery (1.28kWh)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-itel.html">Itel</a> lithium battery</p>
@@ -2169,7 +2172,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-itel-2-56kwh.webp" alt="Itel 2.56kWh Lithium Battery (24V 100Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-itel-2-56kwh.webp" alt="Itel 2.56kWh Lithium Battery (24V 100Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-itel.html">Itel</a> lithium battery</p>
@@ -2186,7 +2189,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-itel-5-12kwh-24v.webp" alt="Itel 5.12kWh Lithium Battery (24V 200Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-itel-5-12kwh-24v.webp" alt="Itel 5.12kWh Lithium Battery (24V 200Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-itel.html">Itel</a> lithium battery</p>
@@ -2203,7 +2206,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-itel-5-12kwh-51v.webp" alt="Itel 5.12kWh Lithium Battery (51.2V 100Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-itel-5-12kwh-51v.webp" alt="Itel 5.12kWh Lithium Battery (51.2V 100Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-itel.html">Itel</a> lithium battery</p>
@@ -2220,7 +2223,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-itel-10-24kwh.webp" alt="Itel 10.24kWh Lithium Battery (51.2V 200Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-itel-10-24kwh.webp" alt="Itel 10.24kWh Lithium Battery (51.2V 200Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-itel.html">Itel</a> lithium battery</p>
@@ -2237,7 +2240,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-itel-14kwh.webp" alt="Itel 14kWh Lithium Battery (51V 280Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-itel-14kwh.webp" alt="Itel 14kWh Lithium Battery (51V 280Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-itel.html">Itel</a> lithium battery</p>
@@ -2254,7 +2257,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-itel-16kwh.webp" alt="Itel 16kWh Lithium Battery (51V 314Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-itel-16kwh.webp" alt="Itel 16kWh Lithium Battery (51V 314Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-itel.html">Itel</a> lithium battery</p>
@@ -2271,7 +2274,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-powerwall-3-0-24v.webp" alt="Knox Powerwall 3.0 (25.6V 100Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-powerwall-3-0-24v.webp" alt="Knox Powerwall 3.0 (25.6V 100Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> lithium battery</p>
@@ -2288,7 +2291,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-powerwall-6-0-51v.webp" alt="Knox Powerwall 6.0 (51.2V 100Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-powerwall-6-0-51v.webp" alt="Knox Powerwall 6.0 (51.2V 100Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> lithium battery</p>
@@ -2305,7 +2308,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-powerwall-6-11-51v.webp" alt="Knox Powerwall 6.11 (51.2V 100Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-powerwall-6-11-51v.webp" alt="Knox Powerwall 6.11 (51.2V 100Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> lithium battery</p>
@@ -2322,7 +2325,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-powerbase-16kwh.webp" alt="Knox Powerbase 16 (51.2V 314Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-powerbase-16kwh.webp" alt="Knox Powerbase 16 (51.2V 314Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> lithium battery</p>
@@ -2339,7 +2342,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-hv-base-100ah.webp" alt="Knox PowerStack Base Wheel 100Ah" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-hv-base-100ah.webp" alt="Knox PowerStack Base Wheel 100Ah" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> lithium battery</p>
@@ -2356,7 +2359,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-hv-base-52ah.webp" alt="Knox PowerStack Base Wheel 52Ah" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-hv-base-52ah.webp" alt="Knox PowerStack Base Wheel 52Ah" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> lithium battery</p>
@@ -2373,7 +2376,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-powerwall-4-15.webp" alt="Knox Powerwall 4.15 (25.6V 100Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-powerwall-4-15.webp" alt="Knox Powerwall 4.15 (25.6V 100Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> lithium battery</p>
@@ -2390,7 +2393,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-powerstack-5-hv.webp" alt="Knox PowerStack 5-HV Battery (5.32kWh)" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-powerstack-5-hv.webp" alt="Knox PowerStack 5-HV Battery (5.32kWh)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> lithium battery</p>
@@ -2407,7 +2410,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-powerstack-10-hv.webp" alt="Knox PowerStack 10-HV Battery (10.24kWh)" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-powerstack-10-hv.webp" alt="Knox PowerStack 10-HV Battery (10.24kWh)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> lithium battery</p>
@@ -2424,7 +2427,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-powerbase-10.webp" alt="Knox Powerbase 10 (51.2V 200Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-powerbase-10.webp" alt="Knox Powerbase 10 (51.2V 200Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> lithium battery</p>
@@ -2441,7 +2444,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-hv-pack-21kwh.webp" alt="Knox HV Battery Pack 21.28kWh" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-hv-pack-21kwh.webp" alt="Knox HV Battery Pack 21.28kWh" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> lithium battery</p>
@@ -2458,7 +2461,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-hv-pack-32kwh.webp" alt="Knox HV Battery Pack 31.92kWh" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-hv-pack-32kwh.webp" alt="Knox HV Battery Pack 31.92kWh" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> lithium battery</p>
@@ -2475,7 +2478,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-powerbase-32.webp" alt="Knox Powerbase 32 (51.2V 628Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-powerbase-32.webp" alt="Knox Powerbase 32 (51.2V 628Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> lithium battery</p>
@@ -2492,7 +2495,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-hv-pack-51kwh.webp" alt="Knox HV Battery Pack 51.2kWh" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-hv-pack-51kwh.webp" alt="Knox HV Battery Pack 51.2kWh" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> lithium battery</p>
@@ -2509,7 +2512,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-hv-pack-61kwh.webp" alt="Knox HV Battery Pack 61.44kWh" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-hv-pack-61kwh.webp" alt="Knox HV Battery Pack 61.44kWh" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> lithium battery</p>
@@ -2526,7 +2529,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-hv-box-100ah.webp" alt="Knox PowerStack HV Box 100Ah" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-hv-box-100ah.webp" alt="Knox PowerStack HV Box 100Ah" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> lithium battery</p>
@@ -2543,7 +2546,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-knox-hv-box-52ah.webp" alt="Knox PowerStack HV Box 52Ah" loading="lazy" width="400" height="300">
+              <img src="images/product-knox-hv-box-52ah.webp" alt="Knox PowerStack HV Box 52Ah" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-knox.html">Knox</a> lithium battery</p>
@@ -2560,7 +2563,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-wallx-2-6kwh.png" alt="Photon Wall X 2.6kWh (24V 100Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-wallx-2-6kwh.png" alt="Photon Wall X 2.6kWh (24V 100Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> lithium battery</p>
@@ -2577,7 +2580,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-wallx-5-2kwh-51v.png" alt="Photon Wall X 5.2kWh (51V 100Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-wallx-5-2kwh-51v.png" alt="Photon Wall X 5.2kWh (51V 100Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> lithium battery</p>
@@ -2594,7 +2597,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-wallx-1-25kwh.png" alt="Photon Wall X 1.25kWh (12V 100Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-wallx-1-25kwh.png" alt="Photon Wall X 1.25kWh (12V 100Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> lithium battery</p>
@@ -2611,7 +2614,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-wallx-2-5kwh.png" alt="Photon Wall X 2.5kWh (12V 200Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-wallx-2-5kwh.png" alt="Photon Wall X 2.5kWh (12V 200Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> lithium battery</p>
@@ -2628,7 +2631,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-wallx-5-12kwh-pro.png" alt="Photon Wall X 5.12kWh Pro (51.2V 100Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-wallx-5-12kwh-pro.png" alt="Photon Wall X 5.12kWh Pro (51.2V 100Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> lithium battery</p>
@@ -2645,7 +2648,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-wallx-5-2kwh-24v.png" alt="Photon Wall X 5.2kWh (24V 200Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-wallx-5-2kwh-24v.png" alt="Photon Wall X 5.2kWh (24V 200Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> lithium battery</p>
@@ -2662,7 +2665,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-wallx-10-4kwh.png" alt="Photon Wall X 10.4kWh (51V 200Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-wallx-10-4kwh.png" alt="Photon Wall X 10.4kWh (51V 200Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> lithium battery</p>
@@ -2679,7 +2682,7 @@
             <div class="product-media">
               <span class="badge badge-order">To order</span>
               <span class="badge badge-official">Official dealer</span>
-              <img src="images/product-photon-wallx-16kwh-pro.png" alt="Photon Wall X 16kWh Pro (51V 314Ah)" loading="lazy" width="400" height="300">
+              <img src="images/product-photon-wallx-16kwh-pro.png" alt="Photon Wall X 16kWh Pro (51V 314Ah)" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-photon.html">Photon</a> lithium battery</p>
@@ -2696,7 +2699,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-fronus-25v.webp" alt="Fronus 25V Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-fronus-25v.webp" alt="Fronus 25V Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-fronus.html">Fronus</a> lithium battery</p>
@@ -2713,7 +2716,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-fronus-51v.webp" alt="Fronus 51V Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-fronus-51v.webp" alt="Fronus 51V Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-fronus.html">Fronus</a> lithium battery</p>
@@ -2747,7 +2750,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-pylontech-51v.webp" alt="Pylontech 51V Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-pylontech-51v.webp" alt="Pylontech 51V Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-pylontech.html">Pylontech</a> lithium battery</p>
@@ -2798,7 +2801,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-sofar-51v.webp" alt="Sofar 51V Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-sofar-51v.webp" alt="Sofar 51V Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-sofar.html">Sofar</a> lithium battery</p>
@@ -2815,7 +2818,7 @@
             <div class="product-media">
               <span class="badge">Ready stock</span>
               
-              <img src="images/product-volnex-51v.webp" alt="Volnex 51V Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-volnex-51v.webp" alt="Volnex 51V Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-volnex.html">Volnex</a> lithium battery</p>
@@ -2831,7 +2834,7 @@
           <article class="product-card" data-category="batteries" data-brand="crown">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-crown-5-12kwh-wall-mounted-24v.webp" alt="Crown 5.12kWh Wall Mounted (24V) Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-crown-5-12kwh-wall-mounted-24v.webp" alt="Crown 5.12kWh Wall Mounted (24V) Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="lithium-batteries.html#b-crown">Crown</a> lithium battery</p>
@@ -2847,7 +2850,7 @@
           <article class="product-card" data-category="batteries" data-brand="crown">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-crown-5-12kwh-wall-mounted-48v.webp" alt="Crown 5.12kWh Wall Mounted (48V) Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-crown-5-12kwh-wall-mounted-48v.webp" alt="Crown 5.12kWh Wall Mounted (48V) Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="lithium-batteries.html#b-crown">Crown</a> lithium battery</p>
@@ -2863,7 +2866,7 @@
           <article class="product-card" data-category="batteries" data-brand="crown">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-crown-10-24kwh.webp" alt="Crown 10.24kWh Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-crown-10-24kwh.webp" alt="Crown 10.24kWh Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="lithium-batteries.html#b-crown">Crown</a> lithium battery</p>
@@ -2879,7 +2882,7 @@
           <article class="product-card" data-category="batteries" data-brand="crown">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-crown-16kwh.webp" alt="Crown 16kWh Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-crown-16kwh.webp" alt="Crown 16kWh Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="lithium-batteries.html#b-crown">Crown</a> lithium battery</p>
@@ -2895,7 +2898,7 @@
           <article class="product-card" data-category="batteries" data-brand="dyness">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-dyness-dl2-5-2-56kwh.webp" alt="Dyness DL2.5 2.56kWh Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-dyness-dl2-5-2-56kwh.webp" alt="Dyness DL2.5 2.56kWh Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="lithium-batteries.html#b-dyness">Dyness</a> lithium battery</p>
@@ -2911,7 +2914,7 @@
           <article class="product-card" data-category="batteries" data-brand="dyness">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-dyness-dl5-0c-5-12kwh.webp" alt="Dyness DL5.0C 5.12kWh Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-dyness-dl5-0c-5-12kwh.webp" alt="Dyness DL5.0C 5.12kWh Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="lithium-batteries.html#b-dyness">Dyness</a> lithium battery</p>
@@ -2927,7 +2930,7 @@
           <article class="product-card" data-category="batteries" data-brand="dyness">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-dyness-powerbox-g2-10-24kwh.webp" alt="Dyness PowerBox G2 10.24kWh Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-dyness-powerbox-g2-10-24kwh.webp" alt="Dyness PowerBox G2 10.24kWh Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="lithium-batteries.html#b-dyness">Dyness</a> lithium battery</p>
@@ -2943,7 +2946,7 @@
           <article class="product-card" data-category="batteries" data-brand="dyness">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-dyness-powerbrick-14-33kwh.webp" alt="Dyness PowerBrick 14.33kWh Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-dyness-powerbrick-14-33kwh.webp" alt="Dyness PowerBrick 14.33kWh Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="lithium-batteries.html#b-dyness">Dyness</a> lithium battery</p>
@@ -2959,7 +2962,7 @@
           <article class="product-card" data-category="batteries" data-brand="dyness">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-dyness-powerbrick-sc-16kwh.webp" alt="Dyness PowerBrick SC 16kWh Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-dyness-powerbrick-sc-16kwh.webp" alt="Dyness PowerBrick SC 16kWh Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="lithium-batteries.html#b-dyness">Dyness</a> lithium battery</p>
@@ -2975,7 +2978,7 @@
           <article class="product-card" data-category="batteries" data-brand="inverex">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-inverex-inv-lv2-6-2-66kwh.webp" alt="Inverex INV-LV2.6 2.66kWh Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-inverex-inv-lv2-6-2-66kwh.webp" alt="Inverex INV-LV2.6 2.66kWh Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="lithium-batteries.html#b-inverex">Inverex</a> lithium battery</p>
@@ -2991,7 +2994,7 @@
           <article class="product-card" data-category="batteries" data-brand="inverex">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-inverex-inv-lv5-3-5-32kwh.webp" alt="Inverex INV-LV5.3 5.32kWh Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-inverex-inv-lv5-3-5-32kwh.webp" alt="Inverex INV-LV5.3 5.32kWh Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="lithium-batteries.html#b-inverex">Inverex</a> lithium battery</p>
@@ -3007,7 +3010,7 @@
           <article class="product-card" data-category="batteries" data-brand="inverex">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-inverex-inv-lv10-6-10-65kwh.webp" alt="Inverex INV-LV10.6 10.65kWh Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-inverex-inv-lv10-6-10-65kwh.webp" alt="Inverex INV-LV10.6 10.65kWh Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="lithium-batteries.html#b-inverex">Inverex</a> lithium battery</p>
@@ -3023,7 +3026,7 @@
           <article class="product-card" data-category="batteries" data-brand="pylontech">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-pylontech-force-h3-5-12kwh-hv.webp" alt="Pylontech Force H3 5.12kWh HV Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-pylontech-force-h3-5-12kwh-hv.webp" alt="Pylontech Force H3 5.12kWh HV Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-pylontech.html">Pylontech</a> lithium battery</p>
@@ -3039,7 +3042,7 @@
           <article class="product-card" data-category="batteries" data-brand="pylontech">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-pylontech-fidus-plus-16kwh.webp" alt="Pylontech Fidus Plus 16kWh Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-pylontech-fidus-plus-16kwh.webp" alt="Pylontech Fidus Plus 16kWh Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-pylontech.html">Pylontech</a> lithium battery</p>
@@ -3055,7 +3058,7 @@
           <article class="product-card" data-category="batteries" data-brand="sofar">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-sofar-16kwh.webp" alt="Sofar 16kWh Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-sofar-16kwh.webp" alt="Sofar 16kWh Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-sofar.html">Sofar</a> lithium battery</p>
@@ -3071,7 +3074,7 @@
           <article class="product-card" data-category="batteries" data-brand="solis">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-solis-intellihouse-5kwh.webp" alt="Solis IntelliHouse 5kWh Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-solis-intellihouse-5kwh.webp" alt="Solis IntelliHouse 5kWh Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="brand-solis.html">Solis</a> lithium battery</p>
@@ -3087,7 +3090,7 @@
           <article class="product-card" data-category="batteries" data-brand="soluna">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-soluna-lyra-5k-5-12kwh.webp" alt="Soluna LYRA 5K 5.12kWh Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-soluna-lyra-5k-5-12kwh.webp" alt="Soluna LYRA 5K 5.12kWh Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="lithium-batteries.html#b-soluna">Soluna</a> lithium battery</p>
@@ -3103,7 +3106,7 @@
           <article class="product-card" data-category="batteries" data-brand="soluna">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-soluna-bes-5k-pack-5-12kwh.webp" alt="Soluna BES 5K Pack 5.12kWh Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-soluna-bes-5k-pack-5-12kwh.webp" alt="Soluna BES 5K Pack 5.12kWh Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="lithium-batteries.html#b-soluna">Soluna</a> lithium battery</p>
@@ -3119,7 +3122,7 @@
           <article class="product-card" data-category="batteries" data-brand="soluna">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-soluna-10k-pack-10-24kwh.webp" alt="Soluna 10K Pack 10.24kWh Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-soluna-10k-pack-10-24kwh.webp" alt="Soluna 10K Pack 10.24kWh Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="lithium-batteries.html#b-soluna">Soluna</a> lithium battery</p>
@@ -3135,7 +3138,7 @@
           <article class="product-card" data-category="batteries" data-brand="soluna">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-soluna-venus-16k-pack-16kwh.webp" alt="Soluna Venus 16K Pack 16kWh Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-soluna-venus-16k-pack-16kwh.webp" alt="Soluna Venus 16K Pack 16kWh Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="lithium-batteries.html#b-soluna">Soluna</a> lithium battery</p>
@@ -3151,7 +3154,7 @@
           <article class="product-card" data-category="batteries" data-brand="soluna">
             <div class="product-media">
               <span class="badge badge-order">To order</span>
-              <img src="images/product-bat-soluna-jupiter-32k-pack-32kwh.webp" alt="Soluna Jupiter 32K Pack 32kWh Lithium Battery" loading="lazy" width="400" height="300">
+              <img src="images/product-bat-soluna-jupiter-32k-pack-32kwh.webp" alt="Soluna Jupiter 32K Pack 32kWh Lithium Battery" loading="lazy" decoding="async" width="400" height="300">
             </div>
             <div class="product-body">
               <p class="product-brand"><a href="lithium-batteries.html#b-soluna">Soluna</a> lithium battery</p>
@@ -3223,14 +3226,14 @@
       <div class="footer-grid">
         <div>
           <h2 class="visually-hidden">SunGo Solar</h2>
-          <img class="footer-logo" src="logo-footer.png" alt="SunGo Solar – Energy Solutions" width="877" height="240">
+          <img class="footer-logo" src="logo-footer.png" alt="SunGo Solar – Energy Solutions" width="600" height="165">
           <p>Solar panels, inverters, lithium batteries and installation in Gujranwala and across Punjab. Official dealer of Knox, Itel and Photon.</p>
         </div>
         <div>
           <h2>Products</h2>
           <ul>
             <li><a href="solar-panels.html">Solar panels</a></li>
-            <li><a href="products.html?category=inverters">Inverters</a></li>
+            <li><a href="inverters.html">Inverters</a></li>
             <li><a href="lithium-batteries.html">Lithium batteries</a></li>
             <li><a href="brands.html">All brands</a></li>
           </ul>

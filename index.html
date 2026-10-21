@@ -26,7 +26,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" data-async-css>
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
   <link rel="stylesheet" href="styles.css">
 
   <script type="application/ld+json">
@@ -312,7 +314,7 @@
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="logo" href="index.html" aria-label="SunGo Solar home">
-        <img src="logo-header.png" alt="SunGo Solar – Energy Solutions" width="877" height="240">
+        <img src="logo-header.png" alt="SunGo Solar – Energy Solutions" width="600" height="165">
       </a>
 
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
@@ -331,17 +333,18 @@
                 <p class="mega-note">Aiko, Astronergy, Canadian Solar, JA Solar, Jesko, Jinko, Longi and Risen</p>
               </div>
               <div>
-                <h3><a href="products.html?category=inverters">Inverters</a></h3>
+                <h3><a href="inverters.html">Inverters</a></h3>
                 <ul>
-                  <li><a href="products.html?category=inverters&amp;brand=itel">Itel</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=knox">Knox</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=photon">Photon</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=fronus">Fronus</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=goodwe">GoodWe</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=maxpower">MaxPower</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=ns">NS</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=sofar">Sofar</a></li>
-                  <li><a href="products.html?category=inverters&amp;brand=solis">Solis</a></li>
+                  <li><a href="inverters.html">All inverters on one page</a></li>
+                  <li><a href="inverters.html#b-itel">Itel</a></li>
+                  <li><a href="inverters.html#b-knox">Knox</a></li>
+                  <li><a href="inverters.html#b-photon">Photon</a></li>
+                  <li><a href="inverters.html#b-fronus">Fronus</a></li>
+                  <li><a href="inverters.html#b-goodwe">GoodWe</a></li>
+                  <li><a href="inverters.html#b-maxpower">MaxPower</a></li>
+                  <li><a href="inverters.html#b-ns">NS</a></li>
+                  <li><a href="inverters.html#b-sofar">Sofar</a></li>
+                  <li><a href="inverters.html#b-solis">Solis</a></li>
                 </ul>
               </div>
               <div>
@@ -424,8 +427,8 @@
           </div>
           <div class="hero-visual" aria-hidden="true">
             <div class="hv-glow"></div>
-            <img class="hv-main" src="images/product-knox-pv9000-6-2kw.webp" alt="" width="720" height="720">
-            <img class="hv-side" src="images/product-knox-powerwall-6-0-51v.webp" alt="" width="720" height="720">
+            <img class="hv-main" fetchpriority="high" decoding="async" src="images/product-knox-pv9000-6-2kw.webp" alt="" width="720" height="720">
+            <img class="hv-side" decoding="async" src="images/product-knox-powerwall-6-0-51v.webp" alt="" width="720" height="720">
             <div class="hv-chip hv-chip-a"><b>Ready stock</b><span>Gujranwala shop</span></div>
             <div class="hv-chip hv-chip-b"><b>500+</b><span>Systems installed</span></div>
           </div>
@@ -477,8 +480,8 @@
             </a>
           </li>
           <li>
-            <a class="cat-tile" href="products.html?category=inverters">
-              <span class="cat-img"><img src="images/product-knox-pv6500-4-5kw.webp" alt="" width="720" height="720" loading="lazy"></span>
+            <a class="cat-tile" href="inverters.html">
+              <span class="cat-img"><img src="images/product-knox-pv6500-4-5kw.webp" alt="" width="720" height="720" loading="lazy" decoding="async"></span>
               <h3>Inverters</h3>
               <p>The inverter changes the panels' electricity into the kind your fans, fridge and AC can use. It is the brain of the system.</p>
               <span class="cat-link">Shop inverters →</span>
@@ -486,7 +489,7 @@
           </li>
           <li>
             <a class="cat-tile" href="lithium-batteries.html">
-              <span class="cat-img"><img src="images/product-knox-powerbase-16kwh.webp" alt="" width="720" height="720" loading="lazy"></span>
+              <span class="cat-img"><img src="images/product-knox-powerbase-16kwh.webp" alt="" width="720" height="720" loading="lazy" decoding="async"></span>
               <h3>Lithium Batteries</h3>
               <p>The battery saves extra power from the day. You use it at night and during load-shedding.</p>
               <span class="cat-link">Shop batteries →</span>
@@ -758,14 +761,14 @@
       <div class="footer-grid">
         <div>
           <h2 class="visually-hidden">SunGo Solar</h2>
-          <img class="footer-logo" src="logo-footer.png" alt="SunGo Solar – Energy Solutions" width="877" height="240">
+          <img class="footer-logo" src="logo-footer.png" alt="SunGo Solar – Energy Solutions" width="600" height="165">
           <p>Solar panels, inverters, lithium batteries and installation in Gujranwala and across Punjab. Official dealer of Knox, Itel and Photon.</p>
         </div>
         <div>
           <h2>Products</h2>
           <ul>
             <li><a href="solar-panels.html">Solar panels</a></li>
-            <li><a href="products.html?category=inverters">Inverters</a></li>
+            <li><a href="inverters.html">Inverters</a></li>
             <li><a href="lithium-batteries.html">Lithium batteries</a></li>
             <li><a href="brands.html">All brands</a></li>
           </ul>
@@ -829,24 +832,17 @@
       bottom: calc(96px + env(safe-area-inset-bottom, 0px));
       width: 48px; height: 48px; border-radius: 50%;
       display: grid; place-items: center; cursor: pointer; padding: 0;
-      background: transparent; color: #B8911F;
-      border: 2px solid #B8911F;
+      background: #FFFFFF; color: #8A6A12;
+      border: 2px solid #B8911F; box-shadow: 0 4px 12px rgba(16,24,40,.12);
       transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
     }
     .to-top svg { width: 24px; height: 24px; }
-    .to-top:hover { background: rgba(201, 164, 58, 0.15); transform: translateY(-2px); }
+    .to-top:hover { background: #FBF6E6; transform: translateY(-2px); }
     @media (max-width: 520px) {
       body.home .wa-float { width: 56px; height: 56px; padding: 0; right: calc(20px + env(safe-area-inset-right, 0px)); bottom: calc(20px + env(safe-area-inset-bottom, 0px)); }
       body.home .wa-float svg { width: 28px; height: 28px; padding: 0; }
       .to-top { width: 46px; height: 46px; right: calc(25px + env(safe-area-inset-right, 0px)); bottom: calc(90px + env(safe-area-inset-bottom, 0px)); }
     }
   </style>
-  <script>
-    // Back-to-top: smooth scroll to the top of the page
-    document.getElementById("to-top").addEventListener("click", function () {
-      var smooth = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      window.scrollTo({ top: 0, behavior: smooth ? "smooth" : "auto" });
-    });
-  </script>
 </body>
 </html>
