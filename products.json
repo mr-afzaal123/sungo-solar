@@ -1,7 +1,7 @@
 [
   {
     "id": "itel-1-6kw-ip54",
-    "name": "Itel 1.6kW IP54 Hybrid Inverter",
+    "name": "itel Energy 1.6kW IP54 Hybrid Inverter",
     "brand": "itel",
     "category": "inverters",
     "specs": {
@@ -15,7 +15,7 @@
   },
   {
     "id": "itel-3kw-pro-ip54",
-    "name": "Itel 3kW Pro IP54 Hybrid Inverter",
+    "name": "itel Energy 3kW Pro IP54 Hybrid Inverter",
     "brand": "itel",
     "category": "inverters",
     "specs": {
@@ -29,7 +29,7 @@
   },
   {
     "id": "itel-4kw-pro-ip54",
-    "name": "Itel 4kW Pro IP54 Hybrid Inverter",
+    "name": "itel Energy 4kW Pro IP54 Hybrid Inverter",
     "brand": "itel",
     "category": "inverters",
     "specs": {
@@ -43,7 +43,7 @@
   },
   {
     "id": "itel-6kw-pro-ip54",
-    "name": "Itel 6kW Pro IP54 Hybrid Inverter",
+    "name": "itel Energy 6kW Pro IP54 Hybrid Inverter",
     "brand": "itel",
     "category": "inverters",
     "specs": {
@@ -57,7 +57,7 @@
   },
   {
     "id": "itel-6kw-ip66",
-    "name": "Itel 6kW IP66 Hybrid Inverter (Single Phase)",
+    "name": "itel Energy 6kW IP66 Hybrid Inverter (Single Phase)",
     "brand": "itel",
     "category": "inverters",
     "specs": {
@@ -71,7 +71,7 @@
   },
   {
     "id": "itel-sparta-6-6kw",
-    "name": "Itel Sparta 6.6kW IP66 Hybrid Inverter",
+    "name": "itel Energy Sparta 6.6kW IP66 Hybrid Inverter",
     "brand": "itel",
     "category": "inverters",
     "specs": {
@@ -85,7 +85,7 @@
   },
   {
     "id": "itel-8kw-ip54",
-    "name": "Itel 8kW IP54 Hybrid Inverter (Single Phase)",
+    "name": "itel Energy 8kW IP54 Hybrid Inverter (Single Phase)",
     "brand": "itel",
     "category": "inverters",
     "specs": {
@@ -99,7 +99,7 @@
   },
   {
     "id": "itel-8kw-ip66-3p",
-    "name": "Itel 8kW IP66 Hybrid Inverter (Three Phase)",
+    "name": "itel Energy 8kW IP66 Hybrid Inverter (Three Phase)",
     "brand": "itel",
     "category": "inverters",
     "specs": {
@@ -113,7 +113,7 @@
   },
   {
     "id": "itel-12kw-ip54",
-    "name": "Itel 12kW IP54 Hybrid Inverter (Single Phase)",
+    "name": "itel Energy 12kW IP54 Hybrid Inverter (Single Phase)",
     "brand": "itel",
     "category": "inverters",
     "specs": {
@@ -127,7 +127,7 @@
   },
   {
     "id": "itel-12kw-ip66-3p",
-    "name": "Itel 12kW IP66 Hybrid Inverter (Three Phase)",
+    "name": "itel Energy 12kW IP66 Hybrid Inverter (Three Phase)",
     "brand": "itel",
     "category": "inverters",
     "specs": {
@@ -141,7 +141,7 @@
   },
   {
     "id": "itel-12v-100ah",
-    "name": "Itel 12V 100Ah Lithium Battery (1.28kWh)",
+    "name": "itel Energy 12V 100Ah Lithium Battery (1.28kWh)",
     "brand": "itel",
     "category": "batteries",
     "specs": {
@@ -155,7 +155,7 @@
   },
   {
     "id": "itel-2-56kwh",
-    "name": "Itel 2.56kWh Lithium Battery (24V 100Ah)",
+    "name": "itel Energy 2.56kWh Lithium Battery (24V 100Ah)",
     "brand": "itel",
     "category": "batteries",
     "specs": {
@@ -169,7 +169,7 @@
   },
   {
     "id": "itel-5-12kwh-24v",
-    "name": "Itel 5.12kWh Lithium Battery (24V 200Ah)",
+    "name": "itel Energy 5.12kWh Lithium Battery (24V 200Ah)",
     "brand": "itel",
     "category": "batteries",
     "specs": {
@@ -183,7 +183,7 @@
   },
   {
     "id": "itel-5-12kwh-51v",
-    "name": "Itel 5.12kWh Lithium Battery (51.2V 100Ah)",
+    "name": "itel Energy 5.12kWh Lithium Battery (51.2V 100Ah)",
     "brand": "itel",
     "category": "batteries",
     "specs": {
@@ -197,7 +197,7 @@
   },
   {
     "id": "itel-10-24kwh",
-    "name": "Itel 10.24kWh Lithium Battery (51.2V 200Ah)",
+    "name": "itel Energy 10.24kWh Lithium Battery (51.2V 200Ah)",
     "brand": "itel",
     "category": "batteries",
     "specs": {
@@ -211,7 +211,7 @@
   },
   {
     "id": "itel-14kwh",
-    "name": "Itel 14kWh Lithium Battery (51V 280Ah)",
+    "name": "itel Energy 14kWh Lithium Battery (51V 280Ah)",
     "brand": "itel",
     "category": "batteries",
     "specs": {
@@ -225,7 +225,7 @@
   },
   {
     "id": "itel-16kwh",
-    "name": "Itel 16kWh Lithium Battery (51V 314Ah)",
+    "name": "itel Energy 16kWh Lithium Battery (51V 314Ah)",
     "brand": "itel",
     "category": "batteries",
     "specs": {

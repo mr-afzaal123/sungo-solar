@@ -92,6 +92,7 @@ button { font: inherit; }
 .topbar-dealer a { color: var(--brand); font-weight: 700; }
 .topbar :focus-visible { outline-color: #fff; }
 @media (max-width: 720px) { .topbar-phones { display: none; } .topbar .wrap { justify-content: center; } }
+@media (max-width: 400px) { .topbar { font-size: .78rem; } .topbar-dealer { gap: .3rem .75rem; } }
 
 .site-header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.92); -webkit-backdrop-filter: saturate(180%) blur(14px); backdrop-filter: saturate(180%) blur(14px); border-bottom: 1px solid var(--line); }
 .header-inner { display: flex; align-items: center; gap: 1.25rem; min-height: 76px; }

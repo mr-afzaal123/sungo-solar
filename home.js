@@ -73,7 +73,7 @@ async function renderFeatured() {
     const brandById = Object.fromEntries(brands.map((b) => [b.id, b]));
 
     // Featured items first, then one of each category so panels also show
-    // Mix the three official brands (Knox, Itel, Photon), then add two panels
+    // Mix the three official brands (Knox, itel Energy, Photon), then add two panels
     const featured = products.filter((p) => p.featured);
     const groups = {};
     featured.forEach((p) => (groups[p.brand] = groups[p.brand] || []).push(p));

@@ -1,13 +1,13 @@
 # SunGo Solar
 
-> SunGo Solar is a solar energy company in Gujranwala, Punjab, Pakistan. It is an official dealer of Knox, Itel and Photon, sells solar panels, inverters and lithium batteries, and installs solar systems for homes, shops, factories and tube-wells across Punjab. Founded in 2022; more than 500 solar systems installed.
+> SunGo Solar is a solar energy company in Gujranwala, Punjab, Pakistan. It is an official dealer of Knox, itel Energy and Photon, sells solar panels, inverters and lithium batteries, and installs solar systems for homes, shops, factories and tube-wells across Punjab. Founded in 2022; more than 500 solar systems installed.
 
 ## Key facts
 
 - Name: SunGo Solar
 - Type: Solar dealer and installer
 - Address: Gondala Wala Road, near Al-Miraj Fans, Block B, Model Town, Gujranwala 52400, Punjab, Pakistan
-- Phone / WhatsApp: +92 300 6474333, +92 302 6261319
+- Phone / WhatsApp: +92 300 6474333, +92 302 6261319, +92 315 8140422
 - Opening hours: Saturday to Thursday, 10:00 am to 10:00 pm. Closed on Friday.
 - Google Maps: https://maps.app.goo.gl/6Q9E9SHRno4ZBsvp6
 - Founded: 2022
@@ -21,7 +21,7 @@
 ## Official dealerships
 
 - Knox: hybrid inverters from 4.2 kW to 50 kW (Krypton, Krypton Eco, Xenon, Zynex and Zapher series), complete Zapher + HV battery systems, and Powerwall, Powerbase and PowerStack HV lithium batteries (2.56 kWh to 61.44 kWh). Knox prices on the website follow Knox's price list of 20 August 2026.
-- Itel: hybrid inverters 1.6 kW to 12 kW (IP54 Pro range, Sparta 6.6 kW IP66, IP66 single and three phase) and lithium batteries 12V 100Ah to 16 kWh (51V 314Ah)
+- itel Energy: hybrid inverters 1.6 kW to 12 kW (IP54 Pro range, Sparta 6.6 kW IP66, IP66 single and three phase) and lithium batteries 12V 100Ah to 16 kWh (51V 314Ah)
 - Photon: Wall X lithium batteries (1.25 kWh to 16 kWh) and Aero (IP54), Pi Eco (IP21), HPT and STH (IP66) hybrid inverters. Photon prices follow Photon's wholesale price list of 1 October 2026.
 
 ## Other brands sold
