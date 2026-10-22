@@ -21,9 +21,9 @@ function escapeHTML(str) {
   return String(str).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
-// Featured cards use a 400px copy from images/sm/ (smaller download on phones)
+// Featured cards use a 400px copy from the sm/ folder (smaller download on phones)
 function smallImage(src) {
-  return "images/sm/" + src.split("/").pop().replace(/\.(png|webp|jpe?g)$/i, ".webp");
+  return "sm/" + src.split("/").pop().replace(/\.(png|webp|jpe?g)$/i, ".webp");
 }
 
 function productCard(p, brand) {
