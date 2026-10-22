@@ -21,11 +21,16 @@ function escapeHTML(str) {
   return String(str).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
+// Featured cards use a 400px copy from images/sm/ (smaller download on phones)
+function smallImage(src) {
+  return "images/sm/" + src.split("/").pop().replace(/\.(png|webp|jpe?g)$/i, ".webp");
+}
+
 function productCard(p, brand) {
   const name = escapeHTML(p.name);
   const brandName = escapeHTML(brand ? brand.name : p.brand);
   const media = p.image
-    ? `<img src="${escapeHTML(p.image)}" alt="${name}" loading="lazy" decoding="async" width="400" height="300">`
+    ? `<img src="${escapeHTML(smallImage(p.image))}" srcset="${escapeHTML(smallImage(p.image))} 400w, ${escapeHTML(p.image)} 720w" sizes="(min-width: 1024px) 280px, 50vw" alt="${name}" loading="lazy" decoding="async" width="400" height="300">`
     : `<div class="product-placeholder">${CATEGORY_ICON[p.category] || ""}<span>${brandName}</span></div>`;
   const chips = Object.values(p.specs || {})
     .map((v) => `<li>${escapeHTML(v)}</li>`)
