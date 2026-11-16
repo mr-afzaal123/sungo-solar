@@ -1513,11 +1513,11 @@
   },
   {
     "id": "photon-aero-6-5kw",
-    "name": "Photon Aero 6.5kW Hybrid Inverter (IP54)",
+    "name": "Photon Aero 6kW Hybrid Inverter (IP54)",
     "brand": "photon",
     "category": "inverters",
     "specs": {
-      "Power": "6.5kW",
+      "Power": "6kW",
       "PV input": "9000W",
       "Protection": "IP54",
       "Warranty": "3 yr replacement"
@@ -1525,9 +1525,9 @@
     "stock": "order",
     "image": "images/product-photon-aero-6-5kw.png",
     "featured": false,
-    "price": 130000,
+    "price": 128000,
     "retailPrice": 145000,
-    "priceSource": "Photon wholesale price list 1 Oct 2026"
+    "priceSource": "SunGo price update 16 Nov 2026"
   },
   {
     "id": "photon-aero-8kw",
