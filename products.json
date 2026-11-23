@@ -1067,9 +1067,9 @@
     "stock": "ready",
     "image": "images/product-knox-pv9000-6-2kw.webp",
     "featured": true,
-    "price": 135000,
+    "price": 125000,
     "retailPrice": 145000,
-    "priceSource": "Knox price list 20 Aug 2026 (wholesale)"
+    "priceSource": "SunGo price update 23 Nov 2026"
   },
   {
     "id": "knox-krypton-9055",
