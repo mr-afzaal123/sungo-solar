@@ -50,8 +50,8 @@ function productCard(p, brand) {
   return `
     <article class="product-card">
       <div class="product-media">
-        ${p.stock === "ready" ? '<span class="badge">Ready stock</span>' : (p.stock === "soon" ? '<span class="badge badge-soon">Coming soon</span>' : "")}
-        ${brand && brand.officialDealer ? '<span class="badge badge-official">Official dealer</span>' : ""}
+        ${p.stock === "ready" ? '<span class="badge">Ready Stock</span>' : (p.stock === "soon" ? '<span class="badge badge-soon">Coming Soon</span>' : "")}
+        ${brand && brand.officialDealer ? '<span class="badge badge-official">Official Dealer</span>' : ""}
         ${media}
       </div>
       <div class="product-body">
@@ -60,7 +60,7 @@ function productCard(p, brand) {
         <ul class="spec-chips">${chips}</ul>
         ${priceHtml}
         <div class="product-actions">
-          <a class="btn btn-wa btn-sm" href="${SUNGO.waLink(waMsg)}" target="_blank" rel="noopener">${WA_ICON} ${p.price ? "Order" : "Ask price"}</a>
+          <a class="btn btn-wa btn-sm" href="${SUNGO.waLink(waMsg)}" target="_blank" rel="noopener">${WA_ICON} ${p.price ? "Order" : "Ask Price"}</a>
           <a class="btn btn-outline btn-sm" href="tel:+923006474333" aria-label="Call about ${name}">${PHONE_ICON}</a>
         </div>
       </div>

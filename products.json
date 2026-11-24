@@ -353,58 +353,6 @@
     "featured": false
   },
   {
-    "id": "fronus-pv9000-6kw",
-    "name": "Fronus PV9000 6kW Inverter",
-    "brand": "fronus",
-    "category": "inverters",
-    "specs": {
-      "Power": "6kW",
-      "Model": "PV9000"
-    },
-    "stock": "ready",
-    "image": "images/product-fronus-pv9000-6kw.webp",
-    "featured": false
-  },
-  {
-    "id": "fronus-pv14000-10kw",
-    "name": "Fronus PV14000 10kW Inverter",
-    "brand": "fronus",
-    "category": "inverters",
-    "specs": {
-      "Power": "10kW",
-      "Model": "PV14000"
-    },
-    "stock": "ready",
-    "image": "images/product-fronus-pv14000-10kw.webp",
-    "featured": false
-  },
-  {
-    "id": "fronus-25v",
-    "name": "Fronus 25V Lithium Battery",
-    "brand": "fronus",
-    "category": "batteries",
-    "specs": {
-      "Voltage": "25V",
-      "Chemistry": "Lithium-ion"
-    },
-    "stock": "ready",
-    "image": "images/product-fronus-25v.webp",
-    "featured": false
-  },
-  {
-    "id": "fronus-51v",
-    "name": "Fronus 51V Lithium Battery",
-    "brand": "fronus",
-    "category": "batteries",
-    "specs": {
-      "Voltage": "51V",
-      "Chemistry": "Lithium-ion"
-    },
-    "stock": "ready",
-    "image": "images/product-fronus-51v.webp",
-    "featured": false
-  },
-  {
     "id": "sofar-5kw",
     "name": "Sofar 5kW Inverter",
     "brand": "sofar",
@@ -560,7 +508,7 @@
   },
   {
     "id": "longi-x10-645w-bifacial",
-    "name": "Longi X10 645W Bifacial Panel",
+    "name": "LONGi X10 645W Bifacial Panel",
     "brand": "longi",
     "category": "solar-panels",
     "specs": {

@@ -71,18 +71,6 @@
     "description": "DRAFT — short brand description for client to supply."
   },
   {
-    "id": "fronus",
-    "name": "Fronus",
-    "officialDealer": false,
-    "categories": [
-      "inverters",
-      "batteries"
-    ],
-    "logo": "",
-    "page": "/brands/fronus",
-    "description": "DRAFT — short brand description for client to supply."
-  },
-  {
     "id": "sofar",
     "name": "Sofar",
     "officialDealer": false,
@@ -162,7 +150,7 @@
   },
   {
     "id": "longi",
-    "name": "Longi",
+    "name": "LONGi",
     "officialDealer": false,
     "categories": [
       "solar-panels"

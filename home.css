@@ -1,0 +1,140 @@
+/* SunGo Solar — home page design ("Sunrise"). Loaded only on index.html, after styles.css. */
+body.home {
+  --navy-2: #121238; --navy-3: #1B1B4A; --night: #05051A;
+  --line-dark: rgba(255,255,255,.10);
+  --text-dark: #C9CCE0; --muted-dark: #A3A8C6;
+  --sun-1: #FFC46B; --sun-2: #FF8A3D; --sun-3: #E85A0C;
+}
+
+/* ---------- Dark header (home only) ---------- */
+body.home .topbar { background: var(--night); }
+body.home .site-header { background: rgba(10,10,40,.92); border-bottom-color: var(--line-dark); }
+body.home .nav-toggle { background: transparent; color: #fff; border-color: rgba(255,255,255,.25); }
+@media (min-width: 1025px) {
+  body.home .main-nav > ul > li > a, body.home .main-nav .nav-btn { color: var(--text-dark); }
+  body.home .main-nav > ul > li > a:hover, body.home .main-nav .nav-btn:hover,
+  body.home .has-menu.open > .nav-btn { background: rgba(255,255,255,.08); color: #fff; }
+  body.home .main-nav > ul > li > a[aria-current="page"] { color: #fff; }
+}
+/* phones visible on small screens on the home page (dealer line hidden instead) */
+@media (max-width: 720px) {
+  body.home .topbar-phones { display: flex; justify-content: center; gap: .3rem 1rem; }
+  body.home .topbar-dealer { display: none; }
+}
+
+/* ---------- Hero ---------- */
+.sun-hero { position: relative; overflow: hidden; background: var(--navy); color: var(--text-dark); text-align: center; isolation: isolate; }
+.sun-hero .wrap { position: relative; z-index: 2; padding-top: clamp(2.5rem, 5vw, 3.75rem); }
+.sun-hero .eyebrow-dark { display: block; margin: 0; line-height: 1.6; font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #FFB27A; }
+.sun-hero .eyebrow-dark::before { content: ""; display: inline-block; vertical-align: .1em; width: 8px; height: 8px; margin-right: .6rem; border-radius: 50%; background: var(--brand); box-shadow: 0 0 0 4px rgba(255,117,31,.22); }
+.sun-hero h1 { color: #fff; font-size: clamp(2.4rem, 6.2vw, 5rem); line-height: 1.04; letter-spacing: -.035em; max-width: 980px; margin: 1rem auto 1rem; }
+.sun-hero h1 span { color: var(--brand); }
+.sun-hero .lead { max-width: 640px; margin: 0 auto; font-size: clamp(1rem, 1.6vw, 1.15rem); line-height: 1.65; }
+.sun-hero .lead strong { color: #fff; }
+.sun-hero .hero-actions { justify-content: center; margin-top: 2rem; }
+.sun-hero .hero-actions .btn { min-width: 190px; }
+
+.horizon { position: relative; height: clamp(250px, 32vw, 420px); margin-top: clamp(1rem, 3vw, 2rem); }
+.horizon .sun { position: absolute; left: 50%; bottom: -78%; z-index: -1; width: min(1100px, 135%); aspect-ratio: 1; border-radius: 50%; transform: translateX(-50%);
+  background: radial-gradient(circle, var(--sun-1) 0, var(--sun-2) 28%, var(--sun-3) 44%, rgba(232,90,12,0) 62%); opacity: .9; }
+.lineup { position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); width: min(1100px, 100%); display: flex; align-items: flex-end; justify-content: center; gap: clamp(.5rem, 2vw, 1.6rem); padding: 0 var(--gutter); }
+.lineup img { height: auto; filter: drop-shadow(0 30px 30px rgba(40,10,0,.5)); }
+.lineup .li-panel { width: 13%; } .lineup .li-inv { width: 27%; margin-inline: -3%; } .lineup .li-bat { width: 22%; } .lineup .li-wall { width: 20%; margin-left: -3%; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .horizon .sun { animation: sunrise 1.6s var(--ease) both; }
+  .lineup img { animation: rise .9s var(--ease) both; }
+  .lineup img:nth-child(2) { animation-delay: .08s; } .lineup img:nth-child(3) { animation-delay: .16s; } .lineup img:nth-child(4) { animation-delay: .24s; }
+}
+@keyframes sunrise { from { transform: translate(-50%, 12%); opacity: 0; } to { transform: translate(-50%, 0); opacity: .9; } }
+@keyframes rise { from { transform: translateY(24px); opacity: 0; } to { transform: none; opacity: 1; } }
+
+.sun-band { background: var(--night); color: var(--muted-dark); }
+.sun-band ul { list-style: none; margin: 0 auto; padding: 1.2rem var(--gutter); max-width: var(--wrap); display: flex; justify-content: space-between; gap: .8rem 1.5rem; flex-wrap: wrap; font-size: .92rem; }
+.sun-band b { color: #fff; font-family: var(--font-display); font-size: 1.15rem; margin-right: .35rem; }
+
+@media (max-width: 760px) {
+  .lineup .li-panel, .lineup .li-wall { display: none; }
+  .lineup .li-inv { width: 52%; margin-inline: 0 -6%; } .lineup .li-bat { width: 40%; }
+  .horizon { height: clamp(230px, 64vw, 330px); }
+  .horizon .sun { width: 170%; bottom: -95%; }
+  .sun-hero .hero-actions .btn { flex: 1 1 100%; max-width: 320px; margin-inline: auto; }
+  .sun-band ul { display: grid; grid-template-columns: 1fr 1fr; }
+}
+
+/* ---------- Shop by category (bento) ---------- */
+.bento { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 240px; gap: 1rem; }
+.bento > li { display: contents; }
+.tile { position: relative; overflow: hidden; border-radius: var(--radius-lg); padding: 1.6rem; display: flex; flex-direction: column; justify-content: flex-end; text-decoration: none; color: var(--ink); transition: transform .3s var(--ease), box-shadow .3s var(--ease); }
+.tile:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+.tile h3 { position: relative; font-size: 1.5rem; margin: 0; }
+.tile p { position: relative; margin: .35rem 0 0; font-size: .93rem; color: var(--muted); max-width: 320px; }
+.tile .go { position: relative; margin-top: .8rem; font-weight: 600; color: var(--brand-text); }
+.tile img { position: absolute; height: auto; filter: drop-shadow(0 20px 20px rgba(0,0,0,.3)); transition: transform .4s var(--ease); }
+.tile:hover img { transform: translateY(-6px) scale(1.03); }
+.tile-inv { grid-column: span 2; grid-row: span 2; background: linear-gradient(160deg, var(--navy-3), var(--navy)); color: #fff; }
+.tile-inv h3 { color: #fff; font-size: 2rem; } .tile-inv p { color: var(--muted-dark); } .tile-inv .go { color: #FFB27A; }
+.tile-inv img { width: 46%; right: 6%; top: 7%; filter: drop-shadow(0 30px 30px rgba(0,0,0,.55)); }
+.tile-bat { grid-column: span 2; background: #FFF1E7; }
+.tile-bat img { width: 24%; right: 7%; top: 9%; }
+.tile-pan { background: var(--surface); border: 1px solid var(--line); }
+.tile-pan img { width: 26%; right: 10%; top: 9%; }
+.tile-price { background: var(--brand); color: var(--on-brand); }
+.tile-price h3 { font-size: clamp(1.8rem, 3vw, 2.4rem); line-height: 1.05; }
+.tile-price p { color: #2A1405; }
+@media (max-width: 900px) {
+  .bento { grid-template-columns: 1fr 1fr; grid-auto-rows: 200px; }
+  .tile-inv { grid-row: span 2; } .tile-inv img { width: 40%; }
+  .tile-bat img { width: 22%; }
+}
+@media (max-width: 560px) {
+  .bento { grid-auto-rows: 180px; gap: .75rem; }
+  .tile { padding: 1.1rem; } .tile h3 { font-size: 1.2rem; } .tile p { font-size: .85rem; }
+  .tile-inv { grid-row: span 2; } .tile-inv h3 { font-size: 1.6rem; } .tile-inv img { width: 52%; top: 5%; }
+  .tile-bat img { width: 26%; } .tile-pan img { width: 30%; top: 8%; right: 8%; }
+  .tile-pan p { display: none; }
+  .tile-price h3 { font-size: 1.45rem; }
+}
+
+/* ---------- Official dealer (dark) ---------- */
+.section-dark { background: var(--navy); color: var(--text-dark); }
+.section-dark h2, .section-dark h3 { color: #fff; }
+.section-dark .section-head p { color: var(--muted-dark); }
+.dealer-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.dealer { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 1.5rem; border: 1px solid var(--line-dark); border-radius: 20px; background: var(--navy-2); color: inherit; text-decoration: none; transition: border-color .25s, transform .25s var(--ease), background .25s; }
+.dealer:hover { border-color: rgba(255,138,61,.6); background: var(--navy-3); transform: translateY(-3px); }
+.dealer small { display: block; color: #FFB27A; font-weight: 700; font-size: .78rem; letter-spacing: .04em; }
+.dealer h3 { font-size: 1.7rem; margin: .25rem 0 .35rem; }
+.dealer p { margin: 0; font-size: .92rem; color: var(--muted-dark); }
+.dealer .arrow { flex: none; width: 46px; height: 46px; border-radius: 50%; border: 1px solid var(--line-dark); display: grid; place-items: center; color: #fff; font-size: 1.1rem; transition: background .25s, color .25s; }
+.dealer:hover .arrow { background: var(--brand); color: var(--on-brand); border-color: var(--brand); }
+.more-brands { margin-top: 2.2rem; display: grid; grid-template-columns: auto 1fr; gap: .8rem 1.5rem; align-items: center; }
+.more-brands h3 { font-family: var(--font-body); font-size: .85rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted-dark); margin: 0; }
+.more-brands ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
+.more-brands a { display: inline-flex; align-items: center; min-height: 40px; padding: .35rem .95rem; border-radius: 999px; border: 1px solid var(--line-dark); color: #fff; font-size: .9rem; text-decoration: none; transition: border-color .2s, background .2s; }
+.more-brands a:hover { border-color: var(--brand); background: rgba(255,117,31,.12); }
+.more-brands p { margin: 0; color: var(--text-dark); }
+.more-brands p a { display: inline; min-height: 0; padding: 0; border: 0; color: #FFB27A; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 900px) { .dealer-grid { grid-template-columns: 1fr; } .more-brands { grid-template-columns: 1fr; } }
+
+/* ---------- Our installations (photo slots) ---------- */
+.install-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 2fr 1fr 1fr; grid-auto-rows: 210px; gap: 1rem; }
+.install-grid li { position: relative; overflow: hidden; border-radius: 20px; background: var(--slate-soft); }
+.install-grid li:first-child { grid-row: span 2; }
+.install-grid img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s var(--ease); }
+.install-grid li:hover img { transform: scale(1.04); }
+.install-grid figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 2rem 1rem .8rem; color: #fff; font-size: .88rem; font-weight: 600; background: linear-gradient(transparent, rgba(10,10,40,.8)); }
+.install-grid .slot { height: 100%; display: grid; place-content: center; gap: .4rem; text-align: center; padding: 1rem; color: var(--muted); font-size: .85rem; font-weight: 600; border: 2px dashed var(--line-2); border-radius: 20px; background: repeating-linear-gradient(135deg, #E9EDF3 0 14px, #F1F4F8 14px 28px); }
+.install-grid .slot svg { width: 32px; height: 32px; margin: 0 auto; opacity: .7; }
+@media (max-width: 760px) { .install-grid { grid-template-columns: 1fr 1fr; grid-auto-rows: 150px; } .install-grid li:first-child { grid-column: span 2; grid-row: span 2; } }
+
+/* ---------- Bill CTA band ---------- */
+.bill-cta { display: flex; justify-content: space-between; align-items: center; gap: 1.5rem 2rem; flex-wrap: wrap; padding: clamp(1.8rem, 5vw, 3.2rem); border-radius: 28px; background: linear-gradient(120deg, var(--brand), #FF9446); color: var(--on-brand); }
+.bill-cta h2 { color: var(--on-brand); font-size: clamp(1.6rem, 3.4vw, 2.4rem); max-width: 560px; margin: 0; }
+.bill-cta p { margin: .6rem 0 0; max-width: 540px; color: #2A1405; }
+.bill-cta .cta-actions { display: flex; gap: .7rem; flex-wrap: wrap; }
+.bill-cta .btn-dark { background: var(--navy); color: #fff; border: 1px solid var(--navy); }
+.bill-cta .btn-dark:hover { background: #1B1B4A; }
+.bill-cta .btn-line { background: transparent; color: var(--navy); border: 1px solid rgba(10,10,40,.4); }
+.bill-cta .btn-line:hover { background: rgba(10,10,40,.08); }
+@media (max-width: 560px) { .bill-cta .cta-actions .btn { flex: 1 1 100%; } }

@@ -41,6 +41,16 @@
       "source": "/brand-risen.html",
       "destination": "/solar-panels.html",
       "permanent": true
+    },
+    {
+      "source": "/brand-fronus.html",
+      "destination": "/brands.html",
+      "permanent": true
+    },
+    {
+      "source": "/brand-fronus",
+      "destination": "/brands.html",
+      "permanent": true
     }
   ],
   "headers": [

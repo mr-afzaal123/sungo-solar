@@ -2,6 +2,8 @@
 
 > SunGo Solar is a solar energy company in Gujranwala, Punjab, Pakistan. It is an official dealer of Knox, itel Energy and Photon, sells solar panels, inverters and lithium batteries, and installs solar systems for homes, shops, factories and tube-wells across Punjab. Founded in 2022; more than 500 solar systems installed.
 
+Last updated: 24 November 2026. A full product and price list for AI tools is at https://sungosolar.pk/llms-full.txt
+
 ## Key facts
 
 - Name: SunGo Solar
@@ -26,9 +28,9 @@
 
 ## Other brands sold
 
-- Solar panels: Canadian Solar, Longi, Jinko, JA Solar, Astronergy, Jesko, Risen, Aiko (585W to 740W, including HJT and bifacial panels)
-- Inverters: MaxPower, Solis, GoodWe, Fronus, Sofar, NS
-- Lithium batteries (other brands): Crown, Dyness, Fronus, Hisel, Inverex, Pylontech, Pytes, Royal, Sofar, Solis, Soluna, Volnex
+- Solar panels: Canadian Solar, LONGi, Jinko, JA Solar, Astronergy, Jesko, Risen, Aiko (585W to 740W, including HJT and bifacial panels)
+- Inverters: MaxPower, Solis, GoodWe, Sofar, NS
+- Lithium batteries (other brands): Crown, Dyness, Hisel, Inverex, Pylontech, Pytes, Royal, Sofar, Solis, Soluna, Volnex
 
 ## Services
 
@@ -42,9 +44,9 @@
 
 - [Home](https://sungosolar.pk/): overview, size guide and FAQs
 - [Products](https://sungosolar.pk/products.html): solar panels, inverters and lithium batteries
-- [Inverters](https://sungosolar.pk/inverters.html): 63 hybrid and on-grid solar inverters from 9 brands on one page, 1.5 kW to 50 kW
-- [Lithium batteries](https://sungosolar.pk/lithium-batteries.html): 61 lithium batteries from 15 brands on one page, 1.25 kWh to 61 kWh
-- [Solar panels](https://sungosolar.pk/solar-panels.html): all solar panels (Aiko, Astronergy, Canadian Solar, JA Solar, Jesko, Jinko, Longi, Risen) on one page
+- [Inverters](https://sungosolar.pk/inverters.html): 61 hybrid and on-grid solar inverters from 8 brands on one page, 1.5 kW to 50 kW
+- [Lithium batteries](https://sungosolar.pk/lithium-batteries.html): 59 lithium batteries from 14 brands on one page, 1.25 kWh to 61 kWh
+- [Solar panels](https://sungosolar.pk/solar-panels.html): all solar panels (Aiko, Astronergy, Canadian Solar, JA Solar, Jesko, Jinko, LONGi, Risen) on one page
 - [Verify a solar panel](https://sungosolar.pk/verify-solar-panel.html): how to check if a solar panel is original, with official verification links for Canadian Solar, Jinko, JA Solar, LONGi, Astronergy, Aiko, Risen, Jesko and other brands
 - [Brands](https://sungosolar.pk/brands.html): official and other brands
 - [Installation](https://sungosolar.pk/installation.html): installation services

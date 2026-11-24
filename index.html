@@ -27,6 +27,8 @@
   <link rel="preload" href="/fonts/work-sans.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/outfit.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="daylight.css">
 
   <script type="application/ld+json">
 {
@@ -64,7 +66,54 @@
       "description": "SunGo Solar is a solar energy company in Gujranwala, Pakistan, and an official dealer of Knox, itel Energy and Photon. It sells solar panels, inverters and lithium batteries and installs solar systems across Punjab.",
       "sameAs": [
         "https://maps.app.goo.gl/6Q9E9SHRno4ZBsvp6"
-      ]
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "telephone": "+92-300-6474333",
+          "areaServed": "PK",
+          "availableLanguage": [
+            "en",
+            "ur",
+            "pa"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "telephone": "+92-302-6261319",
+          "areaServed": "PK",
+          "availableLanguage": [
+            "en",
+            "ur",
+            "pa"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "technical support",
+          "telephone": "+92-315-8140422",
+          "areaServed": "PK",
+          "availableLanguage": [
+            "en",
+            "ur",
+            "pa"
+          ]
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Gondala Wala Road, near Al-Miraj Fans, Block B, Model Town",
+        "addressLocality": "Gujranwala",
+        "addressRegion": "Punjab",
+        "postalCode": "52400",
+        "addressCountry": "PK"
+      },
+      "areaServed": {
+        "@type": "State",
+        "name": "Punjab, Pakistan"
+      }
     },
     {
       "@type": "Store",
@@ -169,7 +218,9 @@
             "name": "Lithium batteries"
           }
         ]
-      }
+      },
+      "currenciesAccepted": "PKR",
+      "description": "Solar shop in Model Town, Gujranwala: official dealer of Knox, itel Energy and Photon, selling solar panels, inverters and lithium batteries, with installation across Punjab."
     },
     {
       "@type": "WebSite",
@@ -179,7 +230,8 @@
       "publisher": {
         "@id": "https://sungosolar.pk/#organization"
       },
-      "inLanguage": "en-PK"
+      "inLanguage": "en-PK",
+      "description": "SunGo Solar, Gujranwala: solar panels, inverters, lithium batteries and solar installation in Punjab, Pakistan."
     }
   ]
 }
@@ -202,7 +254,7 @@
       "name": "Is SunGo Solar an official dealer?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. SunGo Solar is an official dealer of Knox, itel Energy and Photon. We also sell other trusted brands like Longi, Jinko, Canadian Solar, JA Solar, Solis, GoodWe and Pylontech. Buying from an official dealer means you get genuine products and help with warranty claims."
+        "text": "Yes. SunGo Solar is an official dealer of Knox, itel Energy and Photon. We also sell other trusted brands like LONGi, Jinko, Canadian Solar, JA Solar, Solis, GoodWe and Pylontech. Buying from an official dealer means you get genuine products and help with warranty claims."
       }
     },
     {
@@ -289,7 +341,7 @@
 }
   </script>
 </head>
-<body class="home">
+<body class="home theme-day">
   <a class="skip-link" href="#main">Skip to content</a>
 
   <!-- Top bar: official dealerships -->
@@ -329,7 +381,7 @@
                   <li><a href="solar-panels.html">All solar panels on one page</a></li>
                   <li><a href="verify-solar-panel.html">Verify a solar panel</a></li>
                 </ul>
-                <p class="mega-note">Aiko, Astronergy, Canadian Solar, JA Solar, Jesko, Jinko, Longi and Risen</p>
+                <p class="mega-note">Aiko, Astronergy, Canadian Solar, JA Solar, Jesko, Jinko, LONGi and Risen</p>
               </div>
               <div>
                 <h3><a href="inverters.html">Inverters</a></h3>
@@ -338,7 +390,6 @@
                   <li><a href="inverters.html#b-itel">itel Energy</a></li>
                   <li><a href="inverters.html#b-knox">Knox</a></li>
                   <li><a href="inverters.html#b-photon">Photon</a></li>
-                  <li><a href="inverters.html#b-fronus">Fronus</a></li>
                   <li><a href="inverters.html#b-goodwe">GoodWe</a></li>
                   <li><a href="inverters.html#b-maxpower">MaxPower</a></li>
                   <li><a href="inverters.html#b-ns">NS</a></li>
@@ -372,7 +423,6 @@
               <div class="others">
                 <h3>Inverter &amp; Battery Brands</h3>
                 <ul>
-                  <li><a href="brand-fronus.html">Fronus</a></li>
                   <li><a href="brand-goodwe.html">GoodWe</a></li>
                   <li><a href="brand-hisel.html">Hisel</a></li>
                   <li><a href="brand-maxpower.html">MaxPower</a></li>
@@ -387,7 +437,7 @@
               </div>
               <div class="panel-brands">
                 <h3>Solar Panel Brands</h3>
-                <p>Aiko, Astronergy, Canadian Solar, JA Solar, Jesko, Jinko, Longi and Risen</p>
+                <p>Aiko, Astronergy, Canadian Solar, JA Solar, Jesko, Jinko, LONGi and Risen</p>
                 <a href="solar-panels.html">See all solar panels →</a>
               </div>
             </div>
@@ -397,138 +447,111 @@
           <li><a href="blog.html">Solar guide</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li class="mobile-cta"><a class="btn btn-sun" href="contact.html">Get a price</a></li>
+          <li class="mobile-cta"><a class="btn btn-sun" href="contact.html">Get a Price</a></li>
         </ul>
       </nav>
 
-      <a class="btn btn-sun header-cta" href="contact.html">Get a price</a>
+      <a class="btn btn-sun header-cta" href="contact.html">Get a Price</a>
     </div>
   </header>
 
   <main id="main">
 
     <!-- HERO -->
-    <section class="hero">
-      <div class="wrap">
-        <div class="hero-banner">
-          <div class="hero-copy">
-            <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Official dealer of Knox, itel Energy &amp; Photon</p>
-            <h1>Solar Panels, Inverters and Batteries in Gujranwala</h1>
-            <p class="hero-lead">Lower your electricity bill and stay powered during load-shedding. <strong>SunGo Solar is an official dealer of Knox, itel Energy and Photon</strong>, and from our shop in Gujranwala, our team installs solar systems across Punjab.</p>
-            <div class="hero-actions">
-              <a class="btn btn-sun" href="products.html">Shop all products</a>
-              <a class="btn btn-wa" href="https://wa.me/923006474333" data-wa="Hi SunGo Solar, I want to know about a solar system for my home/business."><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 00-8.5 15l-1.4 5 5.1-1.3A9.9 9.9 0 1012.04 2zm0 18.1a8.2 8.2 0 01-4.2-1.15l-.3-.18-3 .8.8-2.95-.2-.3a8.2 8.2 0 1117.1-4.3 8.2 8.2 0 01-10.2 8.08zm4.5-6.1c-.25-.12-1.46-.72-1.69-.8-.23-.08-.39-.12-.55.12-.17.25-.64.8-.78.97-.14.16-.29.18-.53.06a6.7 6.7 0 01-3.33-2.9c-.25-.43.25-.4.72-1.34a.45.45 0 000-.43c-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47a.9.9 0 00-.66.31 2.77 2.77 0 00-.86 2.06 4.8 4.8 0 001 2.55 11 11 0 004.22 3.73c1.57.68 2.19.74 2.97.62.48-.07 1.46-.6 1.67-1.17.2-.58.2-1.07.14-1.17-.06-.1-.22-.16-.47-.28z"/></svg> WhatsApp us</a>
+    <section class="day-hero">
+      <div class="wrap day-grid">
+        <div class="day-copy">
+          <p class="day-pill"><span>Official Dealer</span> Knox · itel Energy · Photon</p>
+          <h1>Clean, Affordable Solar Power for Your Home in <span>Gujranwala</span></h1>
+          <p class="lead">Solar panels, inverters and lithium batteries from our shop in Model Town. Our own technical team installs solar systems for homes, shops, factories and farms across Punjab.</p>
+          <div class="hero-actions">
+            <a class="btn btn-sun" href="products.html">Shop All Products</a>
+            <a class="btn btn-wa" href="https://wa.me/923006474333" data-wa="Hi SunGo Solar, I want to know about a solar system for my home/business."><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 00-8.5 15l-1.4 5 5.1-1.3A9.9 9.9 0 1012.04 2zm0 18.1a8.2 8.2 0 01-4.2-1.15l-.3-.18-3 .8.8-2.95-.2-.3a8.2 8.2 0 1117.1-4.3 8.2 8.2 0 01-10.2 8.08zm4.5-6.1c-.25-.12-1.46-.72-1.69-.8-.23-.08-.39-.12-.55.12-.17.25-.64.8-.78.97-.14.16-.29.18-.53.06a6.7 6.7 0 01-3.33-2.9c-.25-.43.25-.4.72-1.34a.45.45 0 000-.43c-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47a.9.9 0 00-.66.31 2.77 2.77 0 00-.86 2.06 4.8 4.8 0 001 2.55 11 11 0 004.22 3.73c1.57.68 2.19.74 2.97.62.48-.07 1.46-.6 1.67-1.17.2-.58.2-1.07.14-1.17-.06-.1-.22-.16-.47-.28z"/></svg> WhatsApp Us</a>
+          </div>
+          <ul class="day-facts" aria-label="SunGo Solar in numbers">
+            <li><b>500+</b><span>installations</span></li>
+            <li><b>2022</b><span>founded</span></li>
+            <li><b>6+</b><span>cities in Punjab</span></li>
+          </ul>
+        </div>
+        <div class="day-show" role="region" aria-roledescription="carousel" aria-label="Products we sell">
+          <div class="day-stage">
+            <div class="day-disc" aria-hidden="true"></div>
+            <div class="dsc is-active" data-scene="knox">
+              <img class="ds-panel" src="hero/panel-longi.webp" alt="LONGi solar panel" width="340" height="622" decoding="async"><img class="ds-inv" src="sm/product-knox-pv9000-6-2kw.webp" srcset="sm/product-knox-pv9000-6-2kw.webp 400w, images/product-knox-pv9000-6-2kw.webp 720w" sizes="(min-width: 1024px) 300px, 50vw" alt="Knox Krypton 9000 6.2kW inverter" width="400" height="400" decoding="async" fetchpriority="high"><img class="ds-bat-sq" src="sm/product-knox-powerwall-6-0-51v.webp" srcset="sm/product-knox-powerwall-6-0-51v.webp 400w, images/product-knox-powerwall-6-0-51v.webp 720w" sizes="(min-width: 1024px) 300px, 50vw" alt="Knox Powerwall 6.0 lithium battery" width="400" height="400" decoding="async">
+              <a class="ds-brand" href="brand-knox.html"><span>Official Dealer</span> Knox →</a>
             </div>
-            <a class="hero-rating" href="https://maps.app.goo.gl/6Q9E9SHRno4ZBsvp6" target="_blank" rel="noopener">
-              <span class="stars" aria-hidden="true">★★★★★</span>
-              <span><b>5.0</b> on Google · 7 reviews</span>
-            </a>
+            <div class="dsc" data-scene="itel" aria-hidden="true">
+              <img class="ds-panel" src="hero/panel.webp" alt="Aiko solar panel" width="340" height="595" decoding="async" loading="lazy"><img class="ds-inv-t" src="hero/itel-inverter.webp" alt="itel Energy 6kW Pro hybrid inverter" width="520" height="668" decoding="async" loading="lazy"><img class="ds-bat" src="hero/itel-battery.webp" alt="itel Energy lithium battery" width="518" height="800" decoding="async" loading="lazy">
+              <a class="ds-brand" href="brand-itel.html" tabindex="-1"><span>Official Dealer</span> itel Energy →</a>
+            </div>
+            <div class="dsc" data-scene="photon" aria-hidden="true">
+              <img class="ds-panel" src="hero/panel2.webp" alt="Jinko solar panel" width="300" height="557" decoding="async" loading="lazy"><img class="ds-inv-p" src="images/product-photon-aero-6-5kw.png" alt="Photon Aero 6kW hybrid inverter" width="725" height="900" decoding="async" loading="lazy"><img class="ds-bat-p" src="images/product-photon-pi-eco-6-2kw.png" alt="Photon Pi Eco 6.2kW inverter" width="900" height="900" decoding="async" loading="lazy">
+              <a class="ds-brand" href="brand-photon.html" tabindex="-1"><span>Official Dealer</span> Photon →</a>
+            </div>
+            <div class="dsc" data-scene="more" aria-hidden="true">
+              <img class="ds-solis" src="hero/solis-inverter.webp" alt="Solis inverter" width="360" height="698" decoding="async" loading="lazy"><img class="ds-goodwe" src="hero/goodwe-inverter.webp" alt="GoodWe hybrid inverter" width="384" height="355" decoding="async" loading="lazy"><img class="ds-pylon" src="hero/pylontech-battery.webp" alt="Pylontech lithium battery" width="560" height="181" decoding="async" loading="lazy">
+              <a class="ds-brand" href="brands.html" tabindex="-1"><span class="alt">Also Available</span> GoodWe · Solis · Pylontech →</a>
+            </div>
+            <p class="ds-card ds-c1"><b>Sat–Thu</b> 10am–10pm</p>
+            <p class="ds-card ds-c2"><b>Model Town</b> Gujranwala</p>
           </div>
-          <div class="hero-visual" aria-hidden="true">
-            <div class="hv-glow"></div>
-            <img class="hv-main" fetchpriority="high" src="sm/product-knox-pv9000-6-2kw.webp" srcset="sm/product-knox-pv9000-6-2kw.webp 400w, images/product-knox-pv9000-6-2kw.webp 720w" sizes="(min-width: 1024px) 380px, 50vw" alt="" width="720" height="720">
-            <img class="hv-side" decoding="async" src="sm/product-knox-powerwall-6-0-51v.webp" srcset="sm/product-knox-powerwall-6-0-51v.webp 400w, images/product-knox-powerwall-6-0-51v.webp 720w" sizes="(min-width: 1024px) 280px, 36vw" alt="" width="720" height="720">
-            <div class="hv-chip hv-chip-a"><b>Ready stock</b><span>Gujranwala shop</span></div>
-            <div class="hv-chip hv-chip-b"><b>500+</b><span>Systems installed</span></div>
+          <div class="ds-controls">
+            <button type="button" class="ds-play" aria-label="Pause slideshow"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="i-pause" d="M8 5h3v14H8zM13 5h3v14h-3z" fill="currentColor"/><path class="i-play" d="M8 5l11 7-11 7z" fill="currentColor"/></svg></button>
+            <div class="ds-dots"><button type="button" class="ds-dot is-active" aria-label="Show Knox products" aria-current="true"></button><button type="button" class="ds-dot" aria-label="Show itel Energy products"></button><button type="button" class="ds-dot" aria-label="Show Photon products"></button><button type="button" class="ds-dot" aria-label="Show GoodWe · Solis · Pylontech products"></button></div>
           </div>
         </div>
-
-        <ul class="facts">
-          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.7-7 9-4-1.3-7-4.5-7-9V6z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.5 12l2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>Official dealer</b><span>Genuine Knox, itel Energy &amp; Photon</span></div></li>
-          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h4l3-8 4 16 3-8h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>500+ installed</b><span>Homes, shops &amp; tube-wells</span></div></li>
-          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0119 9.5C19 14.8 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><div><b>6+ cities</b><span>Where our team installs</span></div></li>
-          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><div><b>Open 10am–10pm</b><span>Saturday to Thursday</span></div></li>
-        </ul>
       </div>
     </section>
 
-    <!-- WHO WE ARE (short, factual — easy for Google and AI tools to quote) -->
-    <section class="section" aria-labelledby="about-title">
-      <div class="wrap summary">
-        <div>
-          <h2 id="about-title">Your Local Solar Shop in Model Town</h2>
-          <p>SunGo Solar sells and installs solar systems for homes, shops, factories and farms. We help you choose the right size, fit it properly, and stay with you after installation.</p>
-          <a class="btn btn-outline" href="about.html">About SunGo Solar</a>
-        </div>
-        <dl>
-          <dt>Business</dt><dd>Solar panels, inverters, lithium batteries and installation</dd>
-          <dt>Official dealer</dt><dd>Knox, itel Energy and Photon</dd>
-          <dt>Started</dt><dd>2022</dd>
-          <dt>Installations</dt><dd>More than 500 solar systems in Gujranwala, Lahore, Sialkot, Wazirabad, Gujrat, Faisalabad and more</dd>
-          <dt>Founder &amp; CEO</dt><dd>Javed Akram</dd>
-          <dt>Our shop</dt><dd>One shop only: Gondala Wala Road, near Al-Miraj Fans, Block B, Model Town, Gujranwala 52400</dd>
-          <dt>Phone</dt><dd><a href="tel:+923006474333">0300-6474333</a>, <a href="tel:+923026261319">0302-6261319</a>, <a href="tel:+923158140422">0315-8140422</a></dd>
-        </dl>
-      </div>
-    </section>
 
     <!-- WHAT WE SELL — explained simply -->
-    <section class="section section-tint" aria-labelledby="sell-title">
+    <section class="section" aria-labelledby="sell-title">
       <div class="wrap">
         <div class="section-head">
           <h2 id="sell-title">Shop by Category</h2>
-          <p>A solar system has three main parts. We sell all three, and help you pick ones that work well together.</p>
+          <p>A solar system has three main parts. We sell all three and help you pick parts that work well together.</p>
         </div>
-        <ul class="flow">
-          <li>
-            <a class="cat-tile" href="solar-panels.html">
-              <span class="cat-img cat-img-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M12 18h40l-6 28H6z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M25 18l-6 28M38 18l-6 28M9 32h40" stroke="currentColor" stroke-width="2.5"/><path d="M26 46v8M18 54h16" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span>
-              <h3>Solar Panels</h3>
-              <p>Panels go on your roof. They turn sunlight into electricity. More panels means more electricity.</p>
-              <span class="cat-link">Shop solar panels →</span>
-            </a>
-          </li>
-          <li>
-            <a class="cat-tile" href="inverters.html">
-              <span class="cat-img"><img src="sm/product-knox-pv6500-4-5kw.webp" srcset="sm/product-knox-pv6500-4-5kw.webp 400w, images/product-knox-pv6500-4-5kw.webp 720w" sizes="(min-width: 1024px) 260px, 52vw" alt="" width="720" height="720" loading="lazy" decoding="async"></span>
-              <h3>Inverters</h3>
-              <p>The inverter changes the panels' electricity into the kind your fans, fridge and AC can use. It is the brain of the system.</p>
-              <span class="cat-link">Shop inverters →</span>
-            </a>
-          </li>
-          <li>
-            <a class="cat-tile" href="lithium-batteries.html">
-              <span class="cat-img"><img src="sm/product-knox-powerbase-16kwh.webp" srcset="sm/product-knox-powerbase-16kwh.webp 400w, images/product-knox-powerbase-16kwh.webp 720w" sizes="(min-width: 1024px) 260px, 52vw" alt="" width="720" height="720" loading="lazy" decoding="async"></span>
-              <h3>Lithium Batteries</h3>
-              <p>The battery saves extra power from the day. You use it at night and during load-shedding.</p>
-              <span class="cat-link">Shop batteries →</span>
-            </a>
-          </li>
+        <ul class="bento">
+          <li><a class="tile tile-inv" href="inverters.html">
+            <img src="images/product-knox-zapher-6-6kw.webp" alt="" width="720" height="720" loading="lazy" decoding="async">
+            <h3>Inverters</h3>
+            <p>The brain of your solar system. Hybrid, on-grid and 3-phase, from 1.5kW to 50kW.</p>
+            <span class="go">See 61 Inverters →</span>
+          </a></li>
+          <li><a class="tile tile-bat" href="lithium-batteries.html">
+            <img src="sm/product-knox-powerbase-16kwh.webp" alt="" width="400" height="400" loading="lazy" decoding="async">
+            <h3>Lithium Batteries</h3>
+            <p>Store daytime solar power for the night and load-shedding. 59 batteries.</p>
+          </a></li>
+          <li><a class="tile tile-pan" href="solar-panels.html">
+            <img src="hero/panel2.webp" alt="" width="300" height="557" loading="lazy" decoding="async">
+            <h3>Solar Panels</h3>
+            <p>Aiko, Jinko, LONGi, Canadian and more.</p>
+          </a></li>
+          <li><a class="tile tile-price" href="https://wa.me/923006474333" data-wa="Hi SunGo Solar, I want a price for a solar system. I will send my electricity bill.">
+            <h3>Get a Price →</h3>
+            <p>Send your bill on WhatsApp</p>
+          </a></li>
         </ul>
       </div>
     </section>
 
     <!-- BRANDS -->
-    <section class="section" aria-labelledby="brands-title">
+    <section class="section section-dark" aria-labelledby="brands-title">
       <div class="wrap">
         <div class="section-head">
           <h2 id="brands-title">Official Dealer of Knox, itel Energy and Photon</h2>
           <p>When you buy from an official dealer, you get genuine products and help with warranty claims.</p>
         </div>
-        <div class="official-grid">
-          <article class="official-card">
-            <span class="badge">Official dealer</span>
-            <h3>Knox</h3>
-            <p>Hybrid and on-grid inverters from 3 kW to 125 kW, plus Powerwall and Powerbase lithium batteries for homes and businesses.</p>
-            <a href="brand-knox.html">See Knox products</a>
-          </article>
-          <article class="official-card">
-            <span class="badge">Official dealer</span>
-            <h3>itel Energy</h3>
-            <p>Hybrid inverters from 1.6kW to 12kW, including Sparta and IP66 outdoor models, and lithium batteries from 1.28kWh to 16kWh.</p>
-            <a href="brand-itel.html">See itel Energy products</a>
-          </article>
-          <article class="official-card">
-            <span class="badge">Official dealer</span>
-            <h3>Photon</h3>
-            <p>Wall X lithium batteries from 1.25 kWh to 16 kWh, plus Aero, Pi Eco, HPT and STH hybrid inverters.</p>
-            <a href="brand-photon.html">See Photon products</a>
-          </article>
+        <div class="dealer-grid">
+          <a class="dealer" href="brand-knox.html"><div><small>Official Dealer</small><h3>Knox</h3><p>Inverters from 4.2kW to 50kW, plus Powerwall, Powerbase and PowerStack lithium batteries from 2.56kWh to 61.44kWh.</p></div><span class="arrow" aria-hidden="true">→</span></a>
+          <a class="dealer" href="brand-itel.html"><div><small>Official Dealer</small><h3>itel Energy</h3><p>Hybrid inverters from 1.6kW to 12kW, including IP66 outdoor models, and lithium batteries from 1.28kWh to 16kWh.</p></div><span class="arrow" aria-hidden="true">→</span></a>
+          <a class="dealer" href="brand-photon.html"><div><small>Official Dealer</small><h3>Photon</h3><p>Wall X lithium batteries from 1.25kWh to 16kWh, plus Aero, Pi Eco, HPT and STH inverters.</p></div><span class="arrow" aria-hidden="true">→</span></a>
         </div>
-        <div class="other-brands">
-          <h3>Inverter &amp; Battery Brands We Sell</h3>
-          <ul class="brand-list">
-            <li><a href="brand-fronus.html">Fronus</a></li>
+        <div class="more-brands">
+          <h3>Inverter &amp; Battery Brands</h3>
+          <ul>
             <li><a href="brand-goodwe.html">GoodWe</a></li>
             <li><a href="brand-hisel.html">Hisel</a></li>
             <li><a href="brand-maxpower.html">MaxPower</a></li>
@@ -540,29 +563,27 @@
             <li><a href="brand-solis.html">Solis</a></li>
             <li><a href="brand-volnex.html">Volnex</a></li>
           </ul>
-        </div>
-        <div class="other-brands panel-brand-row">
           <h3>Solar Panel Brands</h3>
-          <p>Aiko, Astronergy, Canadian Solar, JA Solar, Jesko, Jinko, Longi and Risen</p>
-          <a class="btn btn-outline btn-sm" href="solar-panels.html">See all solar panels</a>
+          <p>Aiko, Astronergy, Canadian Solar, JA Solar, Jesko, Jinko, LONGi and Risen. <a href="solar-panels.html">See all solar panels</a></p>
         </div>
       </div>
     </section>
 
     <!-- FEATURED PRODUCTS (rendered from products.json) -->
-    <section class="section section-tint" aria-labelledby="products-title">
+    <section class="section" aria-labelledby="products-title">
       <div class="wrap">
         <div class="section-head">
           <h2 id="products-title">Ready Stock at Our Gujranwala Shop</h2>
-          <p>Prices change often. Tap "Ask price" and we will send you today's price on WhatsApp.</p>
+          <p>Prices change often. Tap "Ask Price" and we will send you today's price on WhatsApp.</p>
         </div>
         <div class="product-grid" id="featured-products" aria-live="polite"></div>
         <noscript>
           <p>See our full range of solar panels, inverters and lithium batteries on the <a href="products.html">products page</a>, or WhatsApp us at 0300-6474333 for today's prices.</p>
         </noscript>
-        <p class="see-all"><a class="btn btn-outline" href="products.html">See all products</a></p>
+        <p class="see-all"><a class="btn btn-outline" href="products.html">See All Products</a></p>
       </div>
     </section>
+
 
     <!-- SIZE GUIDE -->
     <section class="section" aria-labelledby="guide-title">
@@ -585,35 +606,35 @@
             <p class="for">For a small home without AC. It can usually run:</p>
             <ul class="runs"><li>Lights and fans</li><li>Fridge</li><li>TV and phone charging</li><li>Small water pump</li></ul>
             <div class="guide-meta"><span><b>Panels:</b> About 5–6 panels</span><span><b>Night use:</b> add a lithium battery</span></div>
-            <p style="margin:1.2rem 0 0"><a class="btn btn-wa btn-sm" href="https://wa.me/923006474333" data-wa="Hi SunGo Solar, I want the price of a 3 kW solar system.">Ask price for 3 kW</a></p>
+            <p style="margin:1.2rem 0 0"><a class="btn btn-wa btn-sm" href="https://wa.me/923006474333" data-wa="Hi SunGo Solar, I want the price of a 3 kW solar system.">Ask Price for 3 kW</a></p>
           </div>
           <div class="guide-panel" role="tabpanel" id="panel-5kw" aria-labelledby="tab-5kw" tabindex="0">
             <h3>5 kW Solar System</h3>
             <p class="for">The most popular size for family homes. It can usually run:</p>
             <ul class="runs"><li>Everything in 3 kW</li><li>One 1.5 ton inverter AC in the daytime</li><li>Washing machine</li><li>Iron and microwave (not all at once)</li></ul>
             <div class="guide-meta"><span><b>Panels:</b> About 8–9 panels</span><span><b>Night use:</b> add a lithium battery</span></div>
-            <p style="margin:1.2rem 0 0"><a class="btn btn-wa btn-sm" href="https://wa.me/923006474333" data-wa="Hi SunGo Solar, I want the price of a 5 kW solar system.">Ask price for 5 kW</a></p>
+            <p style="margin:1.2rem 0 0"><a class="btn btn-wa btn-sm" href="https://wa.me/923006474333" data-wa="Hi SunGo Solar, I want the price of a 5 kW solar system.">Ask Price for 5 kW</a></p>
           </div>
           <div class="guide-panel" role="tabpanel" id="panel-8kw" aria-labelledby="tab-8kw" tabindex="0">
             <h3>8 kW Solar System</h3>
             <p class="for">For bigger homes that run two ACs. It can usually run:</p>
             <ul class="runs"><li>Everything in 5 kW</li><li>Two 1.5 ton inverter ACs in the daytime</li><li>Electric water motor</li></ul>
             <div class="guide-meta"><span><b>Panels:</b> About 13–14 panels</span><span><b>Night use:</b> add a lithium battery</span></div>
-            <p style="margin:1.2rem 0 0"><a class="btn btn-wa btn-sm" href="https://wa.me/923006474333" data-wa="Hi SunGo Solar, I want the price of a 8 kW solar system.">Ask price for 8 kW</a></p>
+            <p style="margin:1.2rem 0 0"><a class="btn btn-wa btn-sm" href="https://wa.me/923006474333" data-wa="Hi SunGo Solar, I want the price of a 8 kW solar system.">Ask Price for 8 kW</a></p>
           </div>
           <div class="guide-panel" role="tabpanel" id="panel-10kw" aria-labelledby="tab-10kw" tabindex="0">
             <h3>10–12 kW Solar System</h3>
             <p class="for">For big houses, shops and offices. It can usually run:</p>
             <ul class="runs"><li>Two to three inverter ACs in the daytime</li><li>Shop lights, fridges and machines</li><li>Most of a big home&#x27;s daytime load</li></ul>
             <div class="guide-meta"><span><b>Panels:</b> About 16–20 panels</span><span><b>Night use:</b> add a lithium battery</span></div>
-            <p style="margin:1.2rem 0 0"><a class="btn btn-wa btn-sm" href="https://wa.me/923006474333" data-wa="Hi SunGo Solar, I want the price of a 10–12 kW solar system.">Ask price for 10–12 kW</a></p>
+            <p style="margin:1.2rem 0 0"><a class="btn btn-wa btn-sm" href="https://wa.me/923006474333" data-wa="Hi SunGo Solar, I want the price of a 10–12 kW solar system.">Ask Price for 10–12 kW</a></p>
           </div>
           <div class="guide-panel" role="tabpanel" id="panel-15kw" aria-labelledby="tab-15kw" tabindex="0">
             <h3>15 kW+ Solar System</h3>
-            <p class="for">Factories, tube-wells and large buildings. It can usually run:</p>
+            <p class="for">For factories, tube-wells and large buildings. It can usually run:</p>
             <ul class="runs"><li>Tube-well water pumps</li><li>Factory machines</li><li>Several ACs and heavy loads</li></ul>
             <div class="guide-meta"><span><b>Panels:</b> We plan it after a site visit</span><span><b>Night use:</b> add a lithium battery</span></div>
-            <p style="margin:1.2rem 0 0"><a class="btn btn-wa btn-sm" href="https://wa.me/923006474333" data-wa="Hi SunGo Solar, I want the price of a 15 kW+ solar system.">Ask price for 15 kW+</a></p>
+            <p style="margin:1.2rem 0 0"><a class="btn btn-wa btn-sm" href="https://wa.me/923006474333" data-wa="Hi SunGo Solar, I want the price of a 15 kW+ solar system.">Ask Price for 15 kW+</a></p>
           </div>
         </div>
         <p class="guide-note">Want to use power at night too? Add a lithium battery. Not sure? <a href="https://wa.me/923006474333" data-wa="Hi SunGo Solar, which solar system size do I need? I will send my electricity bill.">Send us your bill on WhatsApp</a> and we will tell you.</p>
@@ -633,7 +654,7 @@
           <li><h3>Net Metering Help</h3><p>We guide you through the paperwork to send extra power to the grid.</p></li>
           <li><h3>After-Sales Service</h3><p>Checkups, repairs and help with warranty claims after installation.</p></li>
         </ul>
-        <p class="see-all"><a class="btn btn-outline" href="installation.html">About our installation</a></p>
+        <p class="see-all"><a class="btn btn-outline" href="installation.html">About Our Installation</a></p>
       </div>
     </section>
 
@@ -667,7 +688,7 @@
           </details>
           <details>
             <summary>Is SunGo Solar an official dealer?</summary>
-            <div class="faq-answer"><p>Yes. SunGo Solar is an official dealer of Knox, itel Energy and Photon. We also sell other trusted brands like Longi, Jinko, Canadian Solar, JA Solar, Solis, GoodWe and Pylontech. Buying from an official dealer means you get genuine products and help with warranty claims.</p></div>
+            <div class="faq-answer"><p>Yes. SunGo Solar is an official dealer of Knox, itel Energy and Photon. We also sell other trusted brands like LONGi, Jinko, Canadian Solar, JA Solar, Solis, GoodWe and Pylontech. Buying from an official dealer means you get genuine products and help with warranty claims.</p></div>
           </details>
           <details>
             <summary>What size solar system do I need for my home?</summary>
@@ -714,7 +735,42 @@
     </section>
 
     <!-- VISIT US -->
-    <section class="section section-tint" aria-labelledby="visit-title">
+    <section class="section section-tight" aria-labelledby="bill-title">
+      <div class="wrap">
+        <div class="bill-cta">
+          <div>
+            <h2 id="bill-title">Not Sure Which System You Need?</h2>
+            <p>Send a photo of your electricity bill on WhatsApp. We will suggest the right size and send you today's price.</p>
+          </div>
+          <div class="cta-actions">
+            <a class="btn btn-dark" href="https://wa.me/923006474333" data-wa="Hi SunGo Solar, here is my electricity bill. Please suggest a solar system."><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 00-8.5 15l-1.4 5 5.1-1.3A9.9 9.9 0 1012.04 2zm0 18.1a8.2 8.2 0 01-4.2-1.15l-.3-.18-3 .8.8-2.95-.2-.3a8.2 8.2 0 1117.1-4.3 8.2 8.2 0 01-10.2 8.08zm4.5-6.1c-.25-.12-1.46-.72-1.69-.8-.23-.08-.39-.12-.55.12-.17.25-.64.8-.78.97-.14.16-.29.18-.53.06a6.7 6.7 0 01-3.33-2.9c-.25-.43.25-.4.72-1.34a.45.45 0 000-.43c-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47a.9.9 0 00-.66.31 2.77 2.77 0 00-.86 2.06 4.8 4.8 0 001 2.55 11 11 0 004.22 3.73c1.57.68 2.19.74 2.97.62.48-.07 1.46-.6 1.67-1.17.2-.58.2-1.07.14-1.17-.06-.1-.22-.16-.47-.28z"/></svg> Send Your Bill</a>
+            <a class="btn btn-line" href="tel:+923006474333">Call 0300-6474333</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHO WE ARE (short, factual — easy for Google and AI tools to quote) -->
+    <section class="section section-tint" aria-labelledby="about-title">
+      <div class="wrap summary">
+        <div>
+          <h2 id="about-title">Your Local Solar Shop in Model Town</h2>
+          <p>SunGo Solar sells and installs solar systems for homes, shops, factories and farms. We help you choose the right size, fit it properly, and stay with you after installation.</p>
+          <a class="btn btn-outline" href="about.html">About SunGo Solar</a>
+        </div>
+        <dl>
+          <dt>Business</dt><dd>Solar panels, inverters, lithium batteries and installation</dd>
+          <dt>Official dealer</dt><dd>Knox, itel Energy and Photon</dd>
+          <dt>Started</dt><dd>2022</dd>
+          <dt>Installations</dt><dd>More than 500 solar systems in Gujranwala, Lahore, Sialkot, Wazirabad, Gujrat, Faisalabad and more</dd>
+          <dt>Founder &amp; CEO</dt><dd>Javed Akram</dd>
+          <dt>Our shop</dt><dd>One shop only: Gondala Wala Road, near Al-Miraj Fans, Block B, Model Town, Gujranwala 52400</dd>
+          <dt>Phone</dt><dd><a href="tel:+923006474333">0300-6474333</a>, <a href="tel:+923026261319">0302-6261319</a>, <a href="tel:+923158140422">0315-8140422</a></dd>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="visit-title">
       <div class="wrap visit">
         <div>
           <h2 id="visit-title">Visit Our Shop</h2>
@@ -743,7 +799,7 @@
             <li>and more</li>
           </ul>
           <div class="visit-actions">
-            <a class="btn btn-sun" href="https://maps.app.goo.gl/6Q9E9SHRno4ZBsvp6" target="_blank" rel="noopener">Get directions</a>
+            <a class="btn btn-sun" href="https://maps.app.goo.gl/6Q9E9SHRno4ZBsvp6" target="_blank" rel="noopener">Get Directions</a>
             <a class="btn btn-outline" href="tel:+923006474333">0300-6474333</a>
             <a class="btn btn-outline" href="tel:+923026261319">0302-6261319</a>
             <a class="btn btn-outline" href="tel:+923158140422">0315-8140422</a>
@@ -808,6 +864,7 @@
 
   <script src="main.js" defer></script>
   <script src="home.js" defer></script>
+  <script src="daylight.js" defer></script>
   <!-- Home page only: round WhatsApp button + back-to-top button -->
   <aside aria-label="Back to top"><button class="to-top" id="to-top" type="button" aria-label="Back to top">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M7 10l5-5 5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>

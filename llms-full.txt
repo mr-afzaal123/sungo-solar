@@ -1,0 +1,380 @@
+# SunGo Solar
+
+> SunGo Solar is a solar energy company in Gujranwala, Punjab, Pakistan. It is an official dealer of Knox, itel Energy and Photon, sells solar panels, inverters and lithium batteries, and installs solar systems for homes, shops, factories and tube-wells across Punjab. Founded in 2022; more than 500 solar systems installed.
+
+Last updated: 24 November 2026. A full product and price list for AI tools is at https://sungosolar.pk/llms-full.txt
+
+## Key facts
+
+- Name: SunGo Solar
+- Type: Solar dealer and installer
+- Address: Gondala Wala Road, near Al-Miraj Fans, Block B, Model Town, Gujranwala 52400, Punjab, Pakistan
+- Phone / WhatsApp: +92 300 6474333, +92 302 6261319, +92 315 8140422
+- Opening hours: Saturday to Thursday, 10:00 am to 10:00 pm. Closed on Friday.
+- Google Maps: https://maps.app.goo.gl/6Q9E9SHRno4ZBsvp6
+- Founded: 2022
+- Installations: more than 500 solar systems
+- Branches: one shop only, in Gujranwala. No branches in other cities; the installation team travels to customers.
+- Areas where the team installs: Gujranwala, Lahore, Sialkot, Wazirabad, Gujrat, Faisalabad and other cities in Punjab
+- Founder & CEO: Javed Akram
+- Head of Technical Team: Zahid Akram
+- Head of Sales Support: Shahbaz Akram
+
+## Official dealerships
+
+- Knox: hybrid inverters from 4.2 kW to 50 kW (Krypton, Krypton Eco, Xenon, Zynex and Zapher series), complete Zapher + HV battery systems, and Powerwall, Powerbase and PowerStack HV lithium batteries (2.56 kWh to 61.44 kWh). Knox prices on the website follow Knox's price list of 20 August 2026.
+- itel Energy: hybrid inverters 1.6 kW to 12 kW (IP54 Pro range, Sparta 6.6 kW IP66, IP66 single and three phase) and lithium batteries 12V 100Ah to 16 kWh (51V 314Ah)
+- Photon: Wall X lithium batteries (1.25 kWh to 16 kWh) and Aero (IP54), Pi Eco (IP21), HPT and STH (IP66) hybrid inverters. Photon prices follow Photon's wholesale price list of 1 October 2026.
+
+## Other brands sold
+
+- Solar panels: Canadian Solar, LONGi, Jinko, JA Solar, Astronergy, Jesko, Risen, Aiko (585W to 740W, including HJT and bifacial panels)
+- Inverters: MaxPower, Solis, GoodWe, Sofar, NS
+- Lithium batteries (other brands): Crown, Dyness, Hisel, Inverex, Pylontech, Pytes, Royal, Sofar, Solis, Soluna, Volnex
+
+## Services
+
+- Home solar installation
+- Shop and factory solar installation
+- Tube-well (agricultural) solar
+- Net metering help
+- After-sales service, maintenance and warranty support
+
+## Prices
+
+Prices are in Pakistani rupees (PKR) and change often. Prices listed below are SunGo Solar's website prices on the date above; customers should confirm today's price on WhatsApp (+92 300 6474333) before buying. Products without a price: ask for today's price.
+
+## Solar panels (10)
+
+### Aiko
+- Aiko 665W Panel — ask for today's price. Ready stock at the Gujranwala shop. Power: 665W.
+
+### Astronergy
+- Astronergy 590W Panel — ask for today's price. Ready stock at the Gujranwala shop. Power: 590W.
+
+### Canadian Solar
+- Canadian Solar 585W Panel — ask for today's price. Ready stock at the Gujranwala shop. Power: 585W.
+- Canadian Solar 615W Panel — ask for today's price. Ready stock at the Gujranwala shop. Power: 615W.
+- Canadian Solar 630W HJT Panel — ask for today's price. Ready stock at the Gujranwala shop. Power: 630W, Technology: HJT.
+
+### JA Solar
+- JA Solar 625W Panel — ask for today's price. Ready stock at the Gujranwala shop. Power: 625W.
+
+### Jesko
+- Jesko 585W Panel — ask for today's price. Ready stock at the Gujranwala shop. Power: 585W.
+
+### Jinko
+- Jinko 645W Panel — ask for today's price. Ready stock at the Gujranwala shop. Power: 645W.
+
+### LONGi
+- LONGi X10 645W Bifacial Panel — ask for today's price. Ready stock at the Gujranwala shop. Power: 645W, Series: X10, Type: Bifacial.
+
+### Risen
+- Risen 740W HJT Panel — ask for today's price. Ready stock at the Gujranwala shop. Power: 740W, Technology: HJT.
+
+## Solar inverters (61)
+
+### itel Energy (official dealer)
+- itel Energy 1.6kW IP54 Hybrid Inverter — ask for today's price. Available to order. Power: 1.6kW, Protection: IP54, Type: Hybrid.
+- itel Energy 3kW Pro IP54 Hybrid Inverter — ask for today's price. Available to order. Power: 3kW, Protection: IP54, Type: Pro.
+- itel Energy 4kW Pro IP54 Hybrid Inverter — ask for today's price. Ready stock at the Gujranwala shop. Power: 4kW, Protection: IP54, Type: Pro.
+- itel Energy 6kW Pro IP54 Hybrid Inverter — ask for today's price. Ready stock at the Gujranwala shop. Power: 6kW, Protection: IP54, Type: Pro.
+- itel Energy 6kW IP66 Hybrid Inverter (Single Phase) — ask for today's price. Available to order. Power: 6kW, Protection: IP66, Type: 1-phase.
+- itel Energy Sparta 6.6kW IP66 Hybrid Inverter — ask for today's price. Ready stock at the Gujranwala shop. Power: 6.6kW, Protection: IP66, Type: Sparta.
+- itel Energy 8kW IP54 Hybrid Inverter (Single Phase) — ask for today's price. Available to order. Power: 8kW, Protection: IP54, Type: 1-phase.
+- itel Energy 8kW IP66 Hybrid Inverter (Three Phase) — ask for today's price. Available to order. Power: 8kW, Protection: IP66, Type: 3-phase.
+- itel Energy 12kW IP54 Hybrid Inverter (Single Phase) — ask for today's price. Available to order. Power: 12kW, Protection: IP54, Type: 1-phase.
+- itel Energy 12kW IP66 Hybrid Inverter (Three Phase) — ask for today's price. Available to order. Power: 12kW, Protection: IP66, Type: 3-phase.
+
+### Knox (official dealer)
+- Knox Zapher 30kW + 20kWh HV Battery System — Rs 2,481,440. Available to order. Power: 30kW, Battery: 20kWh, Type: Complete system.
+- Knox Zapher 30kW + 30kWh HV Battery System — Rs 3,095,040. Available to order. Power: 30kW, Battery: 30kWh, Type: Complete system.
+- Knox Zapher 50kW + 50kWh HV Battery System — Rs 4,539,600. Available to order. Power: 50kW, Battery: 50kWh, Type: Complete system.
+- Knox Zapher 50kW + 60kWh HV Battery System — Rs 5,118,880. Available to order. Power: 50kW, Battery: 60kWh, Type: Complete system.
+- Knox Krypton Eco 5000 4.2kW Inverter — Rs 95,000. Ready stock at the Gujranwala shop. Power: 4.2kW, PV input: 5000W, Battery: 24V, WiFi: WiFi.
+- Knox Krypton Eco 6600 6.2kW Inverter — Rs 102,000. Available to order. Power: 6.2kW, PV input: 6600W, Battery: 48V, Batteryless: Batteryless.
+- Knox Krypton 6500 4.5kW Inverter — Rs 115,000. Ready stock at the Gujranwala shop. Power: 4.5kW, PV input: 6500W, Battery: 24V.
+- Knox Krypton 9000 6.2kW Inverter — Rs 125,000. Ready stock at the Gujranwala shop. Power: 6.2kW, PV input: 9000W, Light: RGB.
+- Knox Krypton 9055 6.5kW Inverter — Rs 157,000. Available to order. Power: 6.5kW, PV input: 9000W, Battery: 48V, MPPT: Dual.
+- Knox Krypton 11008 8kW Inverter — Rs 172,000. Ready stock at the Gujranwala shop. Power: 8kW, PV input: 12000W, Battery: 48V, MPPT: Dual.
+- Knox Krypton 12002 8.5kW Inverter — Rs 247,000. Available to order. Power: 8.5kW, PV input: 12000W, Screen: 7" HMI, Warranty: 3 years.
+- Knox Krypton 13002 10kW Inverter — Rs 257,000. Available to order. Power: 10kW, PV input: 13000W, Screen: 7" HMI, Warranty: 3 years.
+- Knox Krypton 15002 11.5kW Inverter — Rs 267,000. Available to order. Power: 11.5kW, PV input: 15000W, Screen: 7" HMI, Warranty: 3 years.
+- Knox Xenon 12066 6kW Inverter (IP66) — Rs 202,000. Available to order. Power: 6kW, PV input: 12000W, Protection: IP66, Output: Dual.
+- Knox Zynex 8kW Inverter (IP66, 3 MPPT) — Rs 320,000. Available to order. Power: 8kW, PV input: 16000W, Protection: IP66, MPPT: 3.
+- Knox Zynex 10kW Inverter (IP66, 3 MPPT) — Rs 355,000. Available to order. Power: 10kW, PV input: 18000W, Protection: IP66, MPPT: 3.
+- Knox Zapher 6.6kW Inverter — Rs 195,000. Available to order. Power: 6.6kW, PV input: 12000W, Warranty: 5 years.
+- Knox Zapher 9.2kW Inverter (IP66) — Rs 297,000. Ready stock at the Gujranwala shop. Power: 9.2kW, PV input: 16000W, Protection: IP66, Warranty: 5 years.
+- Knox Zapher 11.2kW Inverter — Rs 355,000. Available to order. Power: 11.2kW, PV input: 18000W, Warranty: 5 years.
+- Knox Zapher 12kW Three-Phase Inverter — Rs 485,000. Available to order. Power: 12kW, PV input: 18000W, Phase: 3-phase, Warranty: 5 years.
+- Knox Zapher 15kW Three-Phase Inverter — Rs 585,000. Available to order. Power: 15kW, PV input: 24000W, Phase: 3-phase, Warranty: 5 years.
+- Knox Zapher 20kW Three-Phase Inverter — Rs 750,000. Available to order. Power: 20kW, PV input: 30000W, Phase: 3-phase, Warranty: 5 years.
+- Knox Zapher 30kW Three-Phase HV Inverter — Rs 965,000. Available to order. Power: 30kW, PV input: 48000W, Phase: 3-phase, Warranty: 5 years.
+- Knox Zapher 50kW Three-Phase HV Inverter — Rs 1,295,000. Available to order. Power: 50kW, PV input: 65000W, Phase: 3-phase, Warranty: 5 years.
+
+### Photon (official dealer)
+- Photon Aero 5kW Hybrid Inverter (IP54) — Rs 105,000. Available to order. Power: 5kW, PV input: 9000W, Protection: IP54, Warranty: 3 yr replacement.
+- Photon Aero 6kW Hybrid Inverter (IP54) — Rs 128,000. Available to order. Power: 6kW, PV input: 9000W, Protection: IP54, Warranty: 3 yr replacement.
+- Photon Aero 8kW Hybrid Inverter (IP54) — Rs 225,000. Available to order. Power: 8kW, PV input: 15000W, Protection: IP54, Warranty: 3 yr replacement.
+- Photon Aero 10kW Hybrid Inverter (IP54) — Rs 230,000. Available to order. Power: 10kW, PV input: 15000W, Protection: IP54, Warranty: 3 yr replacement.
+- Photon Aero 12kW Hybrid Inverter (IP54) — Rs 240,000. Available to order. Power: 12kW, PV input: 15000W, Protection: IP54, Warranty: 3 yr replacement.
+- Photon Pi Eco 1.5kW Hybrid Inverter (IP21) — Rs 50,000. Available to order. Power: 1.5kW, PV input: 2500W, Protection: IP21, Warranty: 2 yr replacement.
+- Photon Pi Eco 3.5kW Hybrid Inverter (IP21) — Rs 65,000. Available to order. Power: 3.5kW, PV input: 5500W, Protection: IP21, Warranty: 2 yr replacement.
+- Photon Pi Eco 4.2kW Hybrid Inverter (IP21) — Rs 78,000. Available to order. Power: 4.2kW, PV input: 6500W, Protection: IP21, Warranty: 2 yr replacement.
+- Photon Pi Eco 6.2kW Hybrid Inverter (IP21) — Rs 92,000. Available to order. Power: 6.2kW, PV input: 8500W, Protection: IP21, Warranty: 2 yr replacement.
+- Photon HPT 6kW Hybrid Inverter (IP66, single phase) — Rs 175,000. Available to order. Power: 6kW, PV input: 12000W, Protection: IP66, Warranty: 5 yr replacement.
+- Photon STH 8kW Hybrid Inverter (IP66, single phase) — Rs 295,000. Available to order. Power: 8kW, PV input: 16000W, Protection: IP66, Warranty: 5 yr replacement.
+- Photon STH 10kW Hybrid Inverter (IP66, single phase) — ask for today's price. Coming soon. Power: 10kW, Phase: 1-phase, Protection: IP66.
+- Photon STH 12kW Hybrid Inverter (IP66, single phase) — ask for today's price. Coming soon. Power: 12kW, Phase: 1-phase, Protection: IP66.
+- Photon STH 15kW Hybrid Inverter (IP66, three phase) — ask for today's price. Coming soon. Power: 15kW, Phase: 3-phase, Protection: IP66.
+- Photon STH 20kW Hybrid Inverter (IP66, three phase) — ask for today's price. Coming soon. Power: 20kW, Phase: 3-phase, Protection: IP66.
+
+### GoodWe
+- GoodWe 6kW Inverter — ask for today's price. Ready stock at the Gujranwala shop. Power: 6kW.
+- GoodWe 8kW Inverter — ask for today's price. Ready stock at the Gujranwala shop. Power: 8kW.
+
+### MaxPower
+- MaxPower PVTech 1200 Inverter — ask for today's price. Ready stock at the Gujranwala shop. Model: PVTech 1200, System Voltage: 12V.
+- MaxPower PVTech 3000 2kW Inverter — ask for today's price. Ready stock at the Gujranwala shop. Model: PVTech 3000, Power: 2kW, System Voltage: 12V.
+- MaxPower PVTech 5000 4kW Inverter — ask for today's price. Ready stock at the Gujranwala shop. Model: PVTech 5000, Power: 4kW, System Voltage: 24V.
+- MaxPower PVTech 6000 5kW Inverter — ask for today's price. Ready stock at the Gujranwala shop. Model: PVTech 6000, Power: 5kW, System Voltage: 24V.
+
+### NS
+- NS PV2000 1.6kW Inverter — ask for today's price. Ready stock at the Gujranwala shop. Power: 1.6kW, Model: PV2000, System Voltage: 12V.
+
+### Sofar
+- Sofar 5kW Inverter — ask for today's price. Ready stock at the Gujranwala shop. Power: 5kW.
+- Sofar 16kW — ask for today's price. Ready stock at the Gujranwala shop. Power: 16kW.
+
+### Solis
+- Solis 6kW Inverter — ask for today's price. Ready stock at the Gujranwala shop. Power: 6kW.
+- Solis 8kW Inverter — ask for today's price. Ready stock at the Gujranwala shop. Power: 8kW.
+- Solis 10kW Inverter — ask for today's price. Ready stock at the Gujranwala shop. Power: 10kW.
+
+## Lithium batteries (59)
+
+### itel Energy (official dealer)
+- itel Energy 12V 100Ah Lithium Battery (1.28kWh) — ask for today's price. Ready stock at the Gujranwala shop. Voltage: 12V, Capacity: 1.28kWh, Amp-hours: 100Ah.
+- itel Energy 2.56kWh Lithium Battery (24V 100Ah) — ask for today's price. Ready stock at the Gujranwala shop. Voltage: 24V, Capacity: 2.56kWh, Amp-hours: 100Ah.
+- itel Energy 5.12kWh Lithium Battery (24V 200Ah) — ask for today's price. Available to order. Voltage: 24V, Capacity: 5.12kWh, Amp-hours: 200Ah.
+- itel Energy 5.12kWh Lithium Battery (51.2V 100Ah) — ask for today's price. Ready stock at the Gujranwala shop. Voltage: 51.2V, Capacity: 5.12kWh, Amp-hours: 100Ah.
+- itel Energy 10.24kWh Lithium Battery (51.2V 200Ah) — ask for today's price. Ready stock at the Gujranwala shop. Voltage: 51.2V, Capacity: 10.24kWh, Amp-hours: 200Ah.
+- itel Energy 14kWh Lithium Battery (51V 280Ah) — ask for today's price. Available to order. Voltage: 51V, Capacity: 14kWh, Amp-hours: 280Ah.
+- itel Energy 16kWh Lithium Battery (51V 314Ah) — ask for today's price. Available to order. Voltage: 51V, Capacity: 16kWh, Amp-hours: 314Ah.
+
+### Knox (official dealer)
+- Knox Powerwall 3.0 (25.6V 100Ah) — Rs 127,000. Ready stock at the Gujranwala shop. Voltage: 25.6V, Capacity: 2.56kWh, Warranty: 5 years.
+- Knox Powerwall 6.0 (51.2V 100Ah) — Rs 223,000. Ready stock at the Gujranwala shop. Voltage: 51.2V, Capacity: 5.12kWh, Rate: 1C, Warranty: 5 years.
+- Knox Powerwall 4.15 (25.6V 100Ah) — Rs 130,000. Available to order. Voltage: 25.6V, Capacity: 2.56kWh, Rate: 1.5C, Warranty: 5 years.
+- Knox Powerwall 6.11 (51.2V 100Ah) — Rs 228,000. Ready stock at the Gujranwala shop. Voltage: 51.2V, Capacity: 5.12kWh, Rate: 1.5C, Warranty: 5 years.
+- Knox Powerbase 10 (51.2V 200Ah) — Rs 435,000. Available to order. Voltage: 51.2V, Capacity: 10.24kWh, Display: Touch LCD, Warranty: 5 years.
+- Knox Powerbase 16 (51.2V 314Ah) — Rs 575,000. Ready stock at the Gujranwala shop. Voltage: 51.2V, Capacity: 16kWh, Warranty: 5 years.
+- Knox Powerbase 32 (51.2V 628Ah) — Rs 1,100,000. Available to order. Voltage: 51.2V, Capacity: 32kWh, Warranty: 5 years.
+- Knox PowerStack HV Box 52Ah — Rs 218,400. Available to order. Voltage: 102–800V, Type: HV control box.
+- Knox PowerStack HV Box 100Ah — Rs 260,000. Available to order. Voltage: 102–800V, Type: HV control box.
+- Knox PowerStack 5-HV Battery (5.32kWh) — Rs 306,800. Available to order. Voltage: 102V, Capacity: 5.32kWh, Rate: 1C.
+- Knox PowerStack 10-HV Battery (10.24kWh) — Rs 579,280. Available to order. Voltage: 102V, Capacity: 10.24kWh, Rate: 1C.
+- Knox PowerStack Base Wheel 52Ah — Rs 47,840. Available to order. Type: Stacking base.
+- Knox PowerStack Base Wheel 100Ah — Rs 57,200. Available to order. Type: Stacking base.
+- Knox HV Battery Pack 21.28kWh — Rs 1,493,440. Available to order. Capacity: 21.28kWh, Modules: 5-HV × 4, Includes: HV Box + base.
+- Knox HV Battery Pack 31.92kWh — Rs 2,107,040. Available to order. Capacity: 31.92kWh, Modules: 5-HV × 6, Includes: HV Box + base.
+- Knox HV Battery Pack 51.2kWh — Rs 3,213,600. Available to order. Capacity: 51.2kWh, Modules: 10-HV × 5, Includes: HV Box + base.
+- Knox HV Battery Pack 61.44kWh — Rs 3,792,880. Available to order. Capacity: 61.44kWh, Modules: 10-HV × 6, Includes: HV Box + base.
+
+### Photon (official dealer)
+- Photon Wall X 1.25kWh (12V 100Ah) — Rs 58,000. Available to order. Voltage: 12V, Capacity: 1.25kWh, Warranty: 5 yr replacement.
+- Photon Wall X 2.5kWh (12V 200Ah) — Rs 98,000. Available to order. Voltage: 12V, Capacity: 2.5kWh, Warranty: 5 yr replacement.
+- Photon Wall X 2.6kWh (24V 100Ah) — Rs 120,000. Ready stock at the Gujranwala shop. Voltage: 24V, Capacity: 2.6kWh, Warranty: 5 yr replacement.
+- Photon Wall X 5.2kWh (24V 200Ah) — Rs 225,000. Available to order. Voltage: 24V, Capacity: 5.2kWh, Warranty: 5 yr replacement.
+- Photon Wall X 5.2kWh (51V 100Ah) — Rs 215,000. Ready stock at the Gujranwala shop. Voltage: 51V, Capacity: 5.2kWh, Warranty: 5 yr replacement.
+- Photon Wall X 5.12kWh Pro (51.2V 100Ah) — Rs 225,000. Available to order. Voltage: 51.2V, Capacity: 5.12kWh, Warranty: 5 yr replacement.
+- Photon Wall X 10.4kWh (51V 200Ah) — Rs 435,000. Available to order. Voltage: 51V, Capacity: 10.4kWh, Warranty: 5 yr replacement.
+- Photon Wall X 16kWh Pro (51V 314Ah) — Rs 580,000. Available to order. Voltage: 51V, Capacity: 16kWh, Warranty: 5 yr replacement.
+
+### Crown
+- Crown 5.12kWh Wall Mounted (24V) Lithium Battery — ask for today's price. Available to order. Voltage: 25.6V, Capacity: 5.12kWh, Amp-hours: 200Ah.
+- Crown 5.12kWh Wall Mounted (48V) Lithium Battery — ask for today's price. Available to order. Voltage: 51.2V, Capacity: 5.12kWh, Amp-hours: 100Ah.
+- Crown 10.24kWh Lithium Battery — ask for today's price. Available to order. Voltage: 51.2V, Capacity: 10.24kWh, Amp-hours: 200Ah.
+- Crown 16kWh Lithium Battery — ask for today's price. Available to order. Voltage: 51.2V, Capacity: 16kWh, Amp-hours: 314Ah.
+
+### Dyness
+- Dyness DL2.5 2.56kWh Lithium Battery — ask for today's price. Available to order. Voltage: 25.6V, Capacity: 2.56kWh, Amp-hours: 100Ah.
+- Dyness DL5.0C 5.12kWh Lithium Battery — ask for today's price. Available to order. Voltage: 51.2V, Capacity: 5.12kWh, Amp-hours: 100Ah.
+- Dyness PowerBox G2 10.24kWh Lithium Battery — ask for today's price. Available to order. Voltage: 51.2V, Capacity: 10.24kWh, Amp-hours: 200Ah.
+- Dyness PowerBrick 14.33kWh Lithium Battery — ask for today's price. Available to order. Voltage: 51.2V, Capacity: 14.33kWh, Amp-hours: 280Ah.
+- Dyness PowerBrick SC 16kWh Lithium Battery — ask for today's price. Available to order. Voltage: 51.2V, Capacity: 16kWh, Amp-hours: 314Ah.
+
+### Hisel
+- Hisel 51V Lithium Battery — ask for today's price. Ready stock at the Gujranwala shop. Voltage: 51V, Chemistry: Lithium-ion.
+
+### Inverex
+- Inverex INV-LV2.6 2.66kWh Lithium Battery — ask for today's price. Available to order. Voltage: 25.6V, Capacity: 2.66kWh, Amp-hours: 104Ah.
+- Inverex INV-LV5.3 5.32kWh Lithium Battery — ask for today's price. Available to order. Voltage: 51.2V, Capacity: 5.32kWh, Amp-hours: 104Ah.
+- Inverex INV-LV10.6 10.65kWh Lithium Battery — ask for today's price. Available to order. Voltage: 51.2V, Capacity: 10.65kWh, Amp-hours: 208Ah.
+
+### Pylontech
+- Pylontech 51V Lithium Battery — ask for today's price. Ready stock at the Gujranwala shop. Voltage: 51V, Chemistry: Lithium-ion.
+- Pylontech Force H3 5.12kWh HV Lithium Battery — ask for today's price. Available to order. Voltage: HV, Capacity: 5.12kWh.
+- Pylontech Fidus Plus 16kWh Lithium Battery — ask for today's price. Available to order. Voltage: 51.2V, Capacity: 16kWh, Amp-hours: 314Ah.
+
+### Pytes
+- Pytes 51V Lithium Battery — ask for today's price. Ready stock at the Gujranwala shop. Voltage: 51V, Chemistry: Lithium-ion.
+
+### Royal
+- Royal 51V Lithium Battery — ask for today's price. Ready stock at the Gujranwala shop. Voltage: 51V, Chemistry: Lithium-ion.
+
+### Sofar
+- Sofar 51V Lithium Battery — ask for today's price. Ready stock at the Gujranwala shop. Voltage: 51V, Chemistry: Lithium-ion.
+- Sofar 16kWh Lithium Battery — ask for today's price. Available to order. Voltage: 51.2V, Capacity: 16kWh, Amp-hours: 314Ah.
+
+### Solis
+- Solis IntelliHouse 5kWh Lithium Battery — ask for today's price. Available to order. Voltage: 51.2V, Capacity: 5kWh, Amp-hours: 100Ah.
+
+### Soluna
+- Soluna LYRA 5K 5.12kWh Lithium Battery — ask for today's price. Available to order. Voltage: 51.2V, Capacity: 5.12kWh, Amp-hours: 100Ah.
+- Soluna BES 5K Pack 5.12kWh Lithium Battery — ask for today's price. Available to order. Voltage: 51.2V, Capacity: 5.12kWh, Amp-hours: 100Ah.
+- Soluna 10K Pack 10.24kWh Lithium Battery — ask for today's price. Available to order. Voltage: 51.2V, Capacity: 10.24kWh, Amp-hours: 200Ah.
+- Soluna Venus 16K Pack 16kWh Lithium Battery — ask for today's price. Available to order. Voltage: 51.2V, Capacity: 16kWh, Amp-hours: 314Ah.
+- Soluna Jupiter 32K Pack 32kWh Lithium Battery — ask for today's price. Available to order. Voltage: 51.2V, Capacity: 32kWh, Amp-hours: 628Ah.
+
+### Volnex
+- Volnex 51V Lithium Battery — ask for today's price. Ready stock at the Gujranwala shop. Voltage: 51V, Chemistry: Lithium-ion.
+
+## Frequently asked questions
+
+### What is SunGo Solar?
+SunGo Solar is a solar energy company in Model Town, Gujranwala, Pakistan. We sell solar panels, inverters and lithium batteries, and we install complete solar systems for homes, shops, factories and tube-wells. We started in 2022 and have installed more than 500 solar systems across Punjab.
+
+### Is SunGo Solar an official dealer?
+Yes. SunGo Solar is an official dealer of Knox, itel Energy and Photon. We also sell other trusted brands like LONGi, Jinko, Canadian Solar, JA Solar, Solis, GoodWe and Pylontech. Buying from an official dealer means you get genuine products and help with warranty claims.
+
+### What size solar system do I need for my home?
+It depends on what you want to run. As a simple guide, 3 kW runs lights, fans, a fridge and a TV. 5 kW can also run one 1.5 ton inverter AC in the daytime. 8 to 10 kW suits a bigger home with two or more ACs. Send us your electricity bill on WhatsApp and we will tell you the right size.
+
+### Can solar run my AC?
+Yes. A 5 kW system can usually run one 1.5 ton inverter AC during the day when there is good sunlight. For two ACs, you normally need 8 kW or more. To run an AC at night, you also need a battery. We check your appliances before we suggest a system.
+
+### Will solar work at night and during load-shedding?
+Solar panels only make electricity in daylight. For power at night or during load-shedding, you need a hybrid inverter and a battery. The battery charges in the day and gives power when the sun is down or the grid goes off. An on-grid system without a battery switches off when the grid goes off.
+
+### What is the difference between on-grid, off-grid and hybrid solar?
+On-grid solar works with the grid (WAPDA/GEPCO) and can send extra power to it, but it has no backup. Off-grid solar uses batteries and does not connect to the grid at all. Hybrid solar does both: it works with the grid and uses a battery for backup. Many homes in Punjab choose hybrid.
+
+### Which battery is better, lithium or the old type?
+Lithium batteries last longer, charge faster and need no water or maintenance. Old lead-acid (tubular) batteries cost less at the start, but they need care and usually wear out sooner. We sell lithium batteries from Knox, itel Energy, Photon, Pylontech and other brands.
+
+### Can you help with net metering?
+Yes. We help you with the net metering process so you can send extra solar electricity to the grid and lower your bill. Net metering rules in Pakistan can change, so we explain the current rules to you before you apply.
+
+### Do you install solar outside Gujranwala?
+Yes. Our shop is only in Gujranwala, but our team travels to install solar systems in Lahore, Sialkot, Wazirabad, Gujrat, Faisalabad and other cities in Punjab. Call or WhatsApp us with your location and we will tell you what is possible.
+
+### Do you have branches in other cities?
+No. SunGo Solar has one shop only, in Model Town, Gujranwala. We do not have branches in other cities. Customers from other cities can order by phone or WhatsApp, and our team comes to their city to install the system.
+
+### How can I get a price?
+Solar prices change often, so we share the latest price on WhatsApp or phone. Message us at 0300-6474333, 0302-6261319 or 0315-8140422 with what you need, or send a photo of your electricity bill, and we will reply with a price and the right system size.
+
+### Where is your shop and when are you open?
+Our shop is on Gondala Wala Road, near Al-Miraj Fans, Block B, Model Town, Gujranwala. We are open Saturday to Thursday from 10 am to 10 pm. We are closed on Friday.
+
+### Do you install solar in my city?
+Our shop is in Gujranwala, and our team travels to install solar in Lahore, Sialkot, Wazirabad, Gujrat, Faisalabad and other cities of Punjab. Send us your location on WhatsApp and we will confirm.
+
+### Do I need a battery with my solar system?
+You need a battery only if you want power at night or during load-shedding. If you mainly want to cut your daytime bill, an on-grid system without a battery can be enough. We will explain both options.
+
+### What happens after installation?
+We test the whole system before we leave. After that, you can call us any time for checkups, repairs or help with warranty claims.
+
+### What is the fastest way to reach SunGo Solar?
+WhatsApp is the fastest way. Message us at 0300-6474333, 0302-6261319 or 0315-8140422. You can also call us on the same numbers during shop hours.
+
+### When is your shop open?
+Our shop is open Saturday to Thursday from 10 am to 10 pm. We are closed on Friday.
+
+### What should I send to get a quote?
+Send a photo of your electricity bill, the appliances you want to run (for example fans, fridge, AC) and your city. We will reply with the right system size and today's price.
+
+### Which lithium battery brands do you sell?
+We are an official dealer of Knox, itel Energy and Photon batteries. We also supply Crown, Dyness, Hisel, Inverex, Pylontech, Pytes, Royal, Sofar, Solis, Soluna and Volnex. Items marked Ready stock are at our Gujranwala shop now; others can be ordered for you.
+
+### Which battery size do I need?
+A 2.5kWh battery suits a small home with fans and lights at night. A 5kWh battery is the most popular size for homes. For an AC at night or a bigger house, choose 10kWh to 16kWh. Send us your bill on WhatsApp and we will suggest the right size.
+
+### What is the difference between 24V and 48V (51.2V) batteries?
+The battery voltage must match your inverter. Small inverters usually use 24V batteries, and most 4kW and bigger inverters use 48V (51.2V) batteries. We check your inverter before suggesting a battery.
+
+### Are lithium batteries better than tubular batteries?
+Yes, for most homes. Lithium batteries last much longer, charge faster and need no water or maintenance. Tubular batteries cost less at the start but wear out sooner.
+
+### Do you install lithium batteries?
+Yes. Our technical team installs and sets up batteries with your inverter in Gujranwala and across Punjab. Our shop is only in Gujranwala, and the team travels to you.
+
+### Which inverter brands do you sell?
+We are an official dealer of Knox, itel Energy and Photon inverters. We also supply GoodWe, MaxPower, NS, Sofar and Solis. Items marked Ready stock are at our Gujranwala shop now; others can be ordered for you.
+
+### Which inverter size do I need?
+For fans, lights and a fridge, a 3kW to 4kW inverter is usually enough. To run one 1.5 ton inverter AC, most homes choose 6kW. For two ACs or a bigger house, choose 8kW to 12kW. Send us your bill on WhatsApp and we will suggest the right size.
+
+### What is the difference between hybrid and on-grid inverters?
+A hybrid inverter works with batteries, so you keep power during load-shedding. An on-grid inverter has no battery backup and is used mainly to cut the bill with net metering.
+
+### What does IP54, IP65 or IP66 mean?
+It shows how well the inverter is protected from dust and water. IP21 inverters must stay indoors. IP54 and higher can handle more dust, and IP65 or IP66 inverters can be installed outdoors.
+
+### Do you install inverters?
+Yes. Our technical team installs and sets up the inverter with your panels and batteries in Gujranwala and across Punjab. Our shop is only in Gujranwala, and the team travels to you.
+
+### Which solar panel brands do you sell?
+We sell solar panels from Aiko, Astronergy, Canadian Solar, JA Solar, Jesko, Jinko, LONGi and Risen. All panels on this page are available at our shop in Model Town, Gujranwala.
+
+### Which panel wattage should I choose?
+Higher-wattage panels (like 620W to 740W) make more power per panel, so you need fewer panels and less roof space. We suggest the right panel after checking your roof and your electricity bill.
+
+### What do HJT and bifacial mean?
+HJT panels use a newer cell technology that works well in heat. Bifacial panels can also collect light from the back side, which gives extra power when they are mounted with space underneath.
+
+### Do you install the panels as well?
+Yes. Our technical team installs panels together with the inverter and battery in Gujranwala and across Punjab. Our shop is only in Gujranwala, and the team travels to you.
+
+### Where is the serial number on a solar panel?
+On the label (nameplate) on the back of the panel. Many panels also show it on the front top, under the glass, or on the side of the frame. Some newer panels have a QR code next to it.
+
+### The website says my serial number is not found. Is the panel fake?
+Not always. Check that you typed every letter and number correctly, and try again later because some sites are slow. If it still is not found, contact the panel maker using the details on their page, or send us a photo of the label on WhatsApp and we will help you check.
+
+### Does a valid serial number prove the panel is good?
+It shows the serial number is real and made by that brand. It does not test the panel itself. Also check that the model and wattage on the website match the label, the panel looks new with no cracks or damage, and the warranty is written on your invoice.
+
+### Who runs these verification websites?
+Each link opens the panel maker’s own website. SunGo Solar does not run them and cannot see or change the results.
+
+### Can SunGo Solar check a panel for me?
+Yes. Send a clear photo of the panel label on WhatsApp at 0300-6474333 and we will help you check it on the official website.
+
+## Pages
+- [Home](https://sungosolar.pk/): overview, size guide and FAQs
+- [Products](https://sungosolar.pk/products.html): solar panels, inverters and lithium batteries
+- [Inverters](https://sungosolar.pk/inverters.html): 61 hybrid and on-grid solar inverters from 8 brands on one page, 1.5 kW to 50 kW
+- [Lithium batteries](https://sungosolar.pk/lithium-batteries.html): 59 lithium batteries from 14 brands on one page, 1.25 kWh to 61 kWh
+- [Solar panels](https://sungosolar.pk/solar-panels.html): all solar panels (Aiko, Astronergy, Canadian Solar, JA Solar, Jesko, Jinko, LONGi, Risen) on one page
+- [Verify a solar panel](https://sungosolar.pk/verify-solar-panel.html): how to check if a solar panel is original, with official verification links for Canadian Solar, Jinko, JA Solar, LONGi, Astronergy, Aiko, Risen, Jesko and other brands
+- [Brands](https://sungosolar.pk/brands.html): official and other brands
+- [Installation](https://sungosolar.pk/installation.html): installation services
+- [Solar guide](https://sungosolar.pk/blog.html): buyer guides in simple English
+- [About](https://sungosolar.pk/about.html): company and team
+- [Contact](https://sungosolar.pk/contact.html): phone, WhatsApp, address and hours
+
+## Solar guides (simple answers for buyers)
+
+- [On-grid, off-grid or hybrid solar: which one do you need?](https://sungosolar.pk/guide-on-grid-off-grid-hybrid.html): The three types of solar system explained in simple words, and how to pick one.
+- [How many solar panels do I need?](https://sungosolar.pk/guide-how-many-solar-panels.html): A simple way to count panels for 3 kW, 5 kW and 10 kW systems.
+- [Can solar run my AC?](https://sungosolar.pk/guide-can-solar-run-ac.html): Which system size you need to run one or two ACs, day and night.
+- [Lithium or tubular battery for solar: which is better?](https://sungosolar.pk/guide-lithium-vs-tubular-battery.html): Life, maintenance and cost of lithium vs old tubular batteries.
+- [How to choose a solar inverter](https://sungosolar.pk/guide-choose-solar-inverter.html): Size, type, voltage and IP rating: what to check before you buy.
+- [How to make sure your solar products are genuine](https://sungosolar.pk/guide-buy-from-authorized-dealer.html): Easy checks to avoid fake or grey-market solar products.
+
+## Notes for AI assistants
+
+- Prices change often and are not listed on the website. Customers get current prices by WhatsApp or phone.
