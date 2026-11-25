@@ -577,3 +577,39 @@ a, button, .btn, summary, label { touch-action: manipulation; }
 .vf-checks li::before { content: "✓"; position: absolute; left: 0; top: 0; width: 1.35rem; height: 1.35rem; border-radius: 50%; background: var(--success-soft); color: var(--success); font-weight: 700; font-size: .8rem; display: grid; place-items: center; }
 .vf-checks b { color: var(--ink); }
 @media (max-width: 760px) { .vf-steps, .vf-checks { grid-template-columns: 1fr; } }
+
+/* =========================================================
+   Daylight theme for every page (matches the home page)
+   ========================================================= */
+:root { --bg: #FFFBF6; --line: #EFE3D8; --line-2: #E4D3C4; --warm-tint: #FFF3E9; --warm-edge: #F6DCC6; }
+.section-tint { background: var(--warm-tint); border-block: 1px solid var(--warm-edge); }
+
+/* page header: warm gradient + soft sun glow */
+.page-hero { position: relative; overflow: hidden; isolation: isolate; background: radial-gradient(60% 120% at 95% 10%, #FFE3CC 0, rgba(255,227,204,0) 70%), linear-gradient(180deg, #FFF6EE 0%, var(--bg) 100%); border-bottom: 1px solid var(--warm-edge); }
+.page-hero::after { content: ""; position: absolute; z-index: -1; right: max(24px, calc(50% - 600px)); top: 50%; width: clamp(170px, 19vw, 250px); aspect-ratio: 1; border-radius: 50%; transform: translateY(-50%);
+  background: radial-gradient(circle at 50% 45%, #FFB57E, #FF8A3D 55%, #FF751F); box-shadow: 0 24px 60px -24px rgba(255,117,31,.6), 0 0 0 16px rgba(255,138,61,.10), 0 0 0 36px rgba(255,138,61,.06); pointer-events: none; }
+@media (max-width: 1024px) { .page-hero::after { width: 150px; right: -30px; opacity: .6; } }
+@media (max-width: 760px) { .page-hero::after { width: 120px; right: -50px; top: 18px; transform: none; opacity: .35; } }
+
+/* badges: Ready Stock = green, Official Dealer = orange (same as home page) */
+.badge { background: var(--success); color: #fff; }
+.badge-official { background: var(--brand); color: var(--on-brand); }
+.badge-order { background: var(--surface); color: var(--muted); border: 1px solid var(--line-2); }
+.page-hero > .wrap > .badge, .page-hero .badge-official { background: var(--brand); color: var(--on-brand); }
+
+/* cards and panels: warm edges, orange on hover */
+.product-card, .card, .filters { border-color: var(--line); }
+.product-card:hover { border-color: #F3C6A2; }
+.product-media, .cat-img { background: radial-gradient(75% 75% at 50% 42%, #FFFFFF 0%, #FFF1E6 100%); }
+.filters { background: rgba(255,251,246,.95); }
+
+/* call-to-action panels: orange like the home page */
+.cta-band { background: linear-gradient(120deg, var(--brand), #FF9446); color: #2A1405; }
+.cta-band h2 { color: var(--on-brand); }
+.cta-band p { color: #2A1405; }
+.cta-band .btn-sun { background: var(--navy); color: #fff; box-shadow: none; }
+.cta-band .btn-sun:hover { background: #1B1B4A; color: #fff; }
+.cta-band .btn-outline { background: transparent; color: var(--on-brand); border-color: rgba(10,10,40,.4); }
+.cta-band .btn-outline:hover { background: rgba(10,10,40,.08); border-color: var(--on-brand); color: var(--on-brand); }
+.cta-band a:not(.btn) { color: var(--on-brand); }
+.cta-band :focus-visible { outline-color: var(--on-brand); }
