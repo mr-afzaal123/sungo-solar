@@ -56,20 +56,6 @@
     "featured": true
   },
   {
-    "id": "itel-6kw-ip66",
-    "name": "itel Energy 6kW IP66 Hybrid Inverter (Single Phase)",
-    "brand": "itel",
-    "category": "inverters",
-    "specs": {
-      "Power": "6kW",
-      "Protection": "IP66",
-      "Type": "1-phase"
-    },
-    "stock": "order",
-    "image": "images/product-itel-6kw-ip66.webp",
-    "featured": false
-  },
-  {
     "id": "itel-sparta-6-6kw",
     "name": "itel Energy Sparta 6.6kW IP66 Hybrid Inverter",
     "brand": "itel",
@@ -98,17 +84,17 @@
     "featured": false
   },
   {
-    "id": "itel-8kw-ip66-3p",
-    "name": "itel Energy 8kW IP66 Hybrid Inverter (Three Phase)",
+    "id": "itel-10kw-ip54",
+    "name": "itel Energy 10kW IP54 Hybrid Inverter",
     "brand": "itel",
     "category": "inverters",
     "specs": {
-      "Power": "8kW",
-      "Protection": "IP66",
-      "Type": "3-phase"
+      "Power": "10kW",
+      "Protection": "IP54",
+      "Type": "Hybrid"
     },
     "stock": "order",
-    "image": "images/product-itel-8kw-ip66-3p.webp",
+    "image": "images/product-itel-8kw-ip54.webp",
     "featured": false
   },
   {
@@ -123,20 +109,6 @@
     },
     "stock": "order",
     "image": "images/product-itel-12kw-ip54.webp",
-    "featured": false
-  },
-  {
-    "id": "itel-12kw-ip66-3p",
-    "name": "itel Energy 12kW IP66 Hybrid Inverter (Three Phase)",
-    "brand": "itel",
-    "category": "inverters",
-    "specs": {
-      "Power": "12kW",
-      "Protection": "IP66",
-      "Type": "3-phase"
-    },
-    "stock": "order",
-    "image": "images/product-itel-12kw-ip66-3p.webp",
     "featured": false
   },
   {

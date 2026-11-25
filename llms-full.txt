@@ -23,7 +23,7 @@ Last updated: 24 November 2026. A full product and price list for AI tools is at
 ## Official dealerships
 
 - Knox: hybrid inverters from 4.2 kW to 50 kW (Krypton, Krypton Eco, Xenon, Zynex and Zapher series), complete Zapher + HV battery systems, and Powerwall, Powerbase and PowerStack HV lithium batteries (2.56 kWh to 61.44 kWh). Knox prices on the website follow Knox's price list of 20 August 2026.
-- itel Energy: hybrid inverters 1.6 kW to 12 kW (IP54 Pro range, Sparta 6.6 kW IP66, IP66 single and three phase) and lithium batteries 12V 100Ah to 16 kWh (51V 314Ah)
+- itel Energy: hybrid inverters 1.6 kW to 12 kW (1.6, 3, 4, 6, 8, 10 and 12 kW are IP54; the Sparta 6.6 kW is the only IP66 outdoor model) and lithium batteries 12V 100Ah to 16 kWh (51V 314Ah)
 - Photon: Wall X lithium batteries (1.25 kWh to 16 kWh) and Aero (IP54), Pi Eco (IP21), HPT and STH (IP66) hybrid inverters. Photon prices follow Photon's wholesale price list of 1 October 2026.
 
 ## Other brands sold
@@ -72,19 +72,17 @@ Prices are in Pakistani rupees (PKR) and change often. Prices listed below are S
 ### Risen
 - Risen 740W HJT Panel — ask for today's price. Ready stock at the Gujranwala shop. Power: 740W, Technology: HJT.
 
-## Solar inverters (61)
+## Solar inverters (59)
 
 ### itel Energy (official dealer)
 - itel Energy 1.6kW IP54 Hybrid Inverter — ask for today's price. Available to order. Power: 1.6kW, Protection: IP54, Type: Hybrid.
 - itel Energy 3kW Pro IP54 Hybrid Inverter — ask for today's price. Available to order. Power: 3kW, Protection: IP54, Type: Pro.
 - itel Energy 4kW Pro IP54 Hybrid Inverter — ask for today's price. Ready stock at the Gujranwala shop. Power: 4kW, Protection: IP54, Type: Pro.
 - itel Energy 6kW Pro IP54 Hybrid Inverter — ask for today's price. Ready stock at the Gujranwala shop. Power: 6kW, Protection: IP54, Type: Pro.
-- itel Energy 6kW IP66 Hybrid Inverter (Single Phase) — ask for today's price. Available to order. Power: 6kW, Protection: IP66, Type: 1-phase.
 - itel Energy Sparta 6.6kW IP66 Hybrid Inverter — ask for today's price. Ready stock at the Gujranwala shop. Power: 6.6kW, Protection: IP66, Type: Sparta.
 - itel Energy 8kW IP54 Hybrid Inverter (Single Phase) — ask for today's price. Available to order. Power: 8kW, Protection: IP54, Type: 1-phase.
-- itel Energy 8kW IP66 Hybrid Inverter (Three Phase) — ask for today's price. Available to order. Power: 8kW, Protection: IP66, Type: 3-phase.
+- itel Energy 10kW IP54 Hybrid Inverter — ask for today's price. Available to order. Power: 10kW, Protection: IP54, Type: Hybrid.
 - itel Energy 12kW IP54 Hybrid Inverter (Single Phase) — ask for today's price. Available to order. Power: 12kW, Protection: IP54, Type: 1-phase.
-- itel Energy 12kW IP66 Hybrid Inverter (Three Phase) — ask for today's price. Available to order. Power: 12kW, Protection: IP66, Type: 3-phase.
 
 ### Knox (official dealer)
 - Knox Zapher 30kW + 20kWh HV Battery System — Rs 2,481,440. Available to order. Power: 30kW, Battery: 20kWh, Type: Complete system.
@@ -356,7 +354,7 @@ Yes. Send a clear photo of the panel label on WhatsApp at 0300-6474333 and we wi
 ## Pages
 - [Home](https://sungosolar.pk/): overview, size guide and FAQs
 - [Products](https://sungosolar.pk/products.html): solar panels, inverters and lithium batteries
-- [Inverters](https://sungosolar.pk/inverters.html): 61 hybrid and on-grid solar inverters from 8 brands on one page, 1.5 kW to 50 kW
+- [Inverters](https://sungosolar.pk/inverters.html): 59 hybrid and on-grid solar inverters from 8 brands on one page, 1.5 kW to 50 kW
 - [Lithium batteries](https://sungosolar.pk/lithium-batteries.html): 59 lithium batteries from 14 brands on one page, 1.25 kWh to 61 kWh
 - [Solar panels](https://sungosolar.pk/solar-panels.html): all solar panels (Aiko, Astronergy, Canadian Solar, JA Solar, Jesko, Jinko, LONGi, Risen) on one page
 - [Verify a solar panel](https://sungosolar.pk/verify-solar-panel.html): how to check if a solar panel is original, with official verification links for Canadian Solar, Jinko, JA Solar, LONGi, Astronergy, Aiko, Risen, Jesko and other brands
