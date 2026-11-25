@@ -29,6 +29,7 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="home.css">
   <link rel="stylesheet" href="daylight.css">
+  <link rel="stylesheet" href="orbit.css">
 
   <script type="application/ld+json">
 {
@@ -474,32 +475,23 @@
             <li><b>6+</b><span>cities in Punjab</span></li>
           </ul>
         </div>
-        <div class="day-show" role="region" aria-roledescription="carousel" aria-label="Products we sell">
-          <div class="day-stage">
-            <div class="day-disc" aria-hidden="true"></div>
-            <div class="dsc is-active" data-scene="knox">
-              <img class="ds-panel" src="hero/panel-longi.webp" alt="LONGi solar panel" width="340" height="622" decoding="async"><img class="ds-inv" src="sm/product-knox-pv9000-6-2kw.webp" srcset="sm/product-knox-pv9000-6-2kw.webp 400w, images/product-knox-pv9000-6-2kw.webp 720w" sizes="(min-width: 1024px) 300px, 50vw" alt="Knox Krypton 9000 6.2kW inverter" width="400" height="400" decoding="async" fetchpriority="high"><img class="ds-bat-sq" src="sm/product-knox-powerwall-6-0-51v.webp" srcset="sm/product-knox-powerwall-6-0-51v.webp 400w, images/product-knox-powerwall-6-0-51v.webp 720w" sizes="(min-width: 1024px) 300px, 50vw" alt="Knox Powerwall 6.0 lithium battery" width="400" height="400" decoding="async">
-              <a class="ds-brand" href="brand-knox.html"><span>Official Dealer</span> Knox →</a>
-            </div>
-            <div class="dsc" data-scene="itel" aria-hidden="true">
-              <img class="ds-panel" src="hero/panel.webp" alt="Aiko solar panel" width="340" height="595" decoding="async" loading="lazy"><img class="ds-inv-t" src="hero/itel-inverter.webp" alt="itel Energy 6kW Pro hybrid inverter" width="520" height="668" decoding="async" loading="lazy"><img class="ds-bat" src="hero/itel-battery.webp" alt="itel Energy lithium battery" width="518" height="800" decoding="async" loading="lazy">
-              <a class="ds-brand" href="brand-itel.html" tabindex="-1"><span>Official Dealer</span> itel Energy →</a>
-            </div>
-            <div class="dsc" data-scene="photon" aria-hidden="true">
-              <img class="ds-panel" src="hero/panel2.webp" alt="Jinko solar panel" width="300" height="557" decoding="async" loading="lazy"><img class="ds-inv-p" src="images/product-photon-aero-6-5kw.png" alt="Photon Aero 6kW hybrid inverter" width="725" height="900" decoding="async" loading="lazy"><img class="ds-bat-p" src="images/product-photon-pi-eco-6-2kw.png" alt="Photon Pi Eco 6.2kW inverter" width="900" height="900" decoding="async" loading="lazy">
-              <a class="ds-brand" href="brand-photon.html" tabindex="-1"><span>Official Dealer</span> Photon →</a>
-            </div>
-            <div class="dsc" data-scene="more" aria-hidden="true">
-              <img class="ds-solis" src="hero/solis-inverter.webp" alt="Solis inverter" width="360" height="698" decoding="async" loading="lazy"><img class="ds-goodwe" src="hero/goodwe-inverter.webp" alt="GoodWe hybrid inverter" width="384" height="355" decoding="async" loading="lazy"><img class="ds-pylon" src="hero/pylontech-battery.webp" alt="Pylontech lithium battery" width="560" height="181" decoding="async" loading="lazy">
-              <a class="ds-brand" href="brands.html" tabindex="-1"><span class="alt">Also Available</span> GoodWe · Solis · Pylontech →</a>
-            </div>
-            <p class="ds-card ds-c1"><b>Sat–Thu</b> 10am–10pm</p>
-            <p class="ds-card ds-c2"><b>Model Town</b> Gujranwala</p>
-          </div>
-          <div class="ds-controls">
-            <button type="button" class="ds-play" aria-label="Pause slideshow"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="i-pause" d="M8 5h3v14H8zM13 5h3v14h-3z" fill="currentColor"/><path class="i-play" d="M8 5l11 7-11 7z" fill="currentColor"/></svg></button>
-            <div class="ds-dots"><button type="button" class="ds-dot is-active" aria-label="Show Knox products" aria-current="true"></button><button type="button" class="ds-dot" aria-label="Show itel Energy products"></button><button type="button" class="ds-dot" aria-label="Show Photon products"></button><button type="button" class="ds-dot" aria-label="Show GoodWe · Solis · Pylontech products"></button></div>
-          </div>
+        <div class="orbit" role="region" aria-roledescription="carousel" aria-label="Products we sell. Use the arrow keys to turn." tabindex="0">
+          <button type="button" class="orbit-stop" aria-pressed="false">Stop rotation</button>
+          <div class="orbit-ring" aria-hidden="true"></div>
+          <div class="orbit-sun" aria-hidden="true"></div>
+          <ul class="orbit-items">
+            <li class="orbit-item" data-name="Krypton 9000 6.2kW Inverter" data-brand="Knox" data-official="1" data-price="125000" data-href="brand-knox.html"><a href="brand-knox.html" draggable="false"><img src="hero/orbit-knox-inverter.webp" alt="Knox Krypton 9000 6.2kW Inverter" width="360" height="360" decoding="async" fetchpriority="high"></a></li>
+            <li class="orbit-item" data-name="Powerwall 6.0 (51.2V 100Ah)" data-brand="Knox" data-official="1" data-price="223000" data-href="brand-knox.html"><a href="brand-knox.html" draggable="false"><img src="hero/orbit-knox-battery.webp" alt="Knox Powerwall 6.0 (51.2V 100Ah)" width="360" height="360" decoding="async"></a></li>
+            <li class="orbit-item" data-name="6kW Pro IP54 Hybrid Inverter" data-brand="itel Energy" data-official="1" data-price="" data-href="brand-itel.html"><a href="brand-itel.html" draggable="false"><img src="hero/orbit-itel-inverter.webp" alt="itel Energy 6kW Pro IP54 Hybrid Inverter" width="360" height="360" decoding="async"></a></li>
+            <li class="orbit-item" data-name="16kWh Lithium Battery (51V 314Ah)" data-brand="itel Energy" data-official="1" data-price="" data-href="brand-itel.html"><a href="brand-itel.html" draggable="false"><img src="hero/orbit-itel-battery.webp" alt="itel Energy 16kWh Lithium Battery (51V 314Ah)" width="360" height="360" decoding="async"></a></li>
+            <li class="orbit-item" data-name="Aero 6kW Hybrid Inverter (IP54)" data-brand="Photon" data-official="1" data-price="128000" data-href="brand-photon.html"><a href="brand-photon.html" draggable="false"><img src="hero/orbit-photon-inverter.webp" alt="Photon Aero 6kW Hybrid Inverter (IP54)" width="360" height="360" decoding="async"></a></li>
+            <li class="orbit-item" data-name="Wall X 5.12kWh Pro (51.2V 100Ah)" data-brand="Photon" data-official="1" data-price="225000" data-href="brand-photon.html"><a href="brand-photon.html" draggable="false"><img src="hero/orbit-photon-battery.webp" alt="Photon Wall X 5.12kWh Pro (51.2V 100Ah)" width="360" height="360" decoding="async"></a></li>
+            <li class="orbit-item" data-name="X10 645W Bifacial Panel" data-brand="LONGi" data-official="0" data-price="" data-href="solar-panels.html"><a href="solar-panels.html" draggable="false"><img src="hero/orbit-panel.webp" alt="LONGi X10 645W Bifacial Panel" width="360" height="360" decoding="async"></a></li>
+          </ul>
+          <p class="ds-card ds-c1"><b>Sat–Thu</b> 10am–10pm</p>
+          <p class="ds-card ds-c2"><b>Model Town</b> Gujranwala</p>
+          <p class="orbit-hint" aria-hidden="true"><span class="h-mouse">Drag to turn</span><span class="h-touch">Swipe to turn</span></p>
+          <a class="orbit-label" href="brand-knox.html"><span class="ol-tag">Official Dealer</span><span class="ol-brand">Knox</span><span class="ol-name">Krypton 9000 6.2kW Inverter</span><span class="ol-price">Rs 125,000</span></a>
         </div>
       </div>
     </section>
@@ -864,7 +856,7 @@
 
   <script src="main.js" defer></script>
   <script src="home.js" defer></script>
-  <script src="daylight.js" defer></script>
+  <script src="orbit.js" defer></script>
   <!-- Home page only: round WhatsApp button + back-to-top button -->
   <aside aria-label="Back to top"><button class="to-top" id="to-top" type="button" aria-label="Back to top">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M7 10l5-5 5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
