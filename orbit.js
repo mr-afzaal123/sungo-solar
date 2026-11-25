@@ -20,7 +20,7 @@
   const fmt = n => "Rs " + n.toLocaleString("en-PK");
 
   const place = () => {
-    const cx = W / 2, cy = H * 0.57, rx = W * 0.385, ry = H * 0.16, size = W * 0.23;
+    const cx = W / 2, cy = H * 0.57, rx = W * 0.4, ry = H * 0.17, size = W * (N > 8 ? 0.205 : 0.23);
     let best = -2, bi = 0;
     items.forEach((el, i) => {
       const t = angle + i * STEP;
@@ -43,7 +43,7 @@
       label.querySelector(".ol-brand").textContent = d.brand;
       label.querySelector(".ol-name").textContent = d.name;
       label.querySelector(".ol-price").textContent = d.price ? fmt(+d.price) : "Ask Today’s Price";
-      items.forEach((el, i) => el.classList.toggle("is-front", i === bi));
+      items.forEach((el, i) => { el.classList.toggle("is-front", i === bi); el.querySelector("a").tabIndex = i === bi ? 0 : -1; });
     }
   };
 
@@ -87,7 +87,7 @@
       try { box.setPointerCapture(e.pointerId); } catch (_) {}
     }
     moved += Math.abs(dx);
-    const da = -dx / (W * 0.385);
+    const da = -dx / (W * 0.4);
     angle += da;
     const dtt = Math.max(1, now - lastT) / 1000;
     spin = 0.7 * spin + 0.3 * (da / dtt);
