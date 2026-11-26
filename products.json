@@ -1290,9 +1290,8 @@
     "stock": "order",
     "image": "images/product-photon-wallx-1-25kwh.png",
     "featured": false,
-    "price": 58000,
-    "retailPrice": 65000,
-    "priceSource": "Photon wholesale price list 1 Oct 2026"
+    "price": 65000,
+    "priceSource": "Photon price list 1 Nov 2026"
   },
   {
     "id": "photon-wallx-2-5kwh",
@@ -1307,9 +1306,8 @@
     "stock": "order",
     "image": "images/product-photon-wallx-2-5kwh.png",
     "featured": false,
-    "price": 98000,
-    "retailPrice": 105000,
-    "priceSource": "Photon wholesale price list 1 Oct 2026"
+    "price": 105000,
+    "priceSource": "Photon price list 1 Nov 2026"
   },
   {
     "id": "photon-wallx-2-6kwh",
@@ -1324,9 +1322,8 @@
     "stock": "ready",
     "image": "images/product-photon-wallx-2-6kwh.png",
     "featured": true,
-    "price": 120000,
-    "retailPrice": 135000,
-    "priceSource": "Photon wholesale price list 1 Oct 2026"
+    "price": 115000,
+    "priceSource": "Photon price list 1 Nov 2026"
   },
   {
     "id": "photon-wallx-5-2kwh-24v",
@@ -1341,9 +1338,8 @@
     "stock": "order",
     "image": "images/product-photon-wallx-5-2kwh-24v.png",
     "featured": false,
-    "price": 225000,
-    "retailPrice": 245000,
-    "priceSource": "Photon wholesale price list 1 Oct 2026"
+    "price": 235000,
+    "priceSource": "Photon price list 1 Nov 2026"
   },
   {
     "id": "photon-wallx-5-2kwh-51v",
@@ -1358,9 +1354,8 @@
     "stock": "ready",
     "image": "images/product-photon-wallx-5-2kwh-51v.png",
     "featured": true,
-    "price": 215000,
-    "retailPrice": 240000,
-    "priceSource": "Photon wholesale price list 1 Oct 2026"
+    "price": 210000,
+    "priceSource": "Photon price list 1 Nov 2026"
   },
   {
     "id": "photon-wallx-5-12kwh-pro",
@@ -1375,9 +1370,8 @@
     "stock": "order",
     "image": "images/product-photon-wallx-5-12kwh-pro.png",
     "featured": false,
-    "price": 225000,
-    "retailPrice": 250000,
-    "priceSource": "Photon wholesale price list 1 Oct 2026"
+    "price": 250000,
+    "priceSource": "Photon price list 1 Nov 2026"
   },
   {
     "id": "photon-wallx-10-4kwh",
@@ -1392,9 +1386,8 @@
     "stock": "order",
     "image": "images/product-photon-wallx-10-4kwh.png",
     "featured": false,
-    "price": 435000,
-    "retailPrice": 460000,
-    "priceSource": "Photon wholesale price list 1 Oct 2026"
+    "price": 430000,
+    "priceSource": "Photon price list 1 Nov 2026"
   },
   {
     "id": "photon-wallx-16kwh-pro",
@@ -1409,9 +1402,8 @@
     "stock": "order",
     "image": "images/product-photon-wallx-16kwh-pro.png",
     "featured": false,
-    "price": 580000,
-    "retailPrice": 610000,
-    "priceSource": "Photon wholesale price list 1 Oct 2026"
+    "price": 610000,
+    "priceSource": "Photon price list 1 Nov 2026"
   },
   {
     "id": "photon-aero-5kw",
@@ -1427,9 +1419,8 @@
     "stock": "order",
     "image": "images/product-photon-aero-5kw.png",
     "featured": false,
-    "price": 105000,
-    "retailPrice": 120000,
-    "priceSource": "Photon wholesale price list 1 Oct 2026"
+    "price": 115000,
+    "priceSource": "Photon price list 1 Nov 2026"
   },
   {
     "id": "photon-aero-6-5kw",
@@ -1446,7 +1437,6 @@
     "image": "images/product-photon-aero-6-5kw.png",
     "featured": false,
     "price": 128000,
-    "retailPrice": 145000,
     "priceSource": "SunGo price update 16 Nov 2026"
   },
   {
@@ -1464,8 +1454,7 @@
     "image": "images/product-photon-aero-8kw.png",
     "featured": false,
     "price": 225000,
-    "retailPrice": 250000,
-    "priceSource": "Photon wholesale price list 1 Oct 2026"
+    "priceSource": "Photon price list 1 Nov 2026"
   },
   {
     "id": "photon-aero-10kw",
@@ -1481,9 +1470,8 @@
     "stock": "order",
     "image": "images/product-photon-aero-10kw.png",
     "featured": false,
-    "price": 230000,
-    "retailPrice": 260000,
-    "priceSource": "Photon wholesale price list 1 Oct 2026"
+    "price": 260000,
+    "priceSource": "Photon price list 1 Nov 2026"
   },
   {
     "id": "photon-aero-12kw",
@@ -1499,9 +1487,8 @@
     "stock": "order",
     "image": "images/product-photon-aero-12kw.png",
     "featured": false,
-    "price": 240000,
-    "retailPrice": 270000,
-    "priceSource": "Photon wholesale price list 1 Oct 2026"
+    "price": 270000,
+    "priceSource": "Photon price list 1 Nov 2026"
   },
   {
     "id": "photon-pi-eco-1-5kw",
@@ -1517,9 +1504,8 @@
     "stock": "order",
     "image": "images/product-photon-pi-eco-1-5kw.png",
     "featured": false,
-    "price": 50000,
-    "retailPrice": 60000,
-    "priceSource": "Photon wholesale price list 1 Oct 2026"
+    "price": 55000,
+    "priceSource": "Photon price list 1 Nov 2026"
   },
   {
     "id": "photon-pi-eco-3-5kw",
@@ -1535,9 +1521,8 @@
     "stock": "order",
     "image": "images/product-photon-pi-eco-3-5kw.png",
     "featured": false,
-    "price": 65000,
-    "retailPrice": 75000,
-    "priceSource": "Photon wholesale price list 1 Oct 2026"
+    "price": 68000,
+    "priceSource": "Photon price list 1 Nov 2026"
   },
   {
     "id": "photon-pi-eco-4-2kw",
@@ -1553,9 +1538,8 @@
     "stock": "order",
     "image": "images/product-photon-pi-eco-4-2kw.png",
     "featured": false,
-    "price": 78000,
-    "retailPrice": 85000,
-    "priceSource": "Photon wholesale price list 1 Oct 2026"
+    "price": 85000,
+    "priceSource": "Photon price list 1 Nov 2026"
   },
   {
     "id": "photon-pi-eco-6-2kw",
@@ -1571,9 +1555,8 @@
     "stock": "order",
     "image": "images/product-photon-pi-eco-6-2kw.png",
     "featured": false,
-    "price": 92000,
-    "retailPrice": 105000,
-    "priceSource": "Photon wholesale price list 1 Oct 2026"
+    "price": 105000,
+    "priceSource": "Photon price list 1 Nov 2026"
   },
   {
     "id": "photon-hpt-6kw-sp",
@@ -1589,9 +1572,8 @@
     "stock": "order",
     "image": "images/product-photon-hpt-6kw.png",
     "featured": false,
-    "price": 175000,
-    "retailPrice": 190000,
-    "priceSource": "Photon wholesale price list 1 Oct 2026"
+    "price": 190000,
+    "priceSource": "Photon price list 1 Nov 2026"
   },
   {
     "id": "photon-sth-8kw-sp",
@@ -1607,9 +1589,8 @@
     "stock": "order",
     "image": "images/product-photon-sth-8kw-sp.png",
     "featured": false,
-    "price": 295000,
-    "retailPrice": 320000,
-    "priceSource": "Photon wholesale price list 1 Oct 2026"
+    "price": 320000,
+    "priceSource": "Photon price list 1 Nov 2026"
   },
   {
     "id": "photon-sth-10kw-sp",

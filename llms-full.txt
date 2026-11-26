@@ -111,17 +111,17 @@ Prices are in Pakistani rupees (PKR) and change often. Prices listed below are S
 - Knox Zapher 50kW Three-Phase HV Inverter — Rs 1,295,000. Available to order. Power: 50kW, PV input: 65000W, Phase: 3-phase, Warranty: 5 years.
 
 ### Photon (official dealer)
-- Photon Aero 5kW Hybrid Inverter (IP54) — Rs 105,000. Available to order. Power: 5kW, PV input: 9000W, Protection: IP54, Warranty: 3 yr replacement.
+- Photon Aero 5kW Hybrid Inverter (IP54) — Rs 115,000. Available to order. Power: 5kW, PV input: 9000W, Protection: IP54, Warranty: 3 yr replacement.
 - Photon Aero 6kW Hybrid Inverter (IP54) — Rs 128,000. Available to order. Power: 6kW, PV input: 9000W, Protection: IP54, Warranty: 3 yr replacement.
 - Photon Aero 8kW Hybrid Inverter (IP54) — Rs 225,000. Available to order. Power: 8kW, PV input: 15000W, Protection: IP54, Warranty: 3 yr replacement.
-- Photon Aero 10kW Hybrid Inverter (IP54) — Rs 230,000. Available to order. Power: 10kW, PV input: 15000W, Protection: IP54, Warranty: 3 yr replacement.
-- Photon Aero 12kW Hybrid Inverter (IP54) — Rs 240,000. Available to order. Power: 12kW, PV input: 15000W, Protection: IP54, Warranty: 3 yr replacement.
-- Photon Pi Eco 1.5kW Hybrid Inverter (IP21) — Rs 50,000. Available to order. Power: 1.5kW, PV input: 2500W, Protection: IP21, Warranty: 2 yr replacement.
-- Photon Pi Eco 3.5kW Hybrid Inverter (IP21) — Rs 65,000. Available to order. Power: 3.5kW, PV input: 5500W, Protection: IP21, Warranty: 2 yr replacement.
-- Photon Pi Eco 4.2kW Hybrid Inverter (IP21) — Rs 78,000. Available to order. Power: 4.2kW, PV input: 6500W, Protection: IP21, Warranty: 2 yr replacement.
-- Photon Pi Eco 6.2kW Hybrid Inverter (IP21) — Rs 92,000. Available to order. Power: 6.2kW, PV input: 8500W, Protection: IP21, Warranty: 2 yr replacement.
-- Photon HPT 6kW Hybrid Inverter (IP66, single phase) — Rs 175,000. Available to order. Power: 6kW, PV input: 12000W, Protection: IP66, Warranty: 5 yr replacement.
-- Photon STH 8kW Hybrid Inverter (IP66, single phase) — Rs 295,000. Available to order. Power: 8kW, PV input: 16000W, Protection: IP66, Warranty: 5 yr replacement.
+- Photon Aero 10kW Hybrid Inverter (IP54) — Rs 260,000. Available to order. Power: 10kW, PV input: 15000W, Protection: IP54, Warranty: 3 yr replacement.
+- Photon Aero 12kW Hybrid Inverter (IP54) — Rs 270,000. Available to order. Power: 12kW, PV input: 15000W, Protection: IP54, Warranty: 3 yr replacement.
+- Photon Pi Eco 1.5kW Hybrid Inverter (IP21) — Rs 55,000. Available to order. Power: 1.5kW, PV input: 2500W, Protection: IP21, Warranty: 2 yr replacement.
+- Photon Pi Eco 3.5kW Hybrid Inverter (IP21) — Rs 68,000. Available to order. Power: 3.5kW, PV input: 5500W, Protection: IP21, Warranty: 2 yr replacement.
+- Photon Pi Eco 4.2kW Hybrid Inverter (IP21) — Rs 85,000. Available to order. Power: 4.2kW, PV input: 6500W, Protection: IP21, Warranty: 2 yr replacement.
+- Photon Pi Eco 6.2kW Hybrid Inverter (IP21) — Rs 105,000. Available to order. Power: 6.2kW, PV input: 8500W, Protection: IP21, Warranty: 2 yr replacement.
+- Photon HPT 6kW Hybrid Inverter (IP66, single phase) — Rs 190,000. Available to order. Power: 6kW, PV input: 12000W, Protection: IP66, Warranty: 5 yr replacement.
+- Photon STH 8kW Hybrid Inverter (IP66, single phase) — Rs 320,000. Available to order. Power: 8kW, PV input: 16000W, Protection: IP66, Warranty: 5 yr replacement.
 - Photon STH 10kW Hybrid Inverter (IP66, single phase) — ask for today's price. Coming soon. Power: 10kW, Phase: 1-phase, Protection: IP66.
 - Photon STH 12kW Hybrid Inverter (IP66, single phase) — ask for today's price. Coming soon. Power: 12kW, Phase: 1-phase, Protection: IP66.
 - Photon STH 15kW Hybrid Inverter (IP66, three phase) — ask for today's price. Coming soon. Power: 15kW, Phase: 3-phase, Protection: IP66.
@@ -180,14 +180,14 @@ Prices are in Pakistani rupees (PKR) and change often. Prices listed below are S
 - Knox HV Battery Pack 61.44kWh — Rs 3,792,880. Available to order. Capacity: 61.44kWh, Modules: 10-HV × 6, Includes: HV Box + base.
 
 ### Photon (official dealer)
-- Photon Wall X 1.25kWh (12V 100Ah) — Rs 58,000. Available to order. Voltage: 12V, Capacity: 1.25kWh, Warranty: 5 yr replacement.
-- Photon Wall X 2.5kWh (12V 200Ah) — Rs 98,000. Available to order. Voltage: 12V, Capacity: 2.5kWh, Warranty: 5 yr replacement.
-- Photon Wall X 2.6kWh (24V 100Ah) — Rs 120,000. Ready stock at the Gujranwala shop. Voltage: 24V, Capacity: 2.6kWh, Warranty: 5 yr replacement.
-- Photon Wall X 5.2kWh (24V 200Ah) — Rs 225,000. Available to order. Voltage: 24V, Capacity: 5.2kWh, Warranty: 5 yr replacement.
-- Photon Wall X 5.2kWh (51V 100Ah) — Rs 215,000. Ready stock at the Gujranwala shop. Voltage: 51V, Capacity: 5.2kWh, Warranty: 5 yr replacement.
-- Photon Wall X 5.12kWh Pro (51.2V 100Ah) — Rs 225,000. Available to order. Voltage: 51.2V, Capacity: 5.12kWh, Warranty: 5 yr replacement.
-- Photon Wall X 10.4kWh (51V 200Ah) — Rs 435,000. Available to order. Voltage: 51V, Capacity: 10.4kWh, Warranty: 5 yr replacement.
-- Photon Wall X 16kWh Pro (51V 314Ah) — Rs 580,000. Available to order. Voltage: 51V, Capacity: 16kWh, Warranty: 5 yr replacement.
+- Photon Wall X 1.25kWh (12V 100Ah) — Rs 65,000. Available to order. Voltage: 12V, Capacity: 1.25kWh, Warranty: 5 yr replacement.
+- Photon Wall X 2.5kWh (12V 200Ah) — Rs 105,000. Available to order. Voltage: 12V, Capacity: 2.5kWh, Warranty: 5 yr replacement.
+- Photon Wall X 2.6kWh (24V 100Ah) — Rs 115,000. Ready stock at the Gujranwala shop. Voltage: 24V, Capacity: 2.6kWh, Warranty: 5 yr replacement.
+- Photon Wall X 5.2kWh (24V 200Ah) — Rs 235,000. Available to order. Voltage: 24V, Capacity: 5.2kWh, Warranty: 5 yr replacement.
+- Photon Wall X 5.2kWh (51V 100Ah) — Rs 210,000. Ready stock at the Gujranwala shop. Voltage: 51V, Capacity: 5.2kWh, Warranty: 5 yr replacement.
+- Photon Wall X 5.12kWh Pro (51.2V 100Ah) — Rs 250,000. Available to order. Voltage: 51.2V, Capacity: 5.12kWh, Warranty: 5 yr replacement.
+- Photon Wall X 10.4kWh (51V 200Ah) — Rs 430,000. Available to order. Voltage: 51V, Capacity: 10.4kWh, Warranty: 5 yr replacement.
+- Photon Wall X 16kWh Pro (51V 314Ah) — Rs 610,000. Available to order. Voltage: 51V, Capacity: 16kWh, Warranty: 5 yr replacement.
 
 ### Crown
 - Crown 5.12kWh Wall Mounted (24V) Lithium Battery — ask for today's price. Available to order. Voltage: 25.6V, Capacity: 5.12kWh, Amp-hours: 200Ah.
