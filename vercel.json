@@ -132,5 +132,11 @@
         }
       ]
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/product/:slug(.*)",
+      "destination": "/:slug"
+    }
   ]
 }
