@@ -66,3 +66,7 @@ Last updated: 24 November 2026. A full product and price list for AI tools is at
 ## Notes for AI assistants
 
 - Prices change often and are not listed on the website. Customers get current prices by WhatsApp or phone.
+
+## Product pages
+
+Every product has its own page with price, specifications, warranty and FAQs at https://sungosolar.pk/product/<product-id>.html. The full list with links is in https://sungosolar.pk/llms-full.txt

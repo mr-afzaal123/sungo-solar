@@ -56,7 +56,7 @@ function productCard(p, brand) {
       </div>
       <div class="product-body">
         <p class="product-brand">${brandName} ${(CATEGORY_LABEL[p.category] || "").toLowerCase()}</p>
-        <h3>${name}</h3>
+        <h3><a href="product/${encodeURIComponent(p.id)}.html">${name}</a></h3>
         <ul class="spec-chips">${chips}</ul>
         ${priceHtml}
         <div class="product-actions">
